@@ -172,7 +172,7 @@ export default function Hero() {
         </div>
       </div>
 
-      <div className="relative z-10 w-full max-w-7xl mx-auto px-6 md:px-12 grid grid-cols-1 lg:grid-cols-[minmax(0,0.88fr)_minmax(0,1.12fr)] gap-8 lg:gap-0 items-center py-28 lg:py-0 min-h-[100dvh]">
+      <div className="relative z-10 w-full max-w-7xl mx-auto px-6 md:px-12 grid grid-cols-1 lg:grid-cols-[minmax(0,0.88fr)_minmax(0,1.12fr)] gap-8 lg:gap-0 items-center py-28 lg:pt-28 lg:pb-0 min-h-[100dvh]">
 
         {/* ── Columna izquierda: texto */}
         <div className="relative flex flex-col justify-center max-w-xl lg:max-w-[34rem]">

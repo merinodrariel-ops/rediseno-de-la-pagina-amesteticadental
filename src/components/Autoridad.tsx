@@ -74,7 +74,12 @@ export default function Autoridad() {
                 </div>
 
                 <div className="mb-6 grid grid-cols-1 gap-6 md:grid-cols-2">
-                    <div className="relative overflow-hidden rounded-2xl border border-oro/18 bg-[radial-gradient(circle_at_top,rgba(242,185,13,0.12),transparent_48%),linear-gradient(180deg,rgba(22,22,22,1),rgba(13,13,13,1))] p-8">
+                    <a
+                        href="https://g.page/r/CQ3df5Xn-J6oEBM/review"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="group/google relative overflow-hidden rounded-2xl border border-oro/18 bg-[radial-gradient(circle_at_top,rgba(242,185,13,0.12),transparent_48%),linear-gradient(180deg,rgba(22,22,22,1),rgba(13,13,13,1))] p-8 block transition-all hover:border-oro/35"
+                    >
                         <div
                             className="absolute inset-0 rounded-2xl"
                             style={{
@@ -94,7 +99,7 @@ export default function Autoridad() {
                                         <div className="space-y-2 pb-2">
                                             <Stars />
                                             <p className="font-manrope text-[11px] uppercase tracking-[0.28em] text-crema/45">
-                                                87 resenas verificadas
+                                                +120 reseñas verificadas
                                             </p>
                                         </div>
                                     </div>
@@ -125,9 +130,14 @@ export default function Autoridad() {
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </a>
 
-                    <div className="group relative flex flex-col overflow-hidden rounded-2xl border border-oro/20 bg-carbon-soft p-8 transition-colors hover:border-oro/30">
+                    <a
+                        href="https://www.forbesargentina.com/innovacion/del-1-10-que-tan-linda-tu-sonrisa-ia-te-lo-dira-segundos-n51306"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="group relative flex flex-col overflow-hidden rounded-2xl border border-oro/20 bg-carbon-soft p-8 transition-colors hover:border-oro/30"
+                    >
                         <div
                             className="absolute inset-0 opacity-0 transition-opacity duration-700 group-hover:opacity-100"
                             style={{ background: "radial-gradient(ellipse at 50% 0%, rgba(242,185,13,0.07) 0%, transparent 65%)" }}
@@ -164,8 +174,11 @@ export default function Autoridad() {
                             <p className="font-manrope text-sm leading-relaxed text-crema-muted">
                                 No es un premio de industria. Es reconocimiento editorial en el medio de negocios mas exigente del mundo por el impacto real que generamos en la vida de nuestros pacientes.
                             </p>
+                            <span className="mt-4 block font-manrope text-xs text-oro/50 transition-colors group-hover:text-oro">
+                                Leer nota en Forbes →
+                            </span>
                         </div>
-                    </div>
+                    </a>
                 </div>
 
                 <div className="grid grid-cols-3 gap-px overflow-hidden rounded-2xl border border-oro/10 bg-oro/10">

@@ -259,7 +259,7 @@ export default function CarillasDentalesPage() {
                         </div>
                         <div className="flex flex-col gap-5">
                             {[
-                                { v: "4.9★", l: "87 reseñas en Google" },
+                                { v: "4.9★", l: "+120 reseñas en Google" },
                                 { v: "Forbes", l: "Reconocimiento Argentina" },
                                 { v: "Miss Universo", l: "Paciente destacada" },
                                 { v: "Puerto Madero", l: "CABA, Argentina" },

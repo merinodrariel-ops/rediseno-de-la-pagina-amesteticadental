@@ -77,7 +77,7 @@ const schemaOrg = {
   "aggregateRating": {
     "@type": "AggregateRating",
     "ratingValue": "4.9",
-    "reviewCount": "87",
+    "reviewCount": "120",
     "bestRating": "5"
   },
   "employee": {

@@ -1,15 +1,75 @@
 // Sección de presencia en medios — E-E-A-T signal alto para SEO
 // Fuentes verificadas de apariciones reales del Dr. Ariel Merino
 
-const MEDIOS_MARQUEE = [
-    "Forbes Argentina",
-    "La Nación",
-    "Infobae",
-    "Ámbito",
-    "Para Ti",
-    "Somos Ohlala",
-    "Yahoo Noticias",
-    "OdontoEspacio",
+// Logos estilizados que capturan la identidad tipográfica de cada medio
+const LOGOS_MEDIOS = [
+    {
+        id: "forbes",
+        node: (
+            <div className="flex items-center gap-1.5">
+                <div className="flex h-6 w-6 items-center justify-center rounded bg-crema/15">
+                    <span className="font-manrope text-[10px] font-black text-crema/60 leading-none">F</span>
+                </div>
+                <span className="font-manrope text-sm font-black uppercase tracking-[0.12em] text-crema/45">Forbes</span>
+            </div>
+        ),
+    },
+    {
+        id: "lanacion",
+        node: (
+            <span className="font-cormorant text-lg italic font-semibold tracking-wide text-crema/40">
+                La Nación
+            </span>
+        ),
+    },
+    {
+        id: "infobae",
+        node: (
+            <span className="font-manrope text-sm font-bold tracking-[-0.02em] text-crema/40">
+                info<span className="text-oro/40">bae</span>
+            </span>
+        ),
+    },
+    {
+        id: "ambito",
+        node: (
+            <span className="font-cormorant text-lg font-medium tracking-[0.05em] text-crema/38">
+                ámbito
+            </span>
+        ),
+    },
+    {
+        id: "parati",
+        node: (
+            <span className="font-cormorant text-lg italic text-crema/38 tracking-wide">
+                para ti
+            </span>
+        ),
+    },
+    {
+        id: "ohlala",
+        node: (
+            <span className="font-manrope text-xs font-semibold uppercase tracking-[0.3em] text-crema/35">
+                Ohlalá!
+            </span>
+        ),
+    },
+    {
+        id: "yahoo",
+        node: (
+            <span className="font-manrope text-sm font-bold tracking-tight text-crema/35">
+                Yahoo <span className="font-light">Noticias</span>
+            </span>
+        ),
+    },
+    {
+        id: "odonto",
+        node: (
+            <span className="font-manrope text-xs font-medium uppercase tracking-[0.2em] text-crema/32">
+                OdontoEspacio
+            </span>
+        ),
+    },
 ];
 
 const NOTAS_DESTACADAS = [
@@ -91,24 +151,22 @@ export default function Prensa() {
                 </div>
             </div>
 
-            {/* Marquee de medios */}
+            {/* Marquee de logos */}
             <div
                 className="mb-14 overflow-hidden"
                 style={{
-                    WebkitMaskImage: "linear-gradient(to right, transparent, black 8%, black 92%, transparent)",
-                    maskImage: "linear-gradient(to right, transparent, black 8%, black 92%, transparent)",
+                    WebkitMaskImage: "linear-gradient(to right, transparent, black 6%, black 94%, transparent)",
+                    maskImage: "linear-gradient(to right, transparent, black 6%, black 94%, transparent)",
                 }}
             >
                 <div className="flex gap-0 prensa-marquee-track">
-                    {[...MEDIOS_MARQUEE, ...MEDIOS_MARQUEE, ...MEDIOS_MARQUEE].map((medio, i) => (
+                    {[...LOGOS_MEDIOS, ...LOGOS_MEDIOS, ...LOGOS_MEDIOS].map((logo, i) => (
                         <div
-                            key={`${medio}-${i}`}
-                            className="flex-none flex items-center gap-6 px-8"
+                            key={`${logo.id}-${i}`}
+                            className="flex-none flex items-center gap-10 px-10"
                         >
-                            <span className="font-manrope font-light text-crema/28 text-base tracking-wide whitespace-nowrap">
-                                {medio}
-                            </span>
-                            <span className="text-oro/25 text-xs">◆</span>
+                            {logo.node}
+                            <span className="text-oro/15 text-[8px]">◆</span>
                         </div>
                     ))}
                 </div>

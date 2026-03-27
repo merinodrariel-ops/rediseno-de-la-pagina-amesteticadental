@@ -162,93 +162,112 @@ function VideoCard({ video }: { video: typeof videosTestimonios[0] }) {
 }
 
 export default function Testimonios() {
-    const highlightedReview = testimoniosEscritos.find((review) => review.destacado) ?? testimoniosEscritos[0];
     const marqueeTrack = useMemo(() => [...testimoniosEscritos, ...testimoniosEscritos], []);
     const marqueeTrackReverse = useMemo(() => [...testimoniosEscritos].reverse().concat([...testimoniosEscritos].reverse()), []);
 
     return (
-        <section id="testimonios" className="relative z-10 overflow-hidden bg-carbon px-4 py-32">
-            <div className="mx-auto max-w-[88rem]">
-                <div className="mb-18 grid items-end gap-10 lg:grid-cols-[1.2fr_0.8fr]">
-                    <div className="max-w-4xl">
+        <>
+            {/* ── BLOQUE 1: Testimonios en video ── */}
+            <section id="testimonios" className="relative z-10 bg-carbon-soft border-y border-oro/10 px-4 py-24">
+                <div className="mx-auto max-w-[88rem]">
+                    <div className="mb-12 max-w-2xl px-4 md:px-8">
+                        <span className="mb-4 block font-manrope text-[10px] uppercase tracking-[0.4em] text-oro">
+                            Testimonios
+                        </span>
+                        <h2 className="font-manrope text-3xl font-light leading-tight text-crema md:text-4xl">
+                            Pacientes reales,{" "}
+                            <span className="font-cormorant italic text-oro">en sus propias palabras</span>
+                        </h2>
+                    </div>
+                    <div className="grid grid-cols-2 gap-4 px-4 md:grid-cols-4 md:px-8">
+                        {videosTestimonios.map((video) => (
+                            <VideoCard key={video.id} video={video} />
+                        ))}
+                    </div>
+                </div>
+            </section>
+
+            {/* ── BLOQUE 2: Google Reviews ── */}
+            <section id="reviews" className="relative z-10 overflow-hidden bg-carbon px-4 py-24">
+                <div className="mx-auto max-w-[88rem]">
+
+                    {/* Header */}
+                    <div className="mb-14 px-4 md:px-8">
                         <span className="mb-5 inline-flex rounded-full border border-oro/15 bg-oro/8 px-4 py-1.5 font-manrope text-[10px] uppercase tracking-[0.38em] text-oro-light">
                             Google Reviews
                         </span>
-                        <div className="mb-6 flex flex-col gap-5 md:flex-row md:items-end md:gap-8">
-                            <div className="flex items-end gap-4">
-                                <span className="font-manrope text-[4.8rem] leading-none font-light text-crema md:text-[7.5rem]">4.9</span>
-                                <div className="space-y-3 pb-3 md:pb-4">
+                        <div className="flex flex-col gap-6 md:flex-row md:items-end md:justify-between">
+                            <a
+                                href="https://g.page/r/CQ3df5Xn-J6oEBM/review"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="group/rating flex items-end gap-5 transition-opacity hover:opacity-80"
+                            >
+                                <span className="font-manrope text-[5rem] leading-none font-light text-crema transition-colors group-hover/rating:text-oro md:text-[7rem]">4.9</span>
+                                <div className="space-y-2 pb-2">
                                     <Stars />
-                                    <p className="font-manrope text-[11px] uppercase tracking-[0.32em] text-crema/45">
-                                        87 resenas verificadas
+                                    <p className="font-manrope text-sm font-medium text-crema">
+                                        +120 reseñas verificadas
+                                    </p>
+                                    <p className="font-manrope text-[11px] uppercase tracking-[0.28em] text-crema/40">
+                                        Google Maps · Puerto Madero · ver todas →
                                     </p>
                                 </div>
+                            </a>
+                            <h2 className="max-w-lg font-manrope text-2xl font-light leading-snug text-crema/70 md:text-3xl md:text-right">
+                                Lo que dicen quienes ya{" "}
+                                <span className="font-cormorant italic text-oro">confiaron en nosotros</span>
+                            </h2>
+                        </div>
+                    </div>
+
+                    {/* Marquee fila 1 */}
+                    <div
+                        className="mb-6 overflow-hidden"
+                        style={{
+                            WebkitMaskImage: "linear-gradient(to right, transparent, black 10%, black 90%, transparent)",
+                            maskImage: "linear-gradient(to right, transparent, black 10%, black 90%, transparent)",
+                        }}
+                    >
+                        <div className="reviews-marquee group flex gap-6">
+                            <div className="reviews-marquee-track flex min-w-max gap-6 group-hover:[animation-play-state:paused]">
+                                {marqueeTrack.map((review, index) => (
+                                    <ReviewCard key={`${review.nombre}-${index}`} review={review} />
+                                ))}
                             </div>
-                            <div className="max-w-xl pb-1">
-                                <h2 className="mb-3 font-manrope text-4xl leading-tight font-light text-crema md:text-5xl">
-                                    Opiniones reales de nuestros pacientes.
-                                </h2>
-                                <p className="font-manrope text-lg leading-relaxed font-light text-crema-muted">
-                                    La reputacion no se dice: se ve. Mostramos la voz de quienes ya confiaron en nosotros y hoy recomiendan su experiencia en Google.
-                                </p>
+                        </div>
+                    </div>
+
+                    {/* Marquee fila 2 */}
+                    <div
+                        className="overflow-hidden"
+                        style={{
+                            WebkitMaskImage: "linear-gradient(to right, transparent, black 12%, black 88%, transparent)",
+                            maskImage: "linear-gradient(to right, transparent, black 12%, black 88%, transparent)",
+                        }}
+                    >
+                        <div className="reviews-marquee group flex gap-6">
+                            <div className="reviews-marquee-track-reverse flex min-w-max gap-6 group-hover:[animation-play-state:paused]">
+                                {marqueeTrackReverse.map((review, index) => (
+                                    <ReviewCard key={`${review.nombre}-reverse-${index}`} review={review} />
+                                ))}
                             </div>
                         </div>
                     </div>
 
-                    <div className="rounded-[2rem] border border-oro/14 bg-[linear-gradient(180deg,rgba(242,185,13,0.08),rgba(22,22,22,0.92))] p-7 shadow-[0_18px_70px_rgba(0,0,0,0.28)]">
-                        <p className="mb-3 font-manrope text-[11px] uppercase tracking-[0.28em] text-oro/60">
-                            Lo que mas se repite
-                        </p>
-                        <p className="font-cormorant text-3xl leading-tight italic text-crema md:text-4xl">
-                            Naturalidad, contencion, claridad y resultados que si se sienten propios.
-                        </p>
+                    {/* Link a Google */}
+                    <div className="mt-10 px-4 text-center md:px-8">
+                        <a
+                            href="https://g.page/r/CQ3df5Xn-J6oEBM/review"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="inline-flex items-center gap-2 font-manrope text-xs text-crema/35 hover:text-crema/60 transition-colors"
+                        >
+                            ★ Ver todas las reseñas en Google →
+                        </a>
                     </div>
                 </div>
-
-                <div className="mb-20 grid grid-cols-2 gap-4 md:grid-cols-4">
-                    {videosTestimonios.map((video) => (
-                        <VideoCard key={video.id} video={video} />
-                    ))}
-                </div>
-
-                <div className="mb-10 flex items-center gap-6">
-                    <div className="h-px flex-1 bg-oro/10" />
-                    <span className="font-manrope text-xs uppercase tracking-[0.32em] text-oro/40">Google Reviews en movimiento</span>
-                    <div className="h-px flex-1 bg-oro/10" />
-                </div>
-
-                <div
-                    className="mb-8 overflow-hidden"
-                    style={{
-                        WebkitMaskImage: "linear-gradient(to right, transparent, black 10%, black 90%, transparent)",
-                        maskImage: "linear-gradient(to right, transparent, black 10%, black 90%, transparent)",
-                    }}
-                >
-                    <div className="reviews-marquee group flex gap-6">
-                        <div className="reviews-marquee-track flex min-w-max gap-6 group-hover:[animation-play-state:paused]">
-                            {marqueeTrack.map((review, index) => (
-                                <ReviewCard key={`${review.nombre}-${index}`} review={review} />
-                            ))}
-                        </div>
-                    </div>
-                </div>
-
-                <div
-                    className="overflow-hidden"
-                    style={{
-                        WebkitMaskImage: "linear-gradient(to right, transparent, black 12%, black 88%, transparent)",
-                        maskImage: "linear-gradient(to right, transparent, black 12%, black 88%, transparent)",
-                    }}
-                >
-                    <div className="reviews-marquee group flex gap-6">
-                        <div className="reviews-marquee-track-reverse flex min-w-max gap-6 group-hover:[animation-play-state:paused]">
-                            {marqueeTrackReverse.map((review, index) => (
-                                <ReviewCard key={`${review.nombre}-reverse-${index}`} review={review} />
-                            ))}
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+            </section>
+        </>
     );
 }

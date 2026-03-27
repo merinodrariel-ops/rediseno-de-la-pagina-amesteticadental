@@ -137,7 +137,7 @@ export default function AlineadoresInvisiblesPage() {
                         </div>
                         <div className="flex flex-wrap items-center gap-6 mt-14 pt-8 border-t border-oro/10">
                             {[
-                                { v: "4.9★", l: "87 reseñas Google" },
+                                { v: "4.9★", l: "+120 reseñas Google" },
                                 { v: "Forbes", l: "Argentina" },
                                 { v: "100%", l: "Planificación digital" },
                                 { v: "Puerto Madero", l: "CABA" },
