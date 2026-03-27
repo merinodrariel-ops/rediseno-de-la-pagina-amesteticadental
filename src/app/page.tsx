@@ -1,6 +1,7 @@
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import Autoridad from "@/components/Autoridad";
+import Prensa from "@/components/Prensa";
 import DrMerino from "@/components/DrMerino";
 import Manifesto from "@/components/Manifesto";
 import PorQueAM from "@/components/PorQueAM";
@@ -23,7 +24,10 @@ export default function Home() {
       {/* 2. AUTORIDAD — Forbes + Miss Universo + 4.9★. Antes de que duden. */}
       <Autoridad />
 
-      {/* 3. DR. MERINO — el médico es la marca. La decisión más importante. */}
+      {/* 3. PRENSA — apariciones editoriales reales. E-E-A-T máximo. */}
+      <Prensa />
+
+      {/* 4. DR. MERINO — el médico es la marca. La decisión más importante. */}
       <DrMerino />
 
       {/* 4. MANIFIESTO — el alma de la clínica. Por qué existimos. */}

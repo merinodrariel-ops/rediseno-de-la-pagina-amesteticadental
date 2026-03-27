@@ -98,3 +98,7 @@ body {
 .reviews-marquee-track-reverse {
   animation: reviews-marquee-reverse 38s linear infinite;
 }
+
+.prensa-marquee-track {
+  animation: reviews-marquee 45s linear infinite;
+}

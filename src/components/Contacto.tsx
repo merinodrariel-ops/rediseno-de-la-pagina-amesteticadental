@@ -87,8 +87,69 @@ export default function Contacto() {
 
             </div>
 
+            {/* Redes sociales */}
+            <div className="mt-16 pt-10 border-t border-oro/10">
+                <p className="text-crema/30 font-manrope uppercase tracking-[0.4em] text-[10px] text-center mb-8">Seguinos</p>
+                <div className="flex flex-wrap items-center justify-center gap-4">
+                    {[
+                        { label: "Instagram", href: "https://www.instagram.com/amesteticadental", handle: "@amesteticadental" },
+                        { label: "TikTok", href: "https://www.tiktok.com/@drarielmerino", handle: "@drarielmerino" },
+                        { label: "YouTube", href: "https://www.youtube.com/@ArielMerino", handle: "Dr. Ariel Merino" },
+                        { label: "LinkedIn", href: "https://ar.linkedin.com/company/am-est%C3%A9tica-dental", handle: "AM Estética Dental" },
+                    ].map((r) => (
+                        <a
+                            key={r.label}
+                            href={r.href}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="flex items-center gap-2 border border-oro/12 rounded-full px-4 py-2 text-crema/50 font-manrope text-xs hover:border-oro/30 hover:text-crema transition-colors"
+                        >
+                            <span className="text-oro/50 font-medium">{r.label}</span>
+                            <span className="text-crema/30">·</span>
+                            <span>{r.handle}</span>
+                        </a>
+                    ))}
+                </div>
+            </div>
+
+            {/* Mapa + Waze */}
+            <div className="mt-8 flex flex-wrap items-center justify-center gap-4">
+                <a
+                    href="https://maps.app.goo.gl/5kWar9VL6qjhdEGM7"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center gap-2 text-crema/40 font-manrope text-xs hover:text-crema/70 transition-colors"
+                >
+                    <svg className="w-3.5 h-3.5 text-oro/50" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
+                    </svg>
+                    Ver en Google Maps
+                </a>
+                <span className="text-oro/15">·</span>
+                <a
+                    href="https://waze.com/ul/h69y7pcqyu"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center gap-2 text-crema/40 font-manrope text-xs hover:text-crema/70 transition-colors"
+                >
+                    <svg className="w-3.5 h-3.5 text-oro/50" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm-1-13h2v6h-2zm0 8h2v2h-2z"/>
+                    </svg>
+                    Abrir en Waze
+                </a>
+                <span className="text-oro/15">·</span>
+                <a
+                    href="https://g.page/r/CQ3df5Xn-J6oEBM/review"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center gap-2 text-crema/40 font-manrope text-xs hover:text-crema/70 transition-colors"
+                >
+                    ★ Dejar una reseña en Google
+                </a>
+            </div>
+
             {/* Footer con logo */}
-            <div className="mt-20 pt-10 border-t border-oro/10 flex justify-center">
+            <div className="mt-12 pt-8 border-t border-oro/10 flex justify-center">
                 <Image
                     src="/logo.png"
                     alt="AM Estética Dental"

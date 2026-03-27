@@ -234,7 +234,7 @@ export default function Testimonios() {
                 </div>
 
                 <div
-                    className="mb-16 overflow-hidden"
+                    className="overflow-hidden"
                     style={{
                         WebkitMaskImage: "linear-gradient(to right, transparent, black 12%, black 88%, transparent)",
                         maskImage: "linear-gradient(to right, transparent, black 12%, black 88%, transparent)",
@@ -246,19 +246,6 @@ export default function Testimonios() {
                                 <ReviewCard key={`${review.nombre}-reverse-${index}`} review={review} />
                             ))}
                         </div>
-                    </div>
-                </div>
-
-                <div className="grid gap-8 lg:grid-cols-[1.05fr_0.95fr] lg:items-start">
-                    <ReviewCard review={highlightedReview} featured />
-
-                    <div className="grid gap-5 md:grid-cols-2">
-                        {testimoniosEscritos
-                            .filter((review) => !review.destacado)
-                            .slice(0, 4)
-                            .map((review) => (
-                                <ReviewCard key={`static-${review.nombre}`} review={review} />
-                            ))}
                     </div>
                 </div>
             </div>

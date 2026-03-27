@@ -2,12 +2,10 @@
 
 import { useState } from "react";
 
-// Simulador de financiación nativo — elimina el redirect a Google Forms
-// que rompe la experiencia premium.
-// Parámetros actuales: 50% anticipo + 50% financiado a 12% TNA fija
-// TODO: Ariel va a compartir los nuevos parámetros para actualizar esto
+// Simulador de financiación — 50% anticipo + 50% financiado
+// TNA 18% fija. Mostramos anticipo + cuota, NO el total final.
 
-const TASA_ANUAL = 0.12;
+const TASA_ANUAL = 0.18;
 const TASA_MENSUAL = TASA_ANUAL / 12;
 
 function calcularCuota(monto: number, cuotas: number): number {
@@ -47,7 +45,7 @@ export default function Financiacion() {
                         <span className="font-cormorant italic text-oro">ahora mismo</span>
                     </h2>
                     <p className="text-crema-muted font-manrope text-lg font-light max-w-xl mx-auto">
-                        Tasa fija anual del 12%. Sin sorpresas, sin letra chica. Pagás en USD o en pesos al tipo de cambio oficial del Banco Nación del día.
+                        50% de anticipo. El resto en 3, 6 o 12 cuotas fijas. Pagás en USD o en pesos al tipo de cambio oficial del Banco Nación del día.
                     </p>
                 </div>
 
@@ -104,44 +102,37 @@ export default function Financiacion() {
 
                     {/* Resultado */}
                     <div className="bg-carbon-soft border border-oro/30 rounded-2xl p-8">
-                        <div className="space-y-6 mb-8">
+                        <div className="space-y-5 mb-8">
 
-                            <div className="flex justify-between items-center py-4 border-b border-oro/10">
-                                <span className="text-crema-muted font-manrope text-sm">Anticipo (50%)</span>
-                                <span className="text-crema font-manrope font-semibold">
+                            {/* Anticipo */}
+                            <div className="rounded-xl border border-oro/15 bg-carbon px-6 py-5 flex items-center justify-between">
+                                <div>
+                                    <span className="text-crema/50 font-manrope uppercase tracking-[0.3em] text-[10px] block mb-1">Pagás hoy</span>
+                                    <span className="text-crema font-manrope font-light text-sm">Anticipo del 50%</span>
+                                </div>
+                                <span className="text-crema font-manrope font-semibold text-xl">
                                     USD {anticipo.toLocaleString("en-US", { minimumFractionDigits: 0 })}
                                 </span>
                             </div>
 
-                            <div className="flex justify-between items-center py-4 border-b border-oro/10">
-                                <span className="text-crema-muted font-manrope text-sm">Monto a financiar</span>
-                                <span className="text-crema font-manrope font-semibold">
-                                    USD {montoFinanciado.toLocaleString("en-US", { minimumFractionDigits: 0 })}
-                                </span>
+                            {/* Cuota — protagonista */}
+                            <div className="rounded-xl border border-oro/40 bg-oro/8 px-6 py-6 flex items-center justify-between">
+                                <div>
+                                    <span className="text-oro/70 font-manrope uppercase tracking-[0.3em] text-[10px] block mb-1">Tu cuota mensual</span>
+                                    <span className="text-crema font-manrope font-light text-sm">{cuotas} pagos iguales y fijos</span>
+                                </div>
+                                <div className="text-right">
+                                    <span className="text-oro font-manrope font-light text-3xl">
+                                        USD {cuotaMensual.toFixed(0)}
+                                    </span>
+                                    <span className="text-oro/50 font-manrope text-xs block">/mes</span>
+                                </div>
                             </div>
 
-                            <div className="flex justify-between items-center py-4 border-b border-oro/10">
-                                <span className="text-crema-muted font-manrope text-sm">Tasa fija anual</span>
-                                <span className="text-oro font-manrope font-semibold">12% TNA</span>
-                            </div>
-
-                            <div className="flex justify-between items-center py-4 border-b border-oro/10">
-                                <span className="text-crema font-manrope font-medium">Cuota mensual × {cuotas}</span>
-                                <span className="text-2xl text-oro font-manrope font-light">
-                                    USD {cuotaMensual.toFixed(0)}
-                                </span>
-                            </div>
-
-                            <div className="flex justify-between items-center py-2">
-                                <span className="text-crema-muted font-manrope text-xs">Total con financiación</span>
-                                <span className="text-crema-muted font-manrope text-sm">
-                                    ≈ USD {totalFinal.toFixed(0)}
-                                </span>
-                            </div>
                         </div>
 
-                        <p className="text-crema-muted font-manrope text-xs mb-6 leading-relaxed">
-                            Los valores en USD se abonan en ARS a la cotización oficial (venta) del Banco Nación del día de pago.
+                        <p className="text-crema/30 font-manrope text-xs mb-6 leading-relaxed">
+                            Valores en USD. Podés abonar en pesos al tipo de cambio oficial Banco Nación del día de pago.
                         </p>
 
                         <a

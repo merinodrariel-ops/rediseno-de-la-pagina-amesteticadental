@@ -53,8 +53,8 @@ export default function FAQ() {
                         Preguntas frecuentes
                     </span>
                     <h2 className="text-4xl md:text-5xl font-manrope font-light text-crema leading-tight mb-6">
-                        Todo lo que querés saber{" "}
-                        <span className="font-cormorant italic text-oro">antes de llamarnos</span>
+                        Preguntas sobre carillas,{" "}
+                        <span className="font-cormorant italic text-oro">alineadores y diseño de sonrisa</span>
                     </h2>
                     <p className="text-crema-muted font-manrope text-lg font-light">
                         Respondemos las preguntas que casi nadie hace en voz alta.

@@ -46,7 +46,7 @@ export default function Manifesto() {
 
     return (
         <section
-            id="clinica"
+            id="manifiesto"
             ref={containerRef}
             className="bg-carbon text-crema min-h-[80vh] flex items-center justify-center p-8 relative flex-col z-20"
         >
