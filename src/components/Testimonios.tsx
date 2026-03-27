@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { useMemo, useState } from "react";
 
 const testimoniosEscritos = [
@@ -111,10 +112,13 @@ function VideoCard({ video }: { video: typeof videosTestimonios[0] }) {
             <div className="pointer-events-none absolute inset-[1.5px] rounded-[calc(1.6rem-1.5px)] bg-carbon-soft/70 backdrop-blur-[1px]" />
             {!playing ? (
                 <>
-                    <img
+                    <Image
                         src={`https://img.youtube.com/vi/${video.youtubeId}/hqdefault.jpg`}
                         alt={video.nombre}
+                        fill
+                        sizes="(max-width: 768px) 50vw, 25vw"
                         className="absolute inset-[1.5px] h-[calc(100%-3px)] w-[calc(100%-3px)] rounded-[calc(1.6rem-1.5px)] object-cover brightness-[0.72]"
+                        unoptimized
                     />
                     <div className="absolute inset-[1.5px] rounded-[calc(1.6rem-1.5px)] bg-gradient-to-b from-carbon/18 via-transparent to-carbon/76" />
                     <div className="absolute inset-0 flex items-center justify-center">
