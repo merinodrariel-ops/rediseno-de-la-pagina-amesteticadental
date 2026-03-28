@@ -226,7 +226,7 @@ export default function Hero() {
             {[
               { v: "4.9★", l: "Google" },
               { v: "Forbes", l: "Argentina" },
-              { v: "15+", l: "Años" },
+              { v: "16+", l: "Años" },
             ].map((s) => (
               <div key={s.l}>
                 <div className="text-oro font-manrope font-semibold text-lg">{s.v}</div>
