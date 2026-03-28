@@ -107,7 +107,7 @@ export default function EsteticaDentalPage() {
                             {[
                                 { v: "4.9★", l: "+120 reseñas Google" },
                                 { v: "Forbes", l: "Argentina" },
-                                { v: "16+", l: "en estética dental" },
+                                { v: "15+", l: "en estética dental" },
                                 { v: "Puerto Madero", l: "CABA" },
                             ].map((s) => (
                                 <div key={s.l}>
@@ -187,7 +187,7 @@ export default function EsteticaDentalPage() {
                                 Dr. Ariel Merino
                             </h2>
                             <p className="text-crema/70 font-manrope text-base leading-relaxed mb-5">
-                                Odontólogo estético con más de 16 años de práctica dedicada exclusivamente a la estética dental. Reconocido por Forbes Argentina. Elegido para diseñar la sonrisa de Miss Universo.
+                                Odontólogo estético con más de 15 años de práctica dedicada exclusivamente a la estética dental. Reconocido por Forbes Argentina. Elegido para diseñar la sonrisa de Miss Universo.
                             </p>
                             <p className="text-crema/70 font-manrope text-base leading-relaxed">
                                 Cada paciente es atendido personalmente por el Dr. Merino. No delegamos casos. No hay residentes. Cada evaluación, cada diseño y cada colocación pasa por su criterio directo.
@@ -198,7 +198,7 @@ export default function EsteticaDentalPage() {
                                 { v: "4.9★", l: "Google" },
                                 { v: "Forbes", l: "Argentina" },
                                 { v: "Miss Universo", l: "Paciente" },
-                                { v: "16+", l: "en estética dental" },
+                                { v: "15+", l: "en estética dental" },
                             ].map((s) => (
                                 <div key={s.l} className="border border-oro/15 rounded-xl px-4 py-5 text-center bg-carbon">
                                     <div className="text-oro font-manrope font-semibold text-base">{s.v}</div>
