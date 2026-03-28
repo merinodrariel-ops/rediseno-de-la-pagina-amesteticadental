@@ -234,7 +234,7 @@ export default function AlineadoresInvisiblesPage() {
                                 { v: "4.9★", l: "Google" },
                                 { v: "Forbes", l: "Argentina" },
                                 { v: "Miss Universo", l: "Paciente" },
-                                { v: "16+", l: "Años" },
+                                { v: "16+", l: "en estética dental" },
                             ].map((s) => (
                                 <div key={s.l} className="border border-oro/15 rounded-xl px-4 py-5 text-center bg-carbon-soft">
                                     <div className="text-oro font-manrope font-semibold text-base">{s.v}</div>

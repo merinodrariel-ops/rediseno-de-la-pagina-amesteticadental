@@ -130,7 +130,7 @@ export default function DrMerino() {
                         {/* Credenciales */}
                         <div className="grid grid-cols-2 gap-4 mb-10">
                             {[
-                                { valor: "16+", texto: "Años de experiencia" },
+                                { valor: "16+", texto: "en estética dental" },
                                 { valor: "4.9★", texto: "Google Rating" },
                                 { valor: "Forbes", texto: "Reconocimiento editorial" },
                                 { valor: "AOA", texto: "Posgrado Rehab. Oral & Estética" },
