@@ -7,7 +7,7 @@
 const diferenciadores = [
     {
         titulo: "Resultados firmados",
-        descripcion: "Cada foto que publicamos tiene el watermark @drarielmerino. No son resultados de una clínica genérica — son casos del Dr. Merino, firmados con nombre y apellido. Ningún competidor hace esto.",
+        descripcion: "Cada foto que publicamos lleva el watermark @drarielmerino. No son resultados anónimos de una clínica genérica — son casos con nombre, apellido y responsable clínico. Ningún competidor asume esa responsabilidad pública.",
         icono: "✦",
     },
     {
@@ -22,7 +22,7 @@ const diferenciadores = [
     },
     {
         titulo: "Forbes. Miss Universo. Sin más.",
-        descripcion: "Somos la única clínica odontológica en Argentina en las páginas de Forbes. La sonrisa de Miss Universo es nuestra. No pedimos que confíes en nosotros. Te mostramos por qué otros ya lo hacen.",
+        descripcion: "AM Estética Dental es la única clínica odontológica de Argentina en las páginas de Forbes. La sonrisa de Miss Universo fue diseñada por nuestro equipo. No pedimos confianza — mostramos por qué otros ya la depositan.",
         icono: "◉",
     },
     {

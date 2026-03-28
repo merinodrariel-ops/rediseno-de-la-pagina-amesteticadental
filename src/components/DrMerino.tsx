@@ -62,13 +62,13 @@ export default function DrMerino() {
 
                         <div className="space-y-6 mb-12">
                             <p className="text-crema/80 font-manrope leading-relaxed">
-                                Más de <strong className="text-crema">10 años</strong> redefiniendo lo que significa una sonrisa de alto nivel en Argentina. No desde un consultorio genérico — desde Puerto Madero, el único lugar donde el estándar internacional no es una aspiración sino una exigencia diaria.
+                                Más de <strong className="text-crema">10 años</strong> redefiniendo lo que significa una sonrisa de alto nivel en Argentina. No desde un consultorio genérico — desde Puerto Madero, donde el estándar internacional no es una aspiración sino una exigencia diaria.
                             </p>
                             <p className="text-crema/80 font-manrope leading-relaxed">
-                                Mis pacientes son <strong className="text-crema">profesionales, empresarios y figuras públicas</strong> que no aceptan resultados promedio porque sus sonrisas viven bajo escrutinio. Miss Universo confió en mí. Forbes nos reconoció como la única clínica dental del país en sus páginas.
+                                Nuestros pacientes son <strong className="text-crema">profesionales, empresarios y figuras públicas</strong> que no aceptan resultados promedio porque sus sonrisas viven bajo escrutinio. Miss Universo confió en el equipo. Forbes reconoció a AM Estética Dental como la única clínica dental del país en sus páginas.
                             </p>
                             <p className="text-crema/80 font-manrope leading-relaxed">
-                                Mi enfoque es <strong className="text-crema">minimalista y permanente</strong>: intervenir lo mínimo necesario para lograr el máximo impacto. Cada caso que firmo con @drarielmerino es un resultado del que me hago responsable para siempre.
+                                El enfoque de AM es <strong className="text-crema">minimalista y permanente</strong>: intervenir lo mínimo necesario para lograr el máximo impacto. Cada caso que llevamos adelante es un resultado del que nos hacemos responsables para siempre.
                             </p>
                         </div>
 
