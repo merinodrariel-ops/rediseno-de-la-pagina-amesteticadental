@@ -131,18 +131,7 @@ function VideoCard({ video }: { video: typeof videosTestimonios[0] }) {
                             aria-label="Reproducir testimonio"
                         >
                             <span className="absolute inset-0 rounded-full bg-[linear-gradient(120deg,#8f5b11_0%,#c88412_18%,#f0b10d_36%,#fff0b1_52%,#f4c646_68%,#8f5b11_100%)] shadow-[0_0_22px_rgba(242,185,13,0.26)]" />
-                            <span
-                                className="absolute inset-[-4px] rounded-full p-px opacity-90"
-                                style={{
-                                    background:
-                                        "conic-gradient(from 0deg, transparent 0deg, transparent 318deg, rgba(242,185,13,0.12) 336deg, rgba(255,248,210,0.95) 350deg, transparent 360deg)",
-                                    animation: "comet-orbit 7.4s linear infinite",
-                                    WebkitMask:
-                                        "linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0)",
-                                    WebkitMaskComposite: "xor",
-                                    maskComposite: "exclude",
-                                }}
-                            />
+                            <span className="absolute inset-[-6px] rounded-full border border-oro/30 animate-pulse opacity-70" />
                             <svg className="relative z-10 ml-1 h-6 w-6 text-carbon" fill="currentColor" viewBox="0 0 24 24">
                                 <path d="M8 5v14l11-7z" />
                             </svg>
