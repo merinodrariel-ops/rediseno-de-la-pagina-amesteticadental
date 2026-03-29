@@ -102,11 +102,14 @@ function VideoCard({ video }: { video: typeof videosTestimonios[0] }) {
         <div className="group relative aspect-[9/16] overflow-hidden rounded-[1.6rem] border border-oro/8 bg-carbon-soft">
             <div
                 aria-hidden="true"
-                className="pointer-events-none absolute inset-0 rounded-[1.6rem] opacity-55 transition-opacity duration-500 group-hover:opacity-100"
+                className="pointer-events-none absolute inset-0 rounded-[1.6rem] p-px opacity-55 transition-opacity duration-500 group-hover:opacity-100"
                 style={{
                     background:
                         "conic-gradient(from 0deg, transparent 0deg, transparent 300deg, rgba(242,185,13,0.05) 320deg, rgba(249,220,106,0.32) 344deg, rgba(255,250,214,0.7) 352deg, transparent 360deg)",
                     animation: "comet-orbit 9.5s linear infinite",
+                    WebkitMask: "linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0)",
+                    WebkitMaskComposite: "xor",
+                    maskComposite: "exclude",
                 }}
             />
             <div className="pointer-events-none absolute inset-[1.5px] rounded-[calc(1.6rem-1.5px)] bg-carbon-soft/70 backdrop-blur-[1px]" />
