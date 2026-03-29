@@ -37,6 +37,7 @@ const videosTestimonios = [
     { id: "video-2", youtubeId: "vlWiV96jQmY", nombre: "Caso real", tratamiento: "Testimonio de paciente" },
     { id: "video-3", youtubeId: "UxmkQbFERcw", nombre: "Caso real", tratamiento: "Testimonio de paciente" },
     { id: "video-4", youtubeId: "DdBeH4XaJUY", nombre: "Caso real", tratamiento: "Testimonio de paciente" },
+    { id: "video-5", youtubeId: "bMwbSxNCZIA", nombre: "Caso real", tratamiento: "Testimonio de paciente" },
 ];
 
 function Stars({ small = false }: { small?: boolean }) {
