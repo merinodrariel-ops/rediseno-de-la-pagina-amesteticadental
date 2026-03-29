@@ -192,7 +192,7 @@ export default function DisenoSonrisaPage() {
                     <div className="max-w-4xl mx-auto flex flex-col md:flex-row items-center justify-between gap-8">
                         <div>
                             <p className="text-crema font-manrope font-medium text-lg">¿Querés ver cómo puede quedar tu sonrisa?</p>
-                            <p className="text-crema/55 font-manrope text-sm mt-1">La evaluación inicial es sin costo y sin compromiso.</p>
+                            <p className="text-crema/55 font-manrope text-sm mt-1"></p>
                         </div>
                         <a
                             href={WA_LINK}

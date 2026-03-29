@@ -321,7 +321,7 @@ export default function CarillasDentalesPage() {
                             <span className="font-cormorant italic text-oro">es sin compromiso</span>
                         </h2>
                         <p className="text-crema/60 font-manrope text-base mb-10">
-                            En la primera consulta evaluamos tu caso, te mostramos las opciones y te explicamos el proceso completo. Sin presión. Sin costo de consulta.
+                            En la primera consulta evaluamos tu caso, te mostramos las opciones y te explicamos el proceso completo. Sin presión. 
                         </p>
                         <a
                             href={WA_LINK}

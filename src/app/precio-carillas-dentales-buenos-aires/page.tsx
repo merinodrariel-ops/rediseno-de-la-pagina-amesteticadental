@@ -43,9 +43,9 @@ const faqItems = [
       "Sí. Trabajamos con financiación propia sobre el 50% del tratamiento, con anticipo del 50% y tasa fija anual del 18%. También podés simular el plan en la home antes de consultar.",
   },
   {
-    pregunta: "¿La evaluación inicial tiene costo?",
+    pregunta: "¿Cómo funciona la primera consulta?",
     respuesta:
-      "No. La evaluación inicial es sin costo y nos permite decirte qué tratamiento conviene, qué material tiene sentido para tu caso y cuál sería el presupuesto real.",
+      "En la primera consulta evaluamos tu caso en profundidad, te explicamos las opciones de tratamiento y te entregamos un presupuesto detallado. Es el punto de partida para entender exactamente qué necesitás y qué resultado podés esperar.",
   },
 ];
 

@@ -254,7 +254,7 @@ export default function EsteticaDentalPage() {
                             <span className="font-cormorant italic text-oro">es el primer paso</span>
                         </h2>
                         <p className="text-crema/60 font-manrope text-base mb-10">
-                            Analizamos tu caso, te explicamos las opciones y diseñamos digitalmente el resultado. Sin compromiso. Sin costo de consulta.
+                            Analizamos tu caso, te explicamos las opciones y diseñamos digitalmente el resultado. Sin compromiso. 
                         </p>
                         <a
                             href={WA_LINK}
