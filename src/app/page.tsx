@@ -4,7 +4,8 @@ import Autoridad from "@/components/Autoridad";
 import Tratamientos from "@/components/Tratamientos";
 import Features from "@/components/Features";
 import DrMerino from "@/components/DrMerino";
-import Archive from "@/components/Archive";
+import Casos from "@/components/Casos";
+import Clinica from "@/components/Clinica";
 import Testimonios from "@/components/Testimonios";
 import PorQueAM from "@/components/PorQueAM";
 import Prensa from "@/components/Prensa";
@@ -33,8 +34,11 @@ export default function Home() {
       {/* 5. DR. MERINO — criterio clínico y dirección del caso. */}
       <DrMerino />
 
-      {/* 6. CASOS — evidencia visual antes de la prueba social extendida. */}
-      <Archive />
+      {/* 6. CLÍNICA — el espacio físico refuerza el estándar premium. */}
+      <Clinica />
+
+      {/* 7. CASOS — evidencia visual antes de la prueba social extendida. */}
+      <Casos />
 
       {/* 7. TESTIMONIOS — validación emocional y social. */}
       <Testimonios />
