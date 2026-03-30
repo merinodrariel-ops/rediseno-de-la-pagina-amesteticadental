@@ -16,10 +16,17 @@ const CASO_FEATURED = {
 // Aspect ratios reales de cada imagen para layout sin distorsión
 const CASOS = [
     {
-        src: "/images/casos/caso-carillas-ceramicas-antes-despues-01-am-estetica-dental.webp",
-        alt: "Antes y después de carillas cerámicas — AM Estética Dental",
+        src: "/images/casos/caso-carillas-ceramicas-antes-despues-02-am-estetica-dental.webp",
+        alt: "Antes de carillas cerámicas — AM Estética Dental",
         tratamiento: "Carillas Cerámicas",
-        descripcion: "Antes / Después",
+        descripcion: "Antes",
+        aspect: "aspect-square",
+    },
+    {
+        src: "/images/casos/caso-carillas-ceramicas-antes-despues-01-am-estetica-dental.webp",
+        alt: "Después de carillas cerámicas — AM Estética Dental",
+        tratamiento: "Carillas Cerámicas",
+        descripcion: "Después",
         aspect: "aspect-square",
     },
     {
@@ -30,18 +37,18 @@ const CASOS = [
         aspect: "aspect-[4/5]",
     },
     {
+        src: "/images/casos/caso-eli-carillas-ceramicas-01-am-estetica-dental.webp",
+        alt: "Caso Eli — Transformación con carillas cerámicas antes y después — AM Estética Dental",
+        tratamiento: "Carillas Cerámicas",
+        descripcion: "Caso Eli — Antes / Después",
+        aspect: "aspect-square",
+    },
+    {
         src: "/images/casos/caso-bruxismo-carillas-mordida-cruzada-am-estetica-dental.webp",
         alt: "Tratamiento de bruxismo con carillas y corrección de mordida cruzada — AM Estética Dental",
         tratamiento: "Bruxismo",
         descripcion: "Mordida cruzada",
         aspect: "aspect-[4/5]",
-    },
-    {
-        src: "/images/casos/caso-carillas-ceramicas-antes-despues-02-am-estetica-dental.webp",
-        alt: "Carillas cerámicas antes y después — AM Estética Dental Puerto Madero",
-        tratamiento: "Carillas Cerámicas",
-        descripcion: "Antes / Después",
-        aspect: "aspect-square",
     },
     {
         src: "/images/casos/caso-erosion-dentaria-carillas-ceramicas-am-estetica-dental.webp",
@@ -98,6 +105,27 @@ const CASOS = [
         tratamiento: "Diseño de Sonrisa",
         descripcion: "Transformación natural",
         aspect: "aspect-[16/9]",
+    },
+    {
+        src: "/images/casos/caso-extremo-carillas-veneers-04-dr-ariel-merino-am-estetica-dental.webp",
+        alt: "Transformación extrema con carillas — antes y después — Dr. Ariel Merino AM Estética Dental",
+        tratamiento: "Carillas de Porcelana",
+        descripcion: "Caso extremo — Antes / Después",
+        aspect: "aspect-[16/9]",
+    },
+    {
+        src: "/images/casos/caso-eli-carillas-ceramicas-03-am-estetica-dental.webp",
+        alt: "Caso Eli — antes del tratamiento con carillas cerámicas — AM Estética Dental",
+        tratamiento: "Carillas Cerámicas",
+        descripcion: "Caso Eli — Antes",
+        aspect: "aspect-[4/5]",
+    },
+    {
+        src: "/images/casos/caso-eli-carillas-ceramicas-04-am-estetica-dental.webp",
+        alt: "Caso Eli — después del tratamiento con carillas cerámicas — AM Estética Dental",
+        tratamiento: "Carillas Cerámicas",
+        descripcion: "Caso Eli — Después",
+        aspect: "aspect-[4/5]",
     },
 ];
 
