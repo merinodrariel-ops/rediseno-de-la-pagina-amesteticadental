@@ -61,6 +61,13 @@ const ARTICULOS = [
         categoria: "Guía",
         lectura: "6 min",
     },
+    {
+        slug: "carillas-disilicato-vs-porcelana-feldespatica",
+        titulo: "Disilicato vs porcelana feldespática: diferencias reales",
+        descripcion: "IPS e.max o porcelana feldespática: cuál es más estética, cuál dura más y cuándo conviene cada una según tu caso clínico.",
+        categoria: "Carillas",
+        lectura: "5 min",
+    },
 ];
 
 const CATEGORIAS = ["Todos", "Carillas", "Diseño de Sonrisa", "Casos", "Proceso", "Guía"];
