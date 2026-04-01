@@ -68,6 +68,13 @@ const ARTICULOS = [
         categoria: "Carillas",
         lectura: "5 min",
     },
+    {
+        slug: "sonrisa-natural-vs-hollywood",
+        titulo: "Sonrisa natural vs sonrisa Hollywood: cuál es la diferencia real",
+        descripcion: "Dos filosofías de estética dental completamente distintas. Cuál se adapta mejor a tu rostro, personalidad y lo que buscás lograr.",
+        categoria: "Diseño de Sonrisa",
+        lectura: "5 min",
+    },
 ];
 
 const CATEGORIAS = ["Todos", "Carillas", "Diseño de Sonrisa", "Casos", "Proceso", "Guía"];
