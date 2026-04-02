@@ -110,7 +110,7 @@ export default function CarillasVsAlineadoresPage() {
             {[
               { nombre: "Carillas Dentales", href: "/carillas-dentales" },
               { nombre: "Alineadores Invisibles", href: "/alineadores-invisibles" },
-              { nombre: "Invisalign", href: "/invisalign" },
+              { nombre: "AM Aligners", href: "/alineadores-invisibles" },
             ].map((item) => (
               <Link key={item.nombre} href={item.href} className="border border-oro/15 rounded-2xl p-6 bg-carbon hover:border-oro/35 transition-colors group">
                 <h3 className="text-crema font-manrope font-medium text-sm group-hover:text-oro transition-colors">{item.nombre}</h3>

@@ -192,7 +192,7 @@ export default function Hero() {
             ref={subRef}
             className="text-crema/68 font-manrope text-lg md:text-[1.12rem] font-light leading-relaxed max-w-sm mb-9"
           >
-            Carillas de porcelana, lentes de contacto dental y diseño de sonrisa digital para lograr resultados naturales en Puerto Madero. Alineadores invisibles e Invisalign cuando el caso pide movimiento, no artificio.
+            Carillas de porcelana, lentes de contacto dental y diseño de sonrisa digital para lograr resultados naturales en Puerto Madero. AM Aligners cuando el caso pide movimiento, no artificio.
           </p>
 
           <div ref={ctaRef} className="flex flex-col sm:flex-row gap-4 items-start sm:items-center">

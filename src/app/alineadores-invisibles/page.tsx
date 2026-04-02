@@ -37,8 +37,8 @@ const faqItems = [
         respuesta: "La duración depende del caso. Casos simples pueden resolverse en 3 a 6 meses. Casos moderados toman entre 9 y 18 meses. La planificación digital establece desde el inicio la cantidad de alineadores y la duración estimada, para que sepas exactamente qué esperar antes de empezar.",
     },
     {
-        pregunta: "¿Cuál es la diferencia entre Invisalign y otros alineadores?",
-        respuesta: "Invisalign es la marca más conocida del sistema de alineadores. Existen también otras marcas de calidad equivalente. En AM Estética Dental evaluamos el sistema más adecuado para tu caso y tu presupuesto. Lo que no varía es el criterio clínico: planificación digital, seguimiento continuo y control de resultado.",
+        pregunta: "¿Cuál es la diferencia entre AM Aligners y otros alineadores?",
+        respuesta: "La diferencia real no pasa solo por el nombre del sistema, sino por cómo se diagnostica, planifica y controla cada caso. En AM Estética Dental evaluamos si AM Aligners es la mejor opción para vos y definimos el plan según tu caso, tu mordida y el resultado que querés lograr.",
     },
     {
         pregunta: "¿Se pueden combinar alineadores con carillas dentales?",
@@ -118,7 +118,7 @@ export default function AlineadoresInvisiblesPage() {
                             <span className="font-cormorant italic text-oro">en Buenos Aires</span>
                         </h1>
                         <p className="text-crema/68 font-manrope text-lg md:text-xl font-light leading-relaxed max-w-2xl mb-10">
-                            Ortodoncia sin brackets ni alambre. Alineadores invisibles e Invisalign con planificación digital completa. Ves el resultado antes de empezar. Dr. Ariel Merino, Puerto Madero.
+                            Ortodoncia sin brackets ni alambre con AM Aligners y planificación digital completa. Ves el resultado antes de empezar. Dr. Ariel Merino, Puerto Madero.
                         </p>
                         <div className="flex flex-col sm:flex-row gap-4 items-start">
                             <a
@@ -263,7 +263,7 @@ export default function AlineadoresInvisiblesPage() {
                         <span className="text-oro font-manrope uppercase tracking-[0.4em] text-xs block mb-8 text-center">También puede interesarte</span>
                         <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
                             {[
-                                { nombre: "Invisalign", desc: "La marca más reconocida de alineadores, con criterio clínico y enfoque local.", href: "/invisalign" },
+                                { nombre: "AM Aligners", desc: "Nuestro sistema de alineadores invisibles con enfoque clínico y seguimiento local.", href: "/alineadores-invisibles" },
                                 { nombre: "Diseño de Sonrisa Digital", desc: "Planificación 3D completa. Ves el resultado antes de empezar.", href: "/diseno-de-sonrisa" },
                                 { nombre: "Carillas Dentales", desc: "Porcelana y lentes de contacto dental para el refinamiento final.", href: "/carillas-dentales" },
                             ].map((t) => (

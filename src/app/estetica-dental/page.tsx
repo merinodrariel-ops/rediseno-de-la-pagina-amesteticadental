@@ -60,7 +60,7 @@ const tratamientos = [
     { nombre: "Carillas sin Desgaste", desc: "Cuando el caso permite una solución conservadora sin preparar el diente.", href: "/carillas-sin-desgaste" },
     { nombre: "Diseño de Sonrisa Digital", desc: "Ves el resultado antes de empezar. Planificación 3D completa.", href: "/diseno-de-sonrisa" },
     { nombre: "Alineadores Invisibles", desc: "Ortodoncia sin brackets. Planificación digital y seguimiento continuo.", href: "/alineadores-invisibles" },
-    { nombre: "Invisalign", desc: "La marca más reconocida de alineadores, integrada a criterio clínico y diseño de sonrisa.", href: "/invisalign" },
+    { nombre: "AM Aligners", desc: "Nuestro sistema de alineadores invisibles, integrado a criterio clínico y diseño de sonrisa.", href: "/alineadores-invisibles" },
     { nombre: "Blanqueamiento Profesional", desc: "Protocolo clínico calibrado para tu tipo de esmalte.", href: "/#tratamientos" },
 ];
 

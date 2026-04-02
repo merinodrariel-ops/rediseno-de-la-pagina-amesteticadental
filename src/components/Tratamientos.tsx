@@ -33,9 +33,9 @@ const tratamientos = [
     },
     {
         id: "04",
-        nombre: "Alineadores Invisibles",
+        nombre: "AM Aligners",
         tagline: "Ortodoncia sin brackets, sin molestias",
-        descripcion: "Alineadores invisibles e Invisalign con planificación digital 100%. Usás los alineadores transparentes a tu ritmo, y cada etapa está calculada para mover tus dientes con precisión de fracción de milímetro.",
+        descripcion: "Alineadores invisibles con planificación digital 100%. Usás los alineadores transparentes a tu ritmo, y cada etapa está calculada para mover tus dientes con precisión de fracción de milímetro.",
         impacto: "Efectivos para todas las edades. Nadie va a saber que los llevás.",
         href: "/alineadores-invisibles",
         destacado: false,
@@ -86,7 +86,7 @@ export default function Tratamientos() {
         { label: "Carillas sin Desgaste", href: "/carillas-sin-desgaste", tone: "Cuándo realmente se puede evitar preparar el diente" },
         { label: "Porcelana vs Resina", href: "/carillas-de-porcelana-vs-resina", tone: "Compará duración, refinamiento y mantenimiento" },
         { label: "Carillas vs Alineadores", href: "/carillas-vs-alineadores", tone: "Definí si necesitás cambiar forma o mover dientes" },
-        { label: "Invisalign", href: "/invisalign", tone: "La marca más buscada de ortodoncia invisible" },
+        { label: "AM Aligners", href: "/alineadores-invisibles", tone: "Nuestro sistema de alineadores invisibles con planificación digital" },
     ];
 
     return (
