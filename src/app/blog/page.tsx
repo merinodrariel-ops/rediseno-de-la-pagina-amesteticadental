@@ -3,16 +3,16 @@ import Link from "next/link";
 import Navbar from "@/components/Navbar";
 
 export const metadata: Metadata = {
-    metadataBase: new URL("https://amesteticadental.com"),
+    metadataBase: new URL("https://www.amesteticadental.com"),
     title: "Blog de Estética Dental | AM Estética Dental — Puerto Madero",
     description: "Artículos sobre carillas de porcelana, diseño de sonrisa, lentes de contacto dental y estética dental en Buenos Aires. Dr. Ariel Merino, AM Estética Dental, Puerto Madero.",
     alternates: {
-        canonical: "https://amesteticadental.com/blog",
+        canonical: "https://www.amesteticadental.com/blog",
     },
     openGraph: {
         title: "Blog de Estética Dental | AM Estética Dental",
         description: "Todo sobre carillas, diseño de sonrisa y estética dental. Artículos del Dr. Ariel Merino desde Puerto Madero, Buenos Aires.",
-        url: "https://amesteticadental.com/blog",
+        url: "https://www.amesteticadental.com/blog",
         locale: "es_AR",
         type: "website",
     },

@@ -3,16 +3,16 @@ import Link from "next/link";
 import Navbar from "@/components/Navbar";
 
 export const metadata: Metadata = {
-    metadataBase: new URL("https://amesteticadental.com"),
+    metadataBase: new URL("https://www.amesteticadental.com"),
     title: "Sonrisa natural vs sonrisa Hollywood: cuál es la diferencia y cómo elegir | AM Estética Dental",
     description: "No toda la estética dental busca lo mismo. La sonrisa natural se integra con tu rostro. La sonrisa Hollywood impacta visualmente. Cuál conviene según tu caso.",
     alternates: {
-        canonical: "https://amesteticadental.com/blog/sonrisa-natural-vs-hollywood",
+        canonical: "https://www.amesteticadental.com/blog/sonrisa-natural-vs-hollywood",
     },
     openGraph: {
         title: "Sonrisa natural vs sonrisa Hollywood: cuál es la diferencia real",
         description: "Antes de hacerte carillas, entendé qué tipo de resultado existe y cuál se adapta mejor a tu rostro y personalidad.",
-        url: "https://amesteticadental.com/blog/sonrisa-natural-vs-hollywood",
+        url: "https://www.amesteticadental.com/blog/sonrisa-natural-vs-hollywood",
         locale: "es_AR",
         type: "article",
     },
@@ -32,11 +32,11 @@ const articleSchema = {
     "publisher": {
         "@type": "Organization",
         "name": "AM Estética Dental",
-        "url": "https://amesteticadental.com",
+        "url": "https://www.amesteticadental.com",
     },
     "datePublished": "2026-04-01",
     "dateModified": "2026-04-01",
-    "mainEntityOfPage": "https://amesteticadental.com/blog/sonrisa-natural-vs-hollywood",
+    "mainEntityOfPage": "https://www.amesteticadental.com/blog/sonrisa-natural-vs-hollywood",
 };
 
 const faqSchema = {

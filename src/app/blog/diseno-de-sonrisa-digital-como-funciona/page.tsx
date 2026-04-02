@@ -3,16 +3,16 @@ import Link from "next/link";
 import Navbar from "@/components/Navbar";
 
 export const metadata: Metadata = {
-    metadataBase: new URL("https://amesteticadental.com"),
+    metadataBase: new URL("https://www.amesteticadental.com"),
     title: "Diseño de Sonrisa Digital: cómo funciona y qué podés esperar | AM Estética Dental",
     description: "El proceso completo del diseño de sonrisa digital: desde la primera foto hasta ver tu nueva sonrisa en pantalla antes de que se toque un solo diente. Dr. Ariel Merino, Puerto Madero.",
     alternates: {
-        canonical: "https://amesteticadental.com/blog/diseno-de-sonrisa-digital-como-funciona",
+        canonical: "https://www.amesteticadental.com/blog/diseno-de-sonrisa-digital-como-funciona",
     },
     openGraph: {
         title: "Diseño de Sonrisa Digital: cómo funciona",
         description: "Ves el resultado antes de empezar. Cómo funciona el proceso de diseño de sonrisa digital paso a paso.",
-        url: "https://amesteticadental.com/blog/diseno-de-sonrisa-digital-como-funciona",
+        url: "https://www.amesteticadental.com/blog/diseno-de-sonrisa-digital-como-funciona",
         locale: "es_AR",
         type: "article",
     },
@@ -32,11 +32,11 @@ const articleSchema = {
     "publisher": {
         "@type": "Organization",
         "name": "AM Estética Dental",
-        "url": "https://amesteticadental.com",
+        "url": "https://www.amesteticadental.com",
     },
     "datePublished": "2026-03-30",
     "dateModified": "2026-03-30",
-    "mainEntityOfPage": "https://amesteticadental.com/blog/diseno-de-sonrisa-digital-como-funciona",
+    "mainEntityOfPage": "https://www.amesteticadental.com/blog/diseno-de-sonrisa-digital-como-funciona",
 };
 
 const WA_LINK = "https://api.whatsapp.com/send?phone=541170219298&text=Hola!%20Le%C3%AD%20sobre%20el%20dise%C3%B1o%20de%20sonrisa%20digital%20y%20me%20gustar%C3%ADa%20saber%20m%C3%A1s.";

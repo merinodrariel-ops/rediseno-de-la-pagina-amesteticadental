@@ -4,16 +4,16 @@ import Navbar from "@/components/Navbar";
 import SeoFaq from "@/components/seo/SeoFaq";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://amesteticadental.com"),
+  metadataBase: new URL("https://www.amesteticadental.com"),
   title: "Carillas vs Alineadores Invisibles | AM Estética Dental",
   description:
     "Qué conviene según tu caso: carillas dentales o alineadores invisibles. Diferencias reales en objetivo, tiempos, naturalidad y cuándo se combinan ambos tratamientos.",
-  alternates: { canonical: "https://amesteticadental.com/carillas-vs-alineadores" },
+  alternates: { canonical: "https://www.amesteticadental.com/carillas-vs-alineadores" },
   openGraph: {
     title: "Carillas vs Alineadores Invisibles | AM Estética Dental",
     description:
       "Guía clara para decidir entre carillas dentales y alineadores invisibles según el cambio que necesitás lograr.",
-    url: "https://amesteticadental.com/carillas-vs-alineadores",
+    url: "https://www.amesteticadental.com/carillas-vs-alineadores",
     locale: "es_AR",
     type: "website",
   },

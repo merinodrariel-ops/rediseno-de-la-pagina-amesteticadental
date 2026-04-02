@@ -4,16 +4,16 @@ import Navbar from "@/components/Navbar";
 import SeoFaq from "@/components/seo/SeoFaq";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://amesteticadental.com"),
+  metadataBase: new URL("https://www.amesteticadental.com"),
   title: "Carillas de Porcelana vs Resina | AM Estética Dental",
   description:
     "Qué cambia entre carillas de porcelana y carillas de resina: duración, naturalidad, costo, mantenimiento y en qué casos conviene cada una.",
-  alternates: { canonical: "https://amesteticadental.com/carillas-de-porcelana-vs-resina" },
+  alternates: { canonical: "https://www.amesteticadental.com/carillas-de-porcelana-vs-resina" },
   openGraph: {
     title: "Carillas de Porcelana vs Resina | AM Estética Dental",
     description:
       "Guía comparativa entre carillas de porcelana y resina para elegir según tu caso, presupuesto y expectativa estética.",
-    url: "https://amesteticadental.com/carillas-de-porcelana-vs-resina",
+    url: "https://www.amesteticadental.com/carillas-de-porcelana-vs-resina",
     locale: "es_AR",
     type: "website",
   },

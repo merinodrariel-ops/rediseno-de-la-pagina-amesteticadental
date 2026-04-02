@@ -4,18 +4,18 @@ import Navbar from "@/components/Navbar";
 import SeoFaq from "@/components/seo/SeoFaq";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://amesteticadental.com"),
+  metadataBase: new URL("https://www.amesteticadental.com"),
   title: "Precio de Carillas Dentales en Buenos Aires | AM Estética Dental",
   description:
     "Qué influye en el precio de las carillas dentales en Buenos Aires. Diferencias entre porcelana y resina, cantidad de piezas, diseño del caso y financiación en Puerto Madero.",
   alternates: {
-    canonical: "https://amesteticadental.com/precio-carillas-dentales-buenos-aires",
+    canonical: "https://www.amesteticadental.com/precio-carillas-dentales-buenos-aires",
   },
   openGraph: {
     title: "Precio de Carillas Dentales en Buenos Aires | AM Estética Dental",
     description:
       "Guía clara sobre el precio de las carillas dentales en Buenos Aires: materiales, cantidad de piezas, complejidad del caso y financiación.",
-    url: "https://amesteticadental.com/precio-carillas-dentales-buenos-aires",
+    url: "https://www.amesteticadental.com/precio-carillas-dentales-buenos-aires",
     locale: "es_AR",
     type: "website",
   },

@@ -4,16 +4,16 @@ import Navbar from "@/components/Navbar";
 import SeoFaq from "@/components/seo/SeoFaq";
 
 export const metadata: Metadata = {
-    metadataBase: new URL("https://amesteticadental.com"),
+    metadataBase: new URL("https://www.amesteticadental.com"),
     title: "Alineadores Invisibles en Buenos Aires | AM Estética Dental",
     description: "Ortodoncia sin brackets en Puerto Madero, CABA. Alineadores invisibles e Invisalign con planificación digital. Dr. Ariel Merino — reconocido por Forbes Argentina.",
     alternates: {
-        canonical: "https://amesteticadental.com/alineadores-invisibles",
+        canonical: "https://www.amesteticadental.com/alineadores-invisibles",
     },
     openGraph: {
         title: "Alineadores Invisibles en Buenos Aires | AM Estética Dental",
         description: "Ortodoncia invisible en Puerto Madero. Alineadores e Invisalign con planificación digital y seguimiento continuo. Sin brackets, sin alambre.",
-        url: "https://amesteticadental.com/alineadores-invisibles",
+        url: "https://www.amesteticadental.com/alineadores-invisibles",
         locale: "es_AR",
         type: "website",
     },
@@ -62,11 +62,11 @@ const serviceSchema = {
     "name": "Alineadores Invisibles",
     "description": "Ortodoncia sin brackets con alineadores invisibles e Invisalign. Planificación digital y seguimiento continuo en Puerto Madero, Buenos Aires.",
     "procedureType": "Therapeutic",
-    "url": "https://amesteticadental.com/alineadores-invisibles",
+    "url": "https://www.amesteticadental.com/alineadores-invisibles",
     "provider": {
         "@type": "Dentist",
         "name": "AM Estética Dental",
-        "url": "https://amesteticadental.com",
+        "url": "https://www.amesteticadental.com",
         "address": {
             "@type": "PostalAddress",
             "streetAddress": "Camila O'Gorman 412, Oficina 101",

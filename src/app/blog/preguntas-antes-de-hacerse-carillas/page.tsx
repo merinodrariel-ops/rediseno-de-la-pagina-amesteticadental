@@ -3,16 +3,16 @@ import Link from "next/link";
 import Navbar from "@/components/Navbar";
 
 export const metadata: Metadata = {
-    metadataBase: new URL("https://amesteticadental.com"),
+    metadataBase: new URL("https://www.amesteticadental.com"),
     title: "Preguntas que hacerle a tu odontólogo antes de hacerte carillas | AM Estética Dental",
     description: "Antes de hacerte carillas dentales, hay 5 preguntas clave que todo especialista serio debe poder responder. Mockup, desgaste, material, laboratorio y estética natural.",
     alternates: {
-        canonical: "https://amesteticadental.com/blog/preguntas-antes-de-hacerse-carillas",
+        canonical: "https://www.amesteticadental.com/blog/preguntas-antes-de-hacerse-carillas",
     },
     openGraph: {
         title: "¿Qué preguntarle a tu odontólogo antes de hacerte carillas?",
         description: "5 preguntas que separan a un buen especialista en estética dental de uno mediocre. Guía honesta antes de tomar la decisión.",
-        url: "https://amesteticadental.com/blog/preguntas-antes-de-hacerse-carillas",
+        url: "https://www.amesteticadental.com/blog/preguntas-antes-de-hacerse-carillas",
         locale: "es_AR",
         type: "article",
     },
@@ -32,11 +32,11 @@ const articleSchema = {
     "publisher": {
         "@type": "Organization",
         "name": "AM Estética Dental",
-        "url": "https://amesteticadental.com",
+        "url": "https://www.amesteticadental.com",
     },
     "datePublished": "2026-03-31",
     "dateModified": "2026-03-31",
-    "mainEntityOfPage": "https://amesteticadental.com/blog/preguntas-antes-de-hacerse-carillas",
+    "mainEntityOfPage": "https://www.amesteticadental.com/blog/preguntas-antes-de-hacerse-carillas",
 };
 
 const faqSchema = {

@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "https://amesteticadental.com/sitemap.xml",
+    sitemap: "https://www.amesteticadental.com/sitemap.xml",
   };
 }

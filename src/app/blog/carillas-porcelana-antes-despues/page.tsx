@@ -3,16 +3,16 @@ import Link from "next/link";
 import Navbar from "@/components/Navbar";
 
 export const metadata: Metadata = {
-    metadataBase: new URL("https://amesteticadental.com"),
+    metadataBase: new URL("https://www.amesteticadental.com"),
     title: "Carillas de Porcelana: Antes y Después — Qué casos resuelven y cuáles no | AM Estética Dental",
     description: "Casos reales de AM Estética Dental con carillas de porcelana. Para qué sirven, para qué no, y cómo saber si sos candidato antes de ir al consultorio.",
     alternates: {
-        canonical: "https://amesteticadental.com/blog/carillas-porcelana-antes-despues",
+        canonical: "https://www.amesteticadental.com/blog/carillas-porcelana-antes-despues",
     },
     openGraph: {
         title: "Carillas de Porcelana: Antes y Después",
         description: "Qué problemas resuelven las carillas y cuáles no. Casos reales del Dr. Ariel Merino en AM Estética Dental, Puerto Madero.",
-        url: "https://amesteticadental.com/blog/carillas-porcelana-antes-despues",
+        url: "https://www.amesteticadental.com/blog/carillas-porcelana-antes-despues",
         locale: "es_AR",
         type: "article",
     },
@@ -32,11 +32,11 @@ const articleSchema = {
     "publisher": {
         "@type": "Organization",
         "name": "AM Estética Dental",
-        "url": "https://amesteticadental.com",
+        "url": "https://www.amesteticadental.com",
     },
     "datePublished": "2026-03-30",
     "dateModified": "2026-03-30",
-    "mainEntityOfPage": "https://amesteticadental.com/blog/carillas-porcelana-antes-despues",
+    "mainEntityOfPage": "https://www.amesteticadental.com/blog/carillas-porcelana-antes-despues",
 };
 
 const WA_LINK = "https://api.whatsapp.com/send?phone=541170219298&text=Hola!%20Vi%20los%20casos%20y%20me%20gustar%C3%ADa%20saber%20si%20soy%20candidato%20para%20carillas.";

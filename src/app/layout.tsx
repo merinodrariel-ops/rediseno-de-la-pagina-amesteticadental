@@ -16,17 +16,17 @@ const cormorant = Cormorant_Garamond({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://amesteticadental.com"),
+  metadataBase: new URL("https://www.amesteticadental.com"),
   title: "AM Estética Dental – Diseño de Sonrisas en Puerto Madero",
   description: "Clínica de estética dental premium en Puerto Madero, Buenos Aires. Diseño de sonrisa digital, carillas, blanqueamiento e implantes. Dr. Ariel Merino. Camila O'Gorman 412, Oficina 101.",
   keywords: "estética dental Buenos Aires, carillas dentales Puerto Madero, diseño de sonrisa, blanqueamiento dental CABA, Dr. Ariel Merino",
   alternates: {
-    canonical: "https://amesteticadental.com",
+    canonical: "https://www.amesteticadental.com",
   },
   openGraph: {
     title: "AM Estética Dental – Diseño de Sonrisas en Puerto Madero",
     description: "La única clínica dental de Argentina reconocida por Forbes. Diseño de sonrisa digital, carillas, blanqueamiento e implantes en Puerto Madero.",
-    url: "https://amesteticadental.com",
+    url: "https://www.amesteticadental.com",
     siteName: "AM Estética Dental – Diseño de Sonrisas en Puerto Madero",
     locale: "es_AR",
     type: "website",
@@ -49,10 +49,10 @@ const schemaOrg = {
   "@type": ["Dentist", "LocalBusiness"],
   "name": "AM Estética Dental – Diseño de Sonrisas en Puerto Madero",
   "description": "Clínica de estética dental premium en Puerto Madero. Diseño de sonrisa digital, carillas, blanqueamiento, implantes y alineadores invisibles.",
-  "url": "https://amesteticadental.com",
+  "url": "https://www.amesteticadental.com",
   "telephone": "+5491170219298",
   "priceRange": "$$$$",
-  "image": "https://amesteticadental.com/og-image.jpg",
+  "image": "https://www.amesteticadental.com/og-image.jpg",
   "address": {
     "@type": "PostalAddress",
     "streetAddress": "Camila O'Gorman 412, Oficina 101",

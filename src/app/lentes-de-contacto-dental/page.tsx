@@ -4,18 +4,18 @@ import Navbar from "@/components/Navbar";
 import SeoFaq from "@/components/seo/SeoFaq";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://amesteticadental.com"),
+  metadataBase: new URL("https://www.amesteticadental.com"),
   title: "Lentes de Contacto Dental en Buenos Aires | AM Estética Dental",
   description:
     "Lentes de contacto dental en Puerto Madero, Buenos Aires. Carillas ultradelgadas para mejorar color y forma con mínima o nula intervención. Resultados naturales, caso por caso.",
   alternates: {
-    canonical: "https://amesteticadental.com/lentes-de-contacto-dental",
+    canonical: "https://www.amesteticadental.com/lentes-de-contacto-dental",
   },
   openGraph: {
     title: "Lentes de Contacto Dental en Buenos Aires | AM Estética Dental",
     description:
       "Carillas ultradelgadas para quienes buscan una sonrisa natural sin desgaste visible cuando el caso lo permite. Puerto Madero, Buenos Aires.",
-    url: "https://amesteticadental.com/lentes-de-contacto-dental",
+    url: "https://www.amesteticadental.com/lentes-de-contacto-dental",
     locale: "es_AR",
     type: "website",
   },
@@ -74,7 +74,7 @@ const serviceSchema = {
   provider: {
     "@type": "Dentist",
     name: "AM Estética Dental",
-    url: "https://amesteticadental.com",
+    url: "https://www.amesteticadental.com",
     address: {
       "@type": "PostalAddress",
       streetAddress: "Camila O'Gorman 412, Oficina 101",

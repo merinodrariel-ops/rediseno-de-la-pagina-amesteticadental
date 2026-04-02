@@ -3,16 +3,16 @@ import Link from "next/link";
 import Navbar from "@/components/Navbar";
 
 export const metadata: Metadata = {
-    metadataBase: new URL("https://amesteticadental.com"),
+    metadataBase: new URL("https://www.amesteticadental.com"),
     title: "Carillas de disilicato vs porcelana feldespática: diferencias reales | AM Estética Dental",
     description: "IPS e.max (disilicato de litio) o porcelana feldespática: cuál es más estética, cuál dura más y cuándo conviene cada una. Guía técnica del Dr. Ariel Merino.",
     alternates: {
-        canonical: "https://amesteticadental.com/blog/carillas-disilicato-vs-porcelana-feldespatica",
+        canonical: "https://www.amesteticadental.com/blog/carillas-disilicato-vs-porcelana-feldespatica",
     },
     openGraph: {
         title: "Carillas de disilicato vs porcelana feldespática: diferencias reales",
         description: "La comparación técnica que todo paciente debería leer antes de elegir material para sus carillas dentales.",
-        url: "https://amesteticadental.com/blog/carillas-disilicato-vs-porcelana-feldespatica",
+        url: "https://www.amesteticadental.com/blog/carillas-disilicato-vs-porcelana-feldespatica",
         locale: "es_AR",
         type: "article",
     },
@@ -32,11 +32,11 @@ const articleSchema = {
     "publisher": {
         "@type": "Organization",
         "name": "AM Estética Dental",
-        "url": "https://amesteticadental.com",
+        "url": "https://www.amesteticadental.com",
     },
     "datePublished": "2026-04-01",
     "dateModified": "2026-04-01",
-    "mainEntityOfPage": "https://amesteticadental.com/blog/carillas-disilicato-vs-porcelana-feldespatica",
+    "mainEntityOfPage": "https://www.amesteticadental.com/blog/carillas-disilicato-vs-porcelana-feldespatica",
 };
 
 const faqSchema = {

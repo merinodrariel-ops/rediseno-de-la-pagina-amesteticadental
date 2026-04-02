@@ -3,16 +3,16 @@ import Link from "next/link";
 import Navbar from "@/components/Navbar";
 
 export const metadata: Metadata = {
-    metadataBase: new URL("https://amesteticadental.com"),
+    metadataBase: new URL("https://www.amesteticadental.com"),
     title: "¿Cuántas sesiones se necesitan para las carillas de porcelana? | AM Estética Dental",
     description: "El cronograma real de un tratamiento de carillas: qué pasa en cada sesión, cuánto tiempo hay entre ellas y qué podés hacer en el medio. Dr. Ariel Merino, Puerto Madero.",
     alternates: {
-        canonical: "https://amesteticadental.com/blog/cuantas-sesiones-se-necesitan-para-las-carillas",
+        canonical: "https://www.amesteticadental.com/blog/cuantas-sesiones-se-necesitan-para-las-carillas",
     },
     openGraph: {
         title: "¿Cuántas sesiones se necesitan para las carillas de porcelana?",
         description: "2 a 3 sesiones en 10 a 14 días. El cronograma real del tratamiento de carillas en AM Estética Dental.",
-        url: "https://amesteticadental.com/blog/cuantas-sesiones-se-necesitan-para-las-carillas",
+        url: "https://www.amesteticadental.com/blog/cuantas-sesiones-se-necesitan-para-las-carillas",
         locale: "es_AR",
         type: "article",
     },
@@ -32,11 +32,11 @@ const articleSchema = {
     "publisher": {
         "@type": "Organization",
         "name": "AM Estética Dental",
-        "url": "https://amesteticadental.com",
+        "url": "https://www.amesteticadental.com",
     },
     "datePublished": "2026-03-30",
     "dateModified": "2026-03-30",
-    "mainEntityOfPage": "https://amesteticadental.com/blog/cuantas-sesiones-se-necesitan-para-las-carillas",
+    "mainEntityOfPage": "https://www.amesteticadental.com/blog/cuantas-sesiones-se-necesitan-para-las-carillas",
 };
 
 const WA_LINK = "https://api.whatsapp.com/send?phone=541170219298&text=Hola!%20Quiero%20saber%20m%C3%A1s%20sobre%20el%20proceso%20de%20carillas%20y%20cuántas%20sesiones%20necesito.";

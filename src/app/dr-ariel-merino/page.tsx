@@ -5,18 +5,18 @@ import Navbar from "@/components/Navbar";
 import Prensa from "@/components/Prensa";
 
 export const metadata: Metadata = {
-    metadataBase: new URL("https://amesteticadental.com"),
+    metadataBase: new URL("https://www.amesteticadental.com"),
     title: "Dr. Ariel Merino | Odontólogo Estético en Puerto Madero | AM Estética Dental",
     description:
         "Conocé al Dr. Ariel Merino, odontólogo estético en Puerto Madero y fundador de AM Estética Dental. Carillas, diseño de sonrisa digital y estética dental premium en Buenos Aires.",
     alternates: {
-        canonical: "https://amesteticadental.com/dr-ariel-merino",
+        canonical: "https://www.amesteticadental.com/dr-ariel-merino",
     },
     openGraph: {
         title: "Dr. Ariel Merino | Odontólogo Estético en Puerto Madero",
         description:
             "Perfil profesional del Dr. Ariel Merino: carillas de porcelana, diseño de sonrisa y odontología estética premium en Buenos Aires.",
-        url: "https://amesteticadental.com/dr-ariel-merino",
+        url: "https://www.amesteticadental.com/dr-ariel-merino",
         locale: "es_AR",
         type: "profile",
     },
@@ -29,16 +29,16 @@ const personSchema = {
     "@context": "https://schema.org",
     "@type": "Person",
     name: "Dr. Ariel Merino",
-    url: "https://amesteticadental.com/dr-ariel-merino",
+    url: "https://www.amesteticadental.com/dr-ariel-merino",
     image: [
-        "https://amesteticadental.com/images/dr-merino/dr-ariel-merino-traje-perfil.webp",
-        "https://amesteticadental.com/images/dr-merino/dr-ariel-merino-ambo-principal.webp",
+        "https://www.amesteticadental.com/images/dr-merino/dr-ariel-merino-traje-perfil.webp",
+        "https://www.amesteticadental.com/images/dr-merino/dr-ariel-merino-ambo-principal.webp",
     ],
     jobTitle: "Odontólogo Estético",
     worksFor: {
         "@type": "Dentist",
         name: "AM Estética Dental",
-        url: "https://amesteticadental.com",
+        url: "https://www.amesteticadental.com",
     },
     address: {
         "@type": "PostalAddress",
@@ -77,13 +77,13 @@ const breadcrumbSchema = {
             "@type": "ListItem",
             position: 1,
             name: "Inicio",
-            item: "https://amesteticadental.com",
+            item: "https://www.amesteticadental.com",
         },
         {
             "@type": "ListItem",
             position: 2,
             name: "Dr. Ariel Merino",
-            item: "https://amesteticadental.com/dr-ariel-merino",
+            item: "https://www.amesteticadental.com/dr-ariel-merino",
         },
     ],
 };

@@ -3,16 +3,16 @@ import Link from "next/link";
 import Navbar from "@/components/Navbar";
 
 export const metadata: Metadata = {
-    metadataBase: new URL("https://amesteticadental.com"),
+    metadataBase: new URL("https://www.amesteticadental.com"),
     title: "¿Las carillas dañan los dientes? Mitos y realidades | AM Estética Dental",
     description: "La pregunta más frecuente antes de hacerse carillas. Qué pasa realmente con el esmalte, qué técnicas minimizan el impacto y cuándo no hay ningún desgaste.",
     alternates: {
-        canonical: "https://amesteticadental.com/blog/las-carillas-danan-los-dientes",
+        canonical: "https://www.amesteticadental.com/blog/las-carillas-danan-los-dientes",
     },
     openGraph: {
         title: "¿Las carillas dañan los dientes? Mitos y realidades",
         description: "Qué pasa realmente con el esmalte cuando te colocás carillas. Sin mitos, sin marketing — la explicación clínica real.",
-        url: "https://amesteticadental.com/blog/las-carillas-danan-los-dientes",
+        url: "https://www.amesteticadental.com/blog/las-carillas-danan-los-dientes",
         locale: "es_AR",
         type: "article",
     },
@@ -32,11 +32,11 @@ const articleSchema = {
     "publisher": {
         "@type": "Organization",
         "name": "AM Estética Dental",
-        "url": "https://amesteticadental.com",
+        "url": "https://www.amesteticadental.com",
     },
     "datePublished": "2026-03-30",
     "dateModified": "2026-03-30",
-    "mainEntityOfPage": "https://amesteticadental.com/blog/las-carillas-danan-los-dientes",
+    "mainEntityOfPage": "https://www.amesteticadental.com/blog/las-carillas-danan-los-dientes",
 };
 
 const WA_LINK = "https://api.whatsapp.com/send?phone=541170219298&text=Hola!%20Le%C3%AD%20el%20art%C3%ADculo%20sobre%20si%20las%20carillas%20da%C3%B1an%20los%20dientes%20y%20quiero%20consultar%20mi%20caso.";

@@ -4,18 +4,18 @@ import Navbar from "@/components/Navbar";
 import SeoFaq from "@/components/seo/SeoFaq";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://amesteticadental.com"),
+  metadataBase: new URL("https://www.amesteticadental.com"),
   title: "Carillas sin Desgaste en Buenos Aires | AM Estética Dental",
   description:
     "Carillas sin desgaste en Puerto Madero, Buenos Aires. Evaluamos cuándo realmente se puede trabajar sin preparar el diente y cuándo conviene otra alternativa más honesta y natural.",
   alternates: {
-    canonical: "https://amesteticadental.com/carillas-sin-desgaste",
+    canonical: "https://www.amesteticadental.com/carillas-sin-desgaste",
   },
   openGraph: {
     title: "Carillas sin Desgaste en Buenos Aires | AM Estética Dental",
     description:
       "No todos los casos califican para carillas sin desgaste. Diagnóstico honesto, diseño natural y criterio clínico en Puerto Madero.",
-    url: "https://amesteticadental.com/carillas-sin-desgaste",
+    url: "https://www.amesteticadental.com/carillas-sin-desgaste",
     locale: "es_AR",
     type: "website",
   },
@@ -74,7 +74,7 @@ const serviceSchema = {
   provider: {
     "@type": "Dentist",
     name: "AM Estética Dental",
-    url: "https://amesteticadental.com",
+    url: "https://www.amesteticadental.com",
     address: {
       "@type": "PostalAddress",
       streetAddress: "Camila O'Gorman 412, Oficina 101",

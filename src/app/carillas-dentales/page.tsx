@@ -4,16 +4,16 @@ import Navbar from "@/components/Navbar";
 import SeoFaq from "@/components/seo/SeoFaq";
 
 export const metadata: Metadata = {
-    metadataBase: new URL("https://amesteticadental.com"),
+    metadataBase: new URL("https://www.amesteticadental.com"),
     title: "Carillas Dentales en Puerto Madero | AM Estética Dental",
     description: "Carillas de porcelana y lentes de contacto dental mínimamente invasivos en Puerto Madero, Buenos Aires. Cambiá el color, forma y simetría de tu sonrisa en pocas sesiones. Dr. Ariel Merino.",
     alternates: {
-        canonical: "https://amesteticadental.com/carillas-dentales",
+        canonical: "https://www.amesteticadental.com/carillas-dentales",
     },
     openGraph: {
         title: "Carillas Dentales en Puerto Madero | AM Estética Dental",
         description: "Carillas de porcelana mínimamente invasivas en Puerto Madero. Resultados definitivos en 2 a 3 sesiones. Consultá al Dr. Ariel Merino.",
-        url: "https://amesteticadental.com/carillas-dentales",
+        url: "https://www.amesteticadental.com/carillas-dentales",
         locale: "es_AR",
         type: "website",
     },
@@ -65,7 +65,7 @@ const serviceSchema = {
     "provider": {
         "@type": "Dentist",
         "name": "AM Estética Dental",
-        "url": "https://amesteticadental.com",
+        "url": "https://www.amesteticadental.com",
         "address": {
             "@type": "PostalAddress",
             "streetAddress": "Camila O'Gorman 412, Oficina 101",

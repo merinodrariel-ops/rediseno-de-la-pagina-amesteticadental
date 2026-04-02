@@ -3,16 +3,16 @@ import Navbar from "@/components/Navbar";
 import SeoFaq from "@/components/seo/SeoFaq";
 
 export const metadata: Metadata = {
-    metadataBase: new URL("https://amesteticadental.com"),
+    metadataBase: new URL("https://www.amesteticadental.com"),
     title: "Diseño de Sonrisa Digital en Buenos Aires | AM Estética Dental",
     description: "Diseño de sonrisa digital en Puerto Madero, Buenos Aires. Ves el resultado antes de empezar. Simulación 3D, carillas, blanqueamiento e implantes coordinados por el Dr. Ariel Merino.",
     alternates: {
-        canonical: "https://amesteticadental.com/diseno-de-sonrisa",
+        canonical: "https://www.amesteticadental.com/diseno-de-sonrisa",
     },
     openGraph: {
         title: "Diseño de Sonrisa Digital en Buenos Aires | AM Estética Dental",
         description: "Smile design digital: ves el resultado antes de empezar. Personalización total, criterio estético y precisión clínica en Puerto Madero.",
-        url: "https://amesteticadental.com/diseno-de-sonrisa",
+        url: "https://www.amesteticadental.com/diseno-de-sonrisa",
         locale: "es_AR",
         type: "website",
     },
@@ -64,7 +64,7 @@ const serviceSchema = {
     "provider": {
         "@type": "Dentist",
         "name": "AM Estética Dental",
-        "url": "https://amesteticadental.com",
+        "url": "https://www.amesteticadental.com",
         "address": {
             "@type": "PostalAddress",
             "streetAddress": "Camila O'Gorman 412, Oficina 101",

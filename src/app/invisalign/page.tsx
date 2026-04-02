@@ -4,18 +4,18 @@ import Navbar from "@/components/Navbar";
 import SeoFaq from "@/components/seo/SeoFaq";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://amesteticadental.com"),
+  metadataBase: new URL("https://www.amesteticadental.com"),
   title: "Invisalign en Buenos Aires | AM Estética Dental",
   description:
     "Invisalign en Puerto Madero, Buenos Aires. Planificación digital, seguimiento clínico y criterio estético para casos de ortodoncia invisible que necesitan precisión y naturalidad.",
   alternates: {
-    canonical: "https://amesteticadental.com/invisalign",
+    canonical: "https://www.amesteticadental.com/invisalign",
   },
   openGraph: {
     title: "Invisalign en Buenos Aires | AM Estética Dental",
     description:
       "Tratamiento Invisalign en Puerto Madero. Evaluamos cuándo la marca líder es la mejor opción y cómo integrarla a un diseño de sonrisa natural.",
-    url: "https://amesteticadental.com/invisalign",
+    url: "https://www.amesteticadental.com/invisalign",
     locale: "es_AR",
     type: "website",
   },
@@ -71,11 +71,11 @@ const serviceSchema = {
   description:
     "Ortodoncia invisible con Invisalign en Puerto Madero, Buenos Aires, integrada a planificación digital y seguimiento clínico.",
   procedureType: "Therapeutic",
-  url: "https://amesteticadental.com/invisalign",
+  url: "https://www.amesteticadental.com/invisalign",
   provider: {
     "@type": "Dentist",
     name: "AM Estética Dental",
-    url: "https://amesteticadental.com",
+    url: "https://www.amesteticadental.com",
     address: {
       "@type": "PostalAddress",
       streetAddress: "Camila O'Gorman 412, Oficina 101",

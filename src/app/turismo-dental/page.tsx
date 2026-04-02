@@ -4,16 +4,16 @@ import Navbar from "@/components/Navbar";
 import SeoFaq from "@/components/seo/SeoFaq";
 
 export const metadata: Metadata = {
-    metadataBase: new URL("https://amesteticadental.com"),
+    metadataBase: new URL("https://www.amesteticadental.com"),
     title: "Turismo Dental en Buenos Aires | Carillas y Diseño de Sonrisa | AM Estética Dental",
     description: "Carillas de porcelana y diseño de sonrisa en Buenos Aires para pacientes del exterior. Precios hasta 70% menores que en USA, Canadá o Europa. Dr. Ariel Merino, Puerto Madero.",
     alternates: {
-        canonical: "https://amesteticadental.com/turismo-dental",
+        canonical: "https://www.amesteticadental.com/turismo-dental",
     },
     openGraph: {
         title: "Turismo Dental en Buenos Aires | Carillas de Porcelana | AM Estética Dental",
         description: "Buenos Aires es uno de los destinos de turismo dental más elegidos del mundo. Carillas, diseño de sonrisa y veneers con el Dr. Ariel Merino en Puerto Madero.",
-        url: "https://amesteticadental.com/turismo-dental",
+        url: "https://www.amesteticadental.com/turismo-dental",
         locale: "es_AR",
         type: "website",
     },
@@ -65,7 +65,7 @@ const serviceSchema = {
     "provider": {
         "@type": "Dentist",
         "name": "AM Estética Dental",
-        "url": "https://amesteticadental.com",
+        "url": "https://www.amesteticadental.com",
         "address": {
             "@type": "PostalAddress",
             "streetAddress": "Camila O'Gorman 412, Oficina 101",
