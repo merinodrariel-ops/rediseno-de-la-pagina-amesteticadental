@@ -53,3 +53,9 @@ next-env.d.ts
 
 # local test artifacts
 test-results/
+
+# media/docs not used in the website
+examples/
+docs/
+docs_seo/
+public/perfil\ doctor/seo-optimized/
