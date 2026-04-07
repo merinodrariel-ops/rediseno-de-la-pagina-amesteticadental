@@ -112,8 +112,23 @@ export default function Contacto() {
                 </div>
             </div>
 
-            {/* Mapa + Waze */}
-            <div className="mt-8 flex flex-wrap items-center justify-center gap-4">
+            {/* Mapa embebido */}
+            <div className="mt-16 rounded-2xl overflow-hidden border border-oro/10">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.339753076963!2d-58.36348498957587!3d-34.62085355828912!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a3352fb2b91c57%3A0xa89ef8e7957fdd0d!2sAM%20Est%C3%A9tica%20Dental%20%E2%80%93%20Dise%C3%B1o%20de%20Sonrisas%20en%20Puerto%20Madero!5e0!3m2!1ses!2sar!4v1775532671562!5m2!1ses!2sar"
+                    width="100%"
+                    height="400"
+                    style={{ border: 0 }}
+                    allowFullScreen
+                    loading="lazy"
+                    referrerPolicy="no-referrer-when-downgrade"
+                    title="Ubicación de AM Estética Dental en Google Maps"
+                    className="w-full"
+                />
+            </div>
+
+            {/* Links de navegación */}
+            <div className="mt-6 flex flex-wrap items-center justify-center gap-4">
                 <a
                     href="https://maps.app.goo.gl/5kWar9VL6qjhdEGM7"
                     target="_blank"
@@ -123,7 +138,7 @@ export default function Contacto() {
                     <svg className="w-3.5 h-3.5 text-oro/50" fill="currentColor" viewBox="0 0 24 24">
                         <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
                     </svg>
-                    Ver en Google Maps
+                    Abrir en Google Maps
                 </a>
                 <span className="text-oro/15">·</span>
                 <a

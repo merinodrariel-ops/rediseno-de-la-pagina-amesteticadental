@@ -6,7 +6,10 @@
     "dev": "next dev --port 3001 --hostname 0.0.0.0",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "video:dev": "remotion studio src/remotion/index.ts --config config/remotion.config.ts --port 3105 --host 0.0.0.0",
+    "video:render": "remotion render src/remotion/index.ts AMInstitucional examples/am-estetica-institucional.mp4 --config config/remotion.config.ts",
+    "video:render:reel": "remotion render src/remotion/index.ts AMInstitucionalReel examples/am-estetica-reel.mp4 --config config/remotion.config.ts"
   },
   "dependencies": {
     "@gsap/react": "^2.1.2",
@@ -19,12 +22,15 @@
     "tailwind-merge": "^3.5.0"
   },
   "devDependencies": {
+    "@remotion/cli": "^4.0.445",
+    "@remotion/google-fonts": "^4.0.445",
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "16.1.6",
+    "remotion": "^4.0.445",
     "tailwindcss": "^4",
     "typescript": "^5"
   }
