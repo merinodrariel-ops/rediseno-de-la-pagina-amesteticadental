@@ -95,7 +95,8 @@ const schemaOrg = {
       "https://www.linkedin.com/in/drarielmerino/",
       "https://www.youtube.com/c/ArielMerino",
       "https://www.odontoespacio.net/autores/ariel-merino/",
-      "https://www.doctoraliar.com/ariel-merino/odontologo/ciudad-autonoma-de-buenos-aires"
+      "https://www.doctoraliar.com/ariel-merino/odontologo/ciudad-autonoma-de-buenos-aires",
+      "https://cde.dental.upenn.edu/Course/38-Full-Veneers"
     ]
   },
   "sameAs": [

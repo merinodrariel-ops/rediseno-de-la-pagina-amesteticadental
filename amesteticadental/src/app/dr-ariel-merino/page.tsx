@@ -59,6 +59,7 @@ const personSchema = {
         "https://www.linkedin.com/in/drarielmerino/",
         "https://www.youtube.com/@ArielMerino",
         "https://www.odontoespacio.net/autores/ariel-merino/",
+        "https://cde.dental.upenn.edu/Course/38-Full-Veneers",
     ],
     knowsAbout: [
         "Carillas de porcelana",
@@ -195,6 +196,9 @@ export default function DrArielMerinoPage() {
                                     En AM Estética Dental trabaja con casos de carillas de porcelana, lentes de contacto dental, diseño de sonrisa digital y rehabilitaciones estéticas complejas. El foco no está en hacer más, sino en intervenir lo mínimo necesario para lograr un cambio contundente y natural.
                                 </p>
                                 <p>
+                                    Fue docente invitado en la cátedra de Prostodoncia de la <strong className="text-crema">University of Pennsylvania School of Dental Medicine (Penn Dental)</strong>, una de las escuelas de odontología más prestigiosas de Estados Unidos, donde dio una conferencia sobre Full Veneers.
+                                </p>
+                                <p>
                                     Su nombre aparece citado en medios, perfiles públicos y piezas editoriales como parte de una construcción de autoridad real: práctica clínica, casos visibles, presencia de marca y consistencia en la información pública.
                                 </p>
                             </div>
@@ -251,7 +255,7 @@ export default function DrArielMerinoPage() {
                         {[
                             {
                                 titulo: "Formación",
-                                detalle: "Odontólogo · UCALP (2010) · M.N. 34.869\nPosgrado en Rehabilitación Oral y Estética · AOA",
+                                detalle: "Odontólogo · UCALP (2010) · M.N. 34.869\nPosgrado en Rehabilitación Oral y Estética · AOA\nDocente invitado · Penn Dental Medicine · University of Pennsylvania",
                             },
                             {
                                 titulo: "Ubicación",
