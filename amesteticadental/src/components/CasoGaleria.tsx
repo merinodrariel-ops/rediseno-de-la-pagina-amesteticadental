@@ -169,12 +169,11 @@ function Watermark({ prominent = false }: { prominent?: boolean }) {
     return (
         <div className="absolute inset-0 flex items-center justify-center pointer-events-none select-none">
             <p
-                className="font-manrope uppercase tracking-[0.35em] rotate-[-30deg] whitespace-nowrap"
+                className="font-manrope uppercase whitespace-nowrap"
                 style={{
-                    fontSize: prominent ? "13px" : "9px",
-                    color: `rgba(242,185,13,${prominent ? 0.18 : 0.13})`,
-                    textShadow: "0 1px 2px rgba(0,0,0,0.5)",
-                    letterSpacing: "0.35em",
+                    fontSize: prominent ? "11px" : "8px",
+                    color: `rgba(255,255,255,${prominent ? 0.15 : 0.10})`,
+                    letterSpacing: "0.4em",
                 }}
             >
                 AM Estética Dental · @drarielmerino
