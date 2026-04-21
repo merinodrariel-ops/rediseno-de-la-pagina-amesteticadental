@@ -1,6 +1,9 @@
 import { MetadataRoute } from "next";
+import { getCasosPublicados } from "@/data/casos";
 
 export default function sitemap(): MetadataRoute.Sitemap {
+  const casos = getCasosPublicados();
+
   return [
     {
       url: "https://www.amesteticadental.com",
@@ -80,6 +83,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "monthly",
       priority: 0.9,
     },
+    {
+      url: "https://www.amesteticadental.com/antes-y-despues",
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.9,
+    },
+    ...casos.map((caso) => ({
+      url: `https://www.amesteticadental.com/antes-y-despues/${caso.slug}`,
+      lastModified: new Date(),
+      changeFrequency: "monthly" as const,
+      priority: 0.8,
+    })),
     {
       url: "https://www.amesteticadental.com/blog",
       lastModified: new Date(),
