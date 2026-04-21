@@ -115,13 +115,18 @@ const faqSchema = generateFaqSchema();
 const videoSchema = {
   "@context": "https://schema.org",
   "@type": "VideoObject",
-  "name": "Carillas Dentales 3D — AM Estética Dental",
-  "description": "Visualización 3D de carillas dentales de porcelana. Diseño de sonrisa digital en Puerto Madero, Buenos Aires.",
+  "@id": "https://www.amesteticadental.com/#video-carillas-3d",
+  "name": "Diseño de Sonrisa Digital con Carillas de Porcelana — AM Estética Dental",
+  "description": "Visualización 3D del proceso de diseño de carillas de porcelana en AM Estética Dental, Puerto Madero, Buenos Aires. Dr. Ariel Merino, odontólogo estético.",
   "thumbnailUrl": "https://www.amesteticadental.com/videos/generate-3d-veneer-poster.jpg",
   "contentUrl": "https://www.amesteticadental.com/videos/generate-3d-veneer.webm",
-  "embedUrl": "https://www.amesteticadental.com/videos/generate-3d-veneer.webm",
-  "uploadDate": "2025-01-01",
+  "uploadDate": "2025-09-01",
   "duration": "PT30S",
+  "publisher": {
+    "@type": "Organization",
+    "name": "AM Estética Dental",
+    "url": "https://www.amesteticadental.com"
+  }
 };
 
 export default function RootLayout({
