@@ -4,6 +4,65 @@ import { useState, useEffect, useCallback } from "react";
 import Image from "next/image";
 import type { FotoCaso } from "@/data/casos";
 
+function VideoPlayer({ url, aspect, thumbnail }: { url: string; aspect: "16/9" | "9/16"; thumbnail?: string }) {
+    const [playing, setPlaying] = useState(false);
+    const embedUrl = url.includes("?") ? `${url}&autoplay=1&modestbranding=1&rel=0` : `${url}?autoplay=1&modestbranding=1&rel=0`;
+
+    if (playing) {
+        return (
+            <div className={`relative w-full overflow-hidden rounded-2xl bg-carbon ${aspect === "9/16" ? "max-w-[340px] mx-auto aspect-[9/16]" : "aspect-video"}`}>
+                <iframe
+                    src={embedUrl}
+                    title="Video del caso"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                    className="absolute inset-0 w-full h-full"
+                />
+            </div>
+        );
+    }
+
+    return (
+        <button
+            onClick={() => setPlaying(true)}
+            className={`group relative w-full overflow-hidden rounded-2xl bg-carbon cursor-pointer ${aspect === "9/16" ? "max-w-[340px] mx-auto aspect-[9/16] flex" : "aspect-video block"}`}
+            aria-label="Reproducir video"
+        >
+            {/* Thumbnail */}
+            {thumbnail ? (
+                <Image src={thumbnail} alt="Video del caso" fill className="object-cover transition-transform duration-700 group-hover:scale-[1.03]" sizes="(max-width: 768px) 100vw, 900px" />
+            ) : (
+                <div className="absolute inset-0 bg-carbon" />
+            )}
+
+            {/* Overlay oscuro */}
+            <div className="absolute inset-0 bg-carbon/50 group-hover:bg-carbon/40 transition-colors duration-300" />
+
+            {/* Botón play AM style */}
+            <div className="absolute inset-0 flex items-center justify-center">
+                <div className="relative flex items-center justify-center">
+                    {/* Círculo exterior pulsante */}
+                    <div className="absolute w-20 h-20 rounded-full border border-oro/30 animate-ping opacity-30" />
+                    {/* Círculo principal */}
+                    <div className="w-16 h-16 rounded-full border border-oro/60 bg-carbon/70 backdrop-blur-sm flex items-center justify-center group-hover:bg-oro/10 group-hover:border-oro transition-all duration-300">
+                        {/* Triángulo play */}
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path d="M7 4L16 10L7 16V4Z" fill="#C9A96E" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+
+            {/* Badge */}
+            <div className="absolute bottom-4 left-4">
+                <span className="inline-flex items-center gap-1.5 border border-oro/25 bg-carbon/70 backdrop-blur-sm rounded-full px-3 py-1 font-manrope text-[9px] uppercase tracking-[0.28em] text-oro">
+                    Ver video
+                </span>
+            </div>
+        </button>
+    );
+}
+
 interface Props {
     fotos: FotoCaso[];
     videoUrl?: string;
@@ -73,38 +132,14 @@ export default function CasoGaleria({ fotos, videoUrl, videoAspect = "16/9" }: P
                 </button>
             )}
 
-            {/* Video integrado en el flujo — justo después de la foto hero */}
+            {/* Video integrado con player AM custom */}
             {videoUrl && (
                 <div className="mb-4">
-                    {videoAspect === "9/16" ? (
-                        /* Short vertical — centrado, ancho de móvil */
-                        <div className="flex justify-center">
-                            <div className="relative w-full max-w-[340px] overflow-hidden rounded-2xl border border-oro/15 bg-carbon">
-                                <div className="relative aspect-[9/16]">
-                                    <iframe
-                                        src={videoUrl}
-                                        title="Video del caso"
-                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                        allowFullScreen
-                                        className="absolute inset-0 w-full h-full"
-                                    />
-                                </div>
-                            </div>
-                        </div>
-                    ) : (
-                        /* Video horizontal 16:9 — ancho completo */
-                        <div className="relative w-full overflow-hidden rounded-2xl border border-oro/15 bg-carbon">
-                            <div className="relative aspect-video">
-                                <iframe
-                                    src={videoUrl}
-                                    title="Video del caso"
-                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                    allowFullScreen
-                                    className="absolute inset-0 w-full h-full"
-                                />
-                            </div>
-                        </div>
-                    )}
+                    <VideoPlayer
+                        url={videoUrl}
+                        aspect={videoAspect}
+                        thumbnail={fotoPortada?.src}
+                    />
                 </div>
             )}
 
