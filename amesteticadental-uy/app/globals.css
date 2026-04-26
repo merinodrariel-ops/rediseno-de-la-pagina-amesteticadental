@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+:root {
+  --carbon: #141414;
+  --oro: #C9A96E;
+  --crema: #F5F0E8;
+  --crema-dim: #A89F92;
+}
+
+@theme inline {
+  --color-carbon: var(--carbon);
+  --color-oro: var(--oro);
+  --color-crema: var(--crema);
+  --color-crema-dim: var(--crema-dim);
+}
+
+body {
+  background: var(--carbon);
+  color: var(--crema);
+  -webkit-font-smoothing: antialiased;
+}
