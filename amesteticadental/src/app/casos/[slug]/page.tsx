@@ -99,19 +99,6 @@ export default async function CasoPage({ params }: Props) {
                         </div>
                     </div>
 
-                    {/* Foto hero — misma que la portada del index */}
-                    <div className="mb-10 overflow-hidden rounded-2xl border border-oro/12">
-                        <Image
-                            src={caso.fotoPortada.src}
-                            alt={caso.fotoPortada.alt}
-                            width={1080}
-                            height={1080}
-                            priority
-                            sizes="(max-width: 768px) 100vw, 900px"
-                            className="w-full h-auto object-cover"
-                        />
-                    </div>
-
                     {/* Galería con lightbox y watermark */}
                     <CasoGaleria fotos={caso.fotos} />
 

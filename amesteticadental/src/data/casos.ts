@@ -118,6 +118,11 @@ Eso es lo que más nos gusta lograr.`,
         },
         fotos: [
             {
+                src: "https://res.cloudinary.com/drctvgyqd/image/upload/q_auto,f_auto/casos/agenesia-dental/caso-agenesia-dental-antes-despues-rostro-portada-mega-transformacion-rehabilitacion-oral-dr-ariel-merino-am-estetica-dental",
+                alt: "Antes y después — agenesia dental — mega transformación — rehabilitación oral completa con implantes y 24 cerámicas — Dr. Ariel Merino AM Estética Dental Puerto Madero Buenos Aires",
+                caption: "Antes y después del caso. Transformación facial completa: alineadores invisibles, implantes dentales y 24 cerámicas.",
+            },
+            {
                 src: "https://res.cloudinary.com/drctvgyqd/image/upload/q_auto,f_auto/casos/agenesia-dental/caso-agenesia-dental-tres-etapas-tratamiento-alineadores-invisibles-implantes-carillas-ceramicas-dr-ariel-merino-am-estetica-dental-buenos-aires",
                 alt: "Tres etapas del tratamiento de agenesia dental — antes, durante ortodoncia invisible y después con 24 cerámicas — Dr. Ariel Merino AM Estética Dental Buenos Aires",
                 caption: "Las tres etapas: punto de partida, cierre de espacios con alineadores AM y resultado final con 24 cerámicas.",
