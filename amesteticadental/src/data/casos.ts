@@ -102,6 +102,83 @@ Eso es lo que más nos gusta lograr.`,
         },
         publicado: true,
     },
+    {
+        slug: "agenesia-dental-rehabilitacion-completa-implantes-24-ceramicas",
+        titulo: "Le faltaban dientes de nacimiento. Hoy tiene la cara que siempre quiso.",
+        subtitulo: "Agenesia dental + microdontia + dientes oscuros — resuelto con 2 años de alineadores, implantes y 24 cerámicas",
+        descripcion: "Caso de agenesia dental con microdontia y dientes oscurecidos. Tratamiento multidisciplinario de 2 años: alineadores invisibles AM con terapia láser, implantes en zonas edéntulas y 24 cerámicas con aumento de dimensión vertical. Puerto Madero, Buenos Aires.",
+        categorias: ["Agenesia", "Implantes", "Alineadores", "Diseño de sonrisa"],
+        duracion: "2 años",
+        piezas: "24 cerámicas (arcada superior e inferior) + implantes en zonas de agenesia",
+        tecnica: "Alineadores invisibles AM + terapia láser + implantes + rehabilitación oral completa + aumento de dimensión vertical",
+        fotoPortada: {
+            src: "https://res.cloudinary.com/drctvgyqd/image/upload/q_auto,f_auto/casos/agenesia-dental/caso-agenesia-dental-antes-despues-rostro-portada-mega-transformacion-rehabilitacion-oral-dr-ariel-merino-am-estetica-dental",
+            alt: "Antes y después — agenesia dental — mega transformación — rehabilitación oral completa con implantes y 24 cerámicas — Dr. Ariel Merino AM Estética Dental Puerto Madero Buenos Aires",
+        },
+        fotos: [
+            {
+                src: "https://res.cloudinary.com/drctvgyqd/image/upload/q_auto,f_auto/casos/agenesia-dental/caso-agenesia-dental-tres-etapas-tratamiento-alineadores-invisibles-implantes-carillas-ceramicas-dr-ariel-merino-am-estetica-dental-buenos-aires",
+                alt: "Tres etapas del tratamiento de agenesia dental — antes, durante ortodoncia invisible y después con 24 cerámicas — Dr. Ariel Merino AM Estética Dental Buenos Aires",
+                caption: "Las tres etapas: punto de partida, cierre de espacios con alineadores AM y resultado final con 24 cerámicas.",
+            },
+            {
+                src: "https://res.cloudinary.com/drctvgyqd/image/upload/q_auto,f_auto/casos/agenesia-dental/caso-agenesia-dental-antes-intraoral-dientes-pequenos-marrones-microdontia-agenesia-dr-ariel-merino-am-estetica-dental-buenos-aires",
+                alt: "Antes — intraoral — dientes pequeños marrones y agenesia dental — microdontia — Dr. Ariel Merino AM Estética Dental Buenos Aires",
+                caption: "Estado inicial: microdontia con dientes marrones y espacios vacíos por agenesia.",
+            },
+            {
+                src: "https://res.cloudinary.com/drctvgyqd/image/upload/q_auto,f_auto/casos/agenesia-dental/caso-agenesia-dental-antes-despues-intraoral-implantes-dentales-24-ceramicas-rehabilitacion-completa-dr-ariel-merino-am-estetica-dental-buenos-aires",
+                alt: "Antes y después intraoral — implantes dentales y 24 cerámicas — rehabilitación oral completa — Dr. Ariel Merino AM Estética Dental Buenos Aires",
+                caption: "Comparativa intraoral completa. Implantes en zonas de agenesia + 24 cerámicas.",
+            },
+            {
+                src: "https://res.cloudinary.com/drctvgyqd/image/upload/q_auto,f_auto/casos/agenesia-dental/caso-agenesia-dental-antes-despues-labios-sonrisa-portada-carillas-ceramicas-alineadores-invisibles-dr-ariel-merino-am-estetica-dental",
+                alt: "Antes y después — labios y sonrisa — carillas cerámicas y alineadores invisibles — Dr. Ariel Merino AM Estética Dental",
+                caption: "Sonrisa antes y después. Cerámicas de alta translucidez.",
+            },
+            {
+                src: "https://res.cloudinary.com/drctvgyqd/image/upload/q_auto,f_auto/casos/agenesia-dental/caso-agenesia-dental-antes-despues-rostro-labios-portada-transformacion-facial-completa-dr-ariel-merino-am-estetica-dental-puerto-madero",
+                alt: "Antes y después — rostro y labios — transformación facial completa — Dr. Ariel Merino AM Estética Dental Puerto Madero",
+                caption: "Comparativa facial completa. El aumento de dimensión vertical transformó el tercio inferior del rostro.",
+            },
+            {
+                src: "https://res.cloudinary.com/drctvgyqd/image/upload/q_auto,f_auto/casos/agenesia-dental/caso-agenesia-dental-despues-perfil-lateral-implantes-carillas-ceramicas-dimension-vertical-dr-ariel-merino-am-estetica-dental",
+                alt: "Después — perfil lateral — implantes y carillas cerámicas — aumento de dimensión vertical — Dr. Ariel Merino AM Estética Dental",
+                caption: "Perfil lateral post-tratamiento. El aumento de dimensión vertical se refleja en la estética facial.",
+            },
+            {
+                src: "https://res.cloudinary.com/drctvgyqd/image/upload/q_auto,f_auto/casos/agenesia-dental/caso-agenesia-dental-transformacion-facial-perfil-portada-rehabilitacion-oral-completa-dr-ariel-merino-am-estetica-dental-puerto-madero",
+                alt: "Transformación facial — perfil portada — rehabilitación oral completa — Dr. Ariel Merino AM Estética Dental Puerto Madero",
+                caption: "Portada de perfil. La imagen que mejor resume la transformación de vida.",
+            },
+            {
+                src: "https://res.cloudinary.com/drctvgyqd/image/upload/q_auto,f_auto/casos/agenesia-dental/caso-agenesia-dental-antes-despues-rostro-fondo-blanco-portada-transformacion-completa-dr-ariel-merino-am-estetica-dental",
+                alt: "Antes y después — rostro — fondo blanco — transformación completa — Dr. Ariel Merino AM Estética Dental",
+                caption: "Comparativa sobre fondo blanco. Transformación facial integral.",
+            },
+        ],
+        copy: `Llegó al consultorio con dientes pequeños, marrones y varios espacios vacíos donde nunca habían salido piezas. La agenesia dental no es solo un problema estético — le cambia la cara, la mordida, la forma en que uno se ve en el espejo.
+
+El plan fue largo pero claro: primero dos años de alineadores invisibles AM, acelerados con terapia láser (sin el láser eran tres años). La ortodoncia cerró espacios, preparó el terreno y alineó la estructura para lo que venía.
+
+Después, implantes en las zonas donde faltaban piezas y donde el hueso lo permitía. Y para cerrar: 24 cerámicas, arriba y abajo, con aumento de dimensión vertical para restituir la mordida y cambiar las proporciones del tercio inferior de la cara.
+
+El resultado no fue solo una sonrisa nueva. Fue otra cara. Otro porte. Otra presencia.
+
+Eso es lo que más nos importa de este caso — no solo lo que cambió en la boca, sino lo que cambió en cómo esa persona se para frente al mundo.`,
+        copyRedes: `Dientes pequeños, marrones, y varios de nacimiento que nunca salieron.
+
+2 años de alineadores AM con láser (sin el láser eran 3). Implantes donde faltaban piezas. 24 cerámicas arriba y abajo. Aumento de dimensión vertical.
+
+El resultado no fue solo una sonrisa nueva. Fue otra cara.
+
+Eso es lo que entendemos por transformación de vida.`,
+        precio: {
+            total: "USD 28.000 – 30.000",
+            nota: "Aprox. USD 4.000 ortodoncia invisible + USD 24.000 rehabilitación completa (implantes + 24 cerámicas + aumento de dimensión vertical)",
+        },
+        publicado: true,
+    },
 ];
 
 export function getCasoBySlug(slug: string): Caso | undefined {
