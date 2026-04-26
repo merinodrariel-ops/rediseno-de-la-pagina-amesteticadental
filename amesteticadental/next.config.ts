@@ -51,6 +51,12 @@ const nextConfig: NextConfig = {
         destination: "/estetica-dental",
         permanent: true,
       },
+      // Casos clínicos: /antes-y-despues/[slug] → /casos/[slug]
+      {
+        source: "/antes-y-despues/:slug",
+        destination: "/casos/:slug",
+        permanent: true,
+      },
     ];
   },
   images: {

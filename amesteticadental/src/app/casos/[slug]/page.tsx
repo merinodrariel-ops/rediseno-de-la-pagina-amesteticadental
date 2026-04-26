@@ -23,12 +23,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         title: `${caso.titulo} | AM Estética Dental`,
         description: caso.descripcion,
         alternates: {
-            canonical: `https://www.amesteticadental.com/antes-y-despues/${caso.slug}`,
+            canonical: `https://www.amesteticadental.com/casos/${caso.slug}`,
         },
         openGraph: {
             title: caso.titulo,
             description: caso.descripcion,
-            url: `https://www.amesteticadental.com/antes-y-despues/${caso.slug}`,
+            url: `https://www.amesteticadental.com/casos/${caso.slug}`,
             images: [{ url: caso.fotoPortada.src }],
             locale: "es_AR",
             type: "website",
@@ -49,7 +49,7 @@ export default async function CasoPage({ params }: Props) {
 
                     {/* Breadcrumb */}
                     <nav className="mb-10 flex items-center gap-2 font-manrope text-xs text-crema/30 uppercase tracking-widest">
-                        <Link href="/antes-y-despues" className="hover:text-oro transition-colors">
+                        <Link href="/casos" className="hover:text-oro transition-colors">
                             Antes y después
                         </Link>
                         <span>/</span>
@@ -157,7 +157,7 @@ export default async function CasoPage({ params }: Props) {
                     {/* Volver */}
                     <div className="mt-12">
                         <Link
-                            href="/antes-y-despues"
+                            href="/casos"
                             className="font-manrope text-xs text-crema/30 hover:text-oro transition-colors uppercase tracking-widest"
                         >
                             ← Ver todos los casos

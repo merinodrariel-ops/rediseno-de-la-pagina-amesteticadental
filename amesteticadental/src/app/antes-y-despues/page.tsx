@@ -2,38 +2,46 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import Navbar from "@/components/Navbar";
-import { getCasosPublicados, type Categoria } from "@/data/casos";
 
 export const metadata: Metadata = {
     metadataBase: new URL("https://www.amesteticadental.com"),
-    title: "Antes y Después — Casos Reales de Diseño de Sonrisa | AM Estética Dental",
-    description: "Casos reales de carillas de porcelana, diseño de sonrisa y estética dental en Buenos Aires. Antes y después con fotos intraorales reales. Dr. Ariel Merino, Puerto Madero.",
+    title: "Antes y Después — Galería de Transformaciones | AM Estética Dental",
+    description: "Galería de fotos antes y después de tratamientos de estética dental reales. Carillas de porcelana, diseño de sonrisa, implantes y más. Dr. Ariel Merino, Puerto Madero, Buenos Aires.",
     alternates: {
         canonical: "https://www.amesteticadental.com/antes-y-despues",
     },
     openGraph: {
-        title: "Antes y Después — Casos Reales | AM Estética Dental",
-        description: "Transformaciones reales con carillas de porcelana, diseño de sonrisa y más. Buenos Aires, Puerto Madero.",
+        title: "Antes y Después — Galería Real | AM Estética Dental",
+        description: "Fotos reales de transformaciones dentales. Sin filtros, sin stock. Puerto Madero, Buenos Aires.",
         url: "https://www.amesteticadental.com/antes-y-despues",
         locale: "es_AR",
         type: "website",
     },
 };
 
-const CATEGORIAS: Categoria[] = [
-    "Carillas de porcelana",
-    "Diseño de sonrisa",
-    "Apiñamiento",
-    "Alineadores",
-    "Bruxismo",
-    "Erosión dentaria",
-    "Fluorosis",
-    "Agenesia",
+const GALERIA = [
+    { src: "/images/casos/caso-extremo-carillas-veneers-03-dr-ariel-merino-am-estetica-dental.webp", alt: "Transformación extrema con carillas de porcelana antes y después — Dr. Ariel Merino AM Estética Dental Puerto Madero", tratamiento: "Carillas de Porcelana", aspect: "aspect-[16/9]" },
+    { src: "/images/casos/caso-carillas-ceramicas-antes-despues-01-am-estetica-dental.webp", alt: "Carillas cerámicas antes y después — AM Estética Dental Buenos Aires", tratamiento: "Carillas Cerámicas", aspect: "aspect-square" },
+    { src: "/images/casos/caso-carillas-ceramicas-antes-despues-02-am-estetica-dental.webp", alt: "Resultado carillas cerámicas antes y después — AM Estética Dental", tratamiento: "Carillas Cerámicas", aspect: "aspect-square" },
+    { src: "/images/casos/caso-diseno-sonrisa-carillas-ceramicas-antes-despues-am-estetica-dental.webp", alt: "Diseño de sonrisa con carillas cerámicas antes y después — AM Estética Dental", tratamiento: "Diseño de Sonrisa", aspect: "aspect-[4/5]" },
+    { src: "/images/casos/caso-eli-carillas-ceramicas-01-am-estetica-dental.webp", alt: "Caso Eli — carillas cerámicas antes y después — AM Estética Dental", tratamiento: "Carillas Cerámicas", aspect: "aspect-square" },
+    { src: "/images/casos/caso-bruxismo-carillas-mordida-cruzada-am-estetica-dental.webp", alt: "Bruxismo con mordida cruzada — carillas cerámicas — AM Estética Dental", tratamiento: "Bruxismo", aspect: "aspect-[4/5]" },
+    { src: "/images/casos/caso-erosion-dentaria-carillas-ceramicas-am-estetica-dental.webp", alt: "Erosión dentaria tratada con carillas cerámicas — AM Estética Dental Buenos Aires", tratamiento: "Erosión Dentaria", aspect: "aspect-[4/5]" },
+    { src: "/images/casos/caso-caries-carillas-diseno-sonrisa-ceramica-am-estetica-dental.webp", alt: "Diseño de sonrisa cerámica sobre caso de caries — AM Estética Dental", tratamiento: "Diseño de Sonrisa", aspect: "aspect-[4/5]" },
+    { src: "/images/casos/caso-carillas-ceramicas-antes-despues-03-am-estetica-dental.webp", alt: "Caso avanzado de carillas cerámicas antes y después — AM Estética Dental", tratamiento: "Carillas Cerámicas", aspect: "aspect-[4/5]" },
+    { src: "/images/casos/caso-carilla-diente-oscurecido-tratamiento-conducto-am-estetica-dental.webp", alt: "Carilla sobre diente oscurecido post endodoncia — AM Estética Dental", tratamiento: "Carilla Unitaria", aspect: "aspect-[4/5]" },
+    { src: "/images/casos/caso-extremo-diseno-sonrisa-carillas-ceramicas-dr-ariel-merino.webp", alt: "Caso extremo de diseño de sonrisa con carillas cerámicas — Dr. Ariel Merino", tratamiento: "Diseño de Sonrisa", aspect: "aspect-[16/9]" },
+    { src: "/images/casos/caso-italiano-carillas-ceramicas-01-am-estetica-dental.webp", alt: "Caso internacional — carillas cerámicas — AM Estética Dental", tratamiento: "Carillas Cerámicas", aspect: "aspect-square" },
+    { src: "/images/casos/caso-italiano-carillas-ceramicas-02-am-estetica-dental.webp", alt: "Resultado final caso internacional carillas cerámicas — AM Estética Dental", tratamiento: "Carillas Cerámicas", aspect: "aspect-square" },
+    { src: "/images/casos/caso-extremo-carillas-veneers-04-dr-ariel-merino-am-estetica-dental.webp", alt: "Transformación extrema carillas de porcelana antes y después — Dr. Ariel Merino", tratamiento: "Carillas de Porcelana", aspect: "aspect-[16/9]" },
+    { src: "/images/casos/caso-eli-carillas-ceramicas-03-am-estetica-dental.webp", alt: "Caso Eli — antes del tratamiento con carillas cerámicas — AM Estética Dental", tratamiento: "Carillas Cerámicas", aspect: "aspect-[4/5]" },
+    { src: "/images/casos/caso-eli-carillas-ceramicas-04-am-estetica-dental.webp", alt: "Caso Eli — después de carillas cerámicas — AM Estética Dental Buenos Aires", tratamiento: "Carillas Cerámicas", aspect: "aspect-[4/5]" },
+    { src: "/images/casos/caso-diseno-sonrisa-carillas-ceramicas-dr-ariel-merino.webp", alt: "Diseño de sonrisa carillas cerámicas resultado — Dr. Ariel Merino AM Estética Dental", tratamiento: "Diseño de Sonrisa", aspect: "aspect-square" },
+    { src: "/images/casos/alineadores-invisibles-am-estetica-dental-resultado.webp", alt: "Resultado alineadores invisibles AM — AM Estética Dental Puerto Madero", tratamiento: "Alineadores", aspect: "aspect-square" },
+    { src: "/images/casos/carillas-lente-contacto-dental-resultado-am-estetica-dental.webp", alt: "Lentes de contacto dental resultado — AM Estética Dental Buenos Aires", tratamiento: "Lentes de Contacto Dental", aspect: "aspect-square" },
 ];
 
 export default function AntesYDespuesPage() {
-    const casos = getCasosPublicados();
-
     return (
         <>
             <Navbar />
@@ -43,106 +51,66 @@ export default function AntesYDespuesPage() {
                     {/* Header */}
                     <div className="mb-20">
                         <span className="text-oro font-manrope uppercase tracking-[0.4em] text-xs block mb-6">
-                            Casos Reales
+                            Galería
                         </span>
                         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-end">
                             <h1 className="text-4xl md:text-5xl font-manrope font-light text-crema leading-tight">
                                 Antes y después{" "}
                                 <span className="font-cormorant italic text-oro">reales.</span>
                             </h1>
-                            <p className="text-crema/60 font-manrope text-lg font-light leading-relaxed">
-                                No son imágenes de stock. Son pacientes reales atendidos en AM Estética Dental, Puerto Madero. Fotos intraorales tomadas en el consultorio.
-                            </p>
+                            <div>
+                                <p className="text-crema/60 font-manrope text-lg font-light leading-relaxed mb-4">
+                                    No son imágenes de stock. Son pacientes reales atendidos en AM Estética Dental, Puerto Madero.
+                                </p>
+                                <Link
+                                    href="/casos"
+                                    className="inline-flex items-center gap-2 text-oro font-manrope text-xs uppercase tracking-widest hover:text-oro/70 transition-colors"
+                                >
+                                    Ver casos documentados con historia clínica →
+                                </Link>
+                            </div>
                         </div>
                     </div>
 
-                    {/* Filtros */}
-                    <div className="flex flex-wrap gap-2 mb-16">
-                        <span className="inline-flex items-center border border-oro/40 bg-oro/10 rounded-full px-4 py-1.5 font-manrope text-[10px] uppercase tracking-[0.3em] text-oro cursor-default">
-                            Todos
-                        </span>
-                        {CATEGORIAS.map((cat) => (
-                            <span
-                                key={cat}
-                                className="inline-flex items-center border border-crema/10 rounded-full px-4 py-1.5 font-manrope text-[10px] uppercase tracking-[0.3em] text-crema/40 cursor-default hover:border-oro/30 hover:text-oro/70 transition-colors"
+                    {/* Masonry grid */}
+                    <div className="columns-1 sm:columns-2 lg:columns-3 gap-4 space-y-4">
+                        {GALERIA.map((foto, index) => (
+                            <div
+                                key={foto.src}
+                                className="break-inside-avoid group relative overflow-hidden rounded-xl mb-4"
                             >
-                                {cat}
-                            </span>
+                                <div className={`relative ${foto.aspect} w-full`}>
+                                    <Image
+                                        src={foto.src}
+                                        alt={foto.alt}
+                                        fill
+                                        loading={index < 6 ? "eager" : "lazy"}
+                                        sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                                        className="object-cover transition-transform duration-700 group-hover:scale-[1.04]"
+                                    />
+                                    <div className="absolute inset-0 bg-gradient-to-t from-carbon/85 via-carbon/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-400" />
+                                    <div className="absolute top-3 left-3">
+                                        <span className="inline-flex items-center gap-1.5 border border-oro/20 bg-carbon/75 backdrop-blur-sm rounded-full px-3 py-1 font-manrope text-[9px] uppercase tracking-[0.28em] text-oro">
+                                            {foto.tratamiento}
+                                        </span>
+                                    </div>
+                                    <div className="absolute bottom-0 left-0 right-0 p-4 translate-y-2 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-400">
+                                        <p className="font-manrope text-[10px] text-oro/50 mt-1">
+                                            @drarielmerino · AM Estética Dental
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
                         ))}
                     </div>
-
-                    {/* Grid de casos */}
-                    {casos.length === 0 ? (
-                        <p className="text-crema/30 font-manrope text-center py-20">
-                            Próximamente casos publicados.
-                        </p>
-                    ) : (
-                        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                            {casos.map((caso) => (
-                                <Link
-                                    key={caso.slug}
-                                    href={`/antes-y-despues/${caso.slug}`}
-                                    className="group block"
-                                >
-                                    <article className="bg-carbon border border-crema/5 rounded-2xl overflow-hidden hover:border-oro/20 transition-colors duration-300">
-                                        {/* Foto portada */}
-                                        <div className="relative aspect-[4/3] overflow-hidden">
-                                            <Image
-                                                src={caso.fotoPortada.src}
-                                                alt={caso.fotoPortada.alt}
-                                                fill
-                                                sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                                                className="object-cover transition-transform duration-700 group-hover:scale-[1.03]"
-                                            />
-                                            <div className="absolute inset-0 bg-gradient-to-t from-carbon/70 via-transparent to-transparent" />
-
-                                            {/* Duración badge */}
-                                            <div className="absolute top-4 right-4">
-                                                <span className="inline-flex items-center gap-1.5 border border-oro/30 bg-carbon/80 backdrop-blur-sm rounded-full px-3 py-1 font-manrope text-[9px] uppercase tracking-[0.25em] text-oro">
-                                                    {caso.duracion}
-                                                </span>
-                                            </div>
-                                        </div>
-
-                                        {/* Info */}
-                                        <div className="p-6">
-                                            {/* Categorías */}
-                                            <div className="flex flex-wrap gap-1.5 mb-3">
-                                                {caso.categorias.map((cat) => (
-                                                    <span
-                                                        key={cat}
-                                                        className="font-manrope text-[9px] uppercase tracking-[0.25em] text-oro/60"
-                                                    >
-                                                        {cat}
-                                                    </span>
-                                                ))}
-                                            </div>
-
-                                            <h2 className="font-manrope font-light text-crema text-lg leading-snug mb-2 group-hover:text-oro transition-colors duration-200">
-                                                {caso.titulo}
-                                            </h2>
-                                            <p className="font-manrope text-crema/40 text-sm leading-relaxed line-clamp-2">
-                                                {caso.subtitulo}
-                                            </p>
-
-                                            <div className="mt-5 flex items-center gap-2 text-oro font-manrope text-xs uppercase tracking-widest">
-                                                Ver caso
-                                                <span className="transition-transform duration-200 group-hover:translate-x-1">→</span>
-                                            </div>
-                                        </div>
-                                    </article>
-                                </Link>
-                            ))}
-                        </div>
-                    )}
 
                     {/* CTA */}
                     <div className="mt-24 text-center">
                         <p className="text-crema/40 font-manrope text-sm mb-6">
-                            ¿Querés ver si tu caso tiene solución?
+                            ¿Querés un resultado así para tu sonrisa?
                         </p>
                         <a
-                            href="https://api.whatsapp.com/send?phone=541170219298&text=Hola!%20Vi%20los%20casos%20de%20antes%20y%20despu%C3%A9s%20y%20me%20gustar%C3%ADa%20una%20consulta."
+                            href="https://api.whatsapp.com/send?phone=541170219298&text=Hola!%20Vi%20la%20galería%20de%20antes%20y%20después%20y%20me%20gustaría%20una%20consulta."
                             target="_blank"
                             rel="noopener noreferrer"
                             className="inline-flex items-center gap-3 bg-oro text-carbon px-8 py-4 rounded-full font-manrope font-semibold text-base hover:bg-oro/90 transition-all"
