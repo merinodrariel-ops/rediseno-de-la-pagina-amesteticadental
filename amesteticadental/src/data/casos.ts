@@ -34,6 +34,7 @@ export interface Caso {
         porPieza?: string;     // "USD 1.000 por pieza"
         nota?: string;         // texto aclaratorio opcional
     };
+    videoUrl?: string;         // YouTube embed URL
     publicado: boolean;
 }
 
@@ -177,6 +178,7 @@ Eso es lo que entendemos por transformación de vida.`,
             total: "USD 28.000 – 30.000",
             nota: "Aprox. USD 4.000 ortodoncia invisible + USD 24.000 rehabilitación completa (implantes + 24 cerámicas + aumento de dimensión vertical)",
         },
+        videoUrl: "https://www.youtube.com/embed/oqcaGGGAs5Y",
         publicado: true,
     },
 ];
