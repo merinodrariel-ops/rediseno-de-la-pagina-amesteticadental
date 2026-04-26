@@ -1,129 +1,94 @@
 import type { Metadata } from "next";
 import Image from "next/image";
-import Link from "next/link";
+import LeadForm from "./LeadForm";
 
 export const metadata: Metadata = {
-  title: "Carillas de Porcelana y Diseño de Sonrisa para Uruguayos | AM Estética Dental",
-  description: "Pacientes uruguayos que buscan carillas de porcelana, diseño de sonrisa o rehabilitación oral de alta calidad. Dr. Ariel Merino en Buenos Aires, Argentina. Resultados internacionales.",
+  title: "AM Estética Dental — Próximamente en Carrasco, Montevideo",
+  description: "La clínica de estética dental premium de Buenos Aires llega a Montevideo. Carrasco, Uruguay. Sé de los primeros en saberlo — dejá tu email y te avisamos.",
   alternates: { canonical: "https://www.amesteticadental.com.uy" },
+  openGraph: {
+    title: "AM Estética Dental — Próximamente en Carrasco, Montevideo",
+    description: "La marca argentina de estética dental de alto nivel abre su primera sede en Uruguay. Dejá tu email y sé el primero en saberlo.",
+    url: "https://www.amesteticadental.com.uy",
+    images: [{ url: "https://res.cloudinary.com/drctvgyqd/image/upload/w_1200,h_630,c_fill,q_auto,f_auto/casos/diseno-sonrisa-diastemas/diseno-sonrisa-cierre-diastemas-antes-despues-rostro-portada-dr-ariel-merino-am-estetica-dental-puerto-madero-buenos-aires" }],
+  },
 };
-
-const TRATAMIENTOS = [
-  { titulo: "Carillas de Porcelana", descripcion: "Carillas AM ultra delgadas tipo lente de contacto. Sin desgaste. Resultado inmediato.", href: "https://www.amesteticadental.com/carillas-dentales" },
-  { titulo: "Diseño de Sonrisa", descripcion: "Planificación digital del resultado antes de tocar ningún diente.", href: "https://www.amesteticadental.com/diseno-de-sonrisa" },
-  { titulo: "Alineadores Invisibles", descripcion: "Ortodoncia invisible AM. Tratamientos desde 6 meses.", href: "https://www.amesteticadental.com/alineadores-invisibles" },
-  { titulo: "Implantes Dentales", descripcion: "Rehabilitación sobre implantes en zonas edéntulas.", href: "https://www.amesteticadental.com/estetica-dental" },
-];
-
-const WA = "https://api.whatsapp.com/send?phone=541170219298&text=Hola%2C%20los%20contacto%20desde%20Uruguay.%20Me%20gustar%C3%ADa%20una%20evaluaci%C3%B3n.";
 
 export default function HomePage() {
   return (
-    <main>
+    <main style={{ minHeight: "100vh", display: "flex", flexDirection: "column" }}>
 
-      {/* Hero */}
-      <section style={{ minHeight: "100vh", display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))", alignItems: "stretch" }}>
-        <div style={{ position: "relative", minHeight: 400 }}>
+      {/* Hero full screen */}
+      <section style={{ flex: 1, position: "relative", display: "flex", alignItems: "center", justifyContent: "center", minHeight: "100vh" }}>
+
+        {/* Fondo */}
+        <div style={{ position: "absolute", inset: 0, zIndex: 0 }}>
           <Image
-            src="https://res.cloudinary.com/drctvgyqd/image/upload/w_900,h_1200,c_fill,g_face,q_auto,f_auto/casos/diseno-sonrisa-diastemas/diseno-sonrisa-cierre-diastemas-antes-despues-rostro-portada-dr-ariel-merino-am-estetica-dental-puerto-madero-buenos-aires"
-            alt="Diseño de sonrisa antes y después — AM Estética Dental"
+            src="https://res.cloudinary.com/drctvgyqd/image/upload/w_1800,h_1200,c_fill,g_face,q_auto,f_auto/casos/diseno-sonrisa-diastemas/diseno-sonrisa-cierre-diastemas-antes-despues-rostro-portada-dr-ariel-merino-am-estetica-dental-puerto-madero-buenos-aires"
+            alt="AM Estética Dental próximamente en Montevideo Uruguay"
             fill
-            style={{ objectFit: "cover" }}
+            style={{ objectFit: "cover", objectPosition: "center" }}
             priority
-            sizes="(max-width: 768px) 100vw, 50vw"
+            sizes="100vw"
           />
-          <div style={{ position: "absolute", inset: 0, background: "linear-gradient(to right, transparent 50%, var(--carbon, #141414))" }} />
+          <div style={{ position: "absolute", inset: 0, background: "linear-gradient(135deg, rgba(20,20,20,0.92) 0%, rgba(20,20,20,0.75) 50%, rgba(20,20,20,0.92) 100%)" }} />
         </div>
 
-        <div style={{ display: "flex", flexDirection: "column", justifyContent: "center", padding: "80px 60px 80px 40px", background: "var(--carbon, #141414)" }}>
-          <span style={{ fontSize: 9, letterSpacing: "0.4em", textTransform: "uppercase", color: "var(--oro, #C9A96E)", marginBottom: 20, display: "block" }}>
-            Para pacientes uruguayos
-          </span>
-          <h1 style={{ fontFamily: "var(--font-cormorant, Georgia, serif)", fontSize: "clamp(32px, 4vw, 52px)", fontWeight: 300, lineHeight: 1.1, marginBottom: 24 }}>
-            AM Estética Dental<br />
-            <em style={{ color: "var(--oro, #C9A96E)" }}>está en Buenos Aires.</em><br />
-            <span style={{ fontSize: "0.7em", opacity: 0.7 }}>Y te esperamos.</span>
-          </h1>
-          <p style={{ fontSize: 15, lineHeight: 1.85, color: "var(--crema-dim, #A89F92)", marginBottom: 40, maxWidth: 420 }}>
-            Muchos de nuestros pacientes vienen desde Uruguay. El cruce vale la pena: tecnología de punta, resultados internacionales y un equipo especializado en estética dental de alta complejidad.
-          </p>
-          <div style={{ display: "flex", gap: 12, flexWrap: "wrap" }}>
-            <a href={WA} target="_blank" rel="noopener noreferrer" style={{ background: "var(--oro, #C9A96E)", color: "#141414", padding: "14px 28px", borderRadius: 100, fontSize: 13, fontWeight: 600, textDecoration: "none" }}>
-              Consulta por WhatsApp →
-            </a>
-            <Link href="https://www.amesteticadental.com/antes-y-despues" target="_blank" style={{ border: "1px solid rgba(201,169,110,0.3)", color: "var(--oro, #C9A96E)", padding: "14px 28px", borderRadius: 100, fontSize: 13, textDecoration: "none" }}>
-              Ver galería de casos
-            </Link>
+        {/* Contenido */}
+        <div style={{ position: "relative", zIndex: 1, maxWidth: 640, padding: "60px 32px", textAlign: "center" }}>
+
+          {/* Marca */}
+          <div style={{ marginBottom: 32 }}>
+            <span style={{ fontSize: 9, letterSpacing: "0.5em", textTransform: "uppercase", color: "var(--oro, #C9A96E)", display: "block", marginBottom: 12 }}>
+              AM Estética Dental
+            </span>
+            <div style={{ width: 40, height: 1, background: "var(--oro, #C9A96E)", margin: "0 auto" }} />
           </div>
-        </div>
-      </section>
 
-      {/* Por qué viajar */}
-      <section style={{ padding: "80px 40px", background: "#1a1a1a" }}>
-        <div style={{ maxWidth: 1100, margin: "0 auto" }}>
-          <span style={{ fontSize: 9, letterSpacing: "0.4em", textTransform: "uppercase", color: "var(--oro, #C9A96E)", display: "block", marginBottom: 12 }}>¿Por qué venir?</span>
-          <h2 style={{ fontFamily: "var(--font-cormorant, Georgia, serif)", fontSize: "clamp(26px, 3vw, 38px)", fontWeight: 300, marginBottom: 48 }}>
-            Lo que encontrás del otro lado del río.
-          </h2>
-          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(240px, 1fr))", gap: 32 }}>
-            {[
-              ["Tecnología de punta", "Escáner intraoral, diseño digital y carillas AM ultra delgadas de 0.2mm."],
-              ["Casos internacionales", "Reconocidos en congresos y publicaciones de todo el mundo."],
-              ["Equipo multidisciplinario", "Ortodoncia, implantes, cerámica y estética en un solo lugar."],
-              ["Puerto Madero", "Clínica a 90 minutos del centro de Montevideo en buque o avión."],
-            ].map(([t, d]) => (
-              <div key={t} style={{ borderTop: "1px solid rgba(201,169,110,0.2)", paddingTop: 20 }}>
-                <h3 style={{ fontSize: 14, fontWeight: 500, marginBottom: 8 }}>{t}</h3>
-                <p style={{ fontSize: 13, color: "var(--crema-dim, #A89F92)", lineHeight: 1.65 }}>{d}</p>
+          {/* Badge próximamente */}
+          <div style={{ display: "inline-flex", alignItems: "center", gap: 8, border: "1px solid rgba(201,169,110,0.4)", borderRadius: 100, padding: "8px 20px", marginBottom: 32 }}>
+            <span style={{ width: 6, height: 6, borderRadius: "50%", background: "var(--oro, #C9A96E)", display: "inline-block", animation: "pulse 2s infinite" }} />
+            <span style={{ fontSize: 10, letterSpacing: "0.3em", textTransform: "uppercase", color: "var(--oro, #C9A96E)" }}>
+              Próximamente · Carrasco, Montevideo
+            </span>
+          </div>
+
+          {/* Headline */}
+          <h1 style={{ fontFamily: "var(--font-cormorant, Georgia, serif)", fontSize: "clamp(36px, 6vw, 64px)", fontWeight: 300, lineHeight: 1.1, marginBottom: 24, color: "var(--crema, #F5F0E8)" }}>
+            La estética dental<br />
+            de Buenos Aires<br />
+            <em style={{ color: "var(--oro, #C9A96E)" }}>llega a Uruguay.</em>
+          </h1>
+
+          <p style={{ fontSize: 15, lineHeight: 1.85, color: "var(--crema-dim, #A89F92)", marginBottom: 48, maxWidth: 480, margin: "0 auto 48px" }}>
+            AM Estética Dental — referente en carillas de porcelana y diseño de sonrisa en Argentina — abre su primera sede en Carrasco. Dejá tu email y sé de los primeros en saberlo.
+          </p>
+
+          {/* Formulario de leads */}
+          <LeadForm />
+
+          {/* Social proof */}
+          <div style={{ marginTop: 48, display: "flex", justifyContent: "center", gap: 40, flexWrap: "wrap" }}>
+            {[["20+", "Años de experiencia"], ["Puerto Madero", "Sede original Buenos Aires"], ["100%", "Casos reales documentados"]].map(([n, l]) => (
+              <div key={n} style={{ textAlign: "center" }}>
+                <div style={{ fontFamily: "var(--font-cormorant, Georgia, serif)", fontSize: 22, color: "var(--oro, #C9A96E)", marginBottom: 4 }}>{n}</div>
+                <div style={{ fontSize: 9, letterSpacing: "0.2em", textTransform: "uppercase", color: "var(--crema-dim, #A89F92)" }}>{l}</div>
               </div>
             ))}
           </div>
+
         </div>
       </section>
 
-      {/* Tratamientos */}
-      <section style={{ padding: "80px 40px", background: "var(--carbon, #141414)" }}>
-        <div style={{ maxWidth: 1100, margin: "0 auto" }}>
-          <span style={{ fontSize: 9, letterSpacing: "0.4em", textTransform: "uppercase", color: "var(--oro, #C9A96E)", display: "block", marginBottom: 12 }}>Especialidades</span>
-          <h2 style={{ fontFamily: "var(--font-cormorant, Georgia, serif)", fontSize: "clamp(26px, 3vw, 38px)", fontWeight: 300, marginBottom: 48 }}>
-            Tratamientos disponibles.
-          </h2>
-          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(240px, 1fr))", gap: 24 }}>
-            {TRATAMIENTOS.map((t) => (
-              <Link key={t.titulo} href={t.href} target="_blank" style={{ textDecoration: "none", color: "inherit", border: "1px solid rgba(201,169,110,0.15)", borderRadius: 8, padding: "24px", display: "block", transition: "border-color 0.3s" }}>
-                <h3 style={{ fontSize: 15, fontWeight: 500, marginBottom: 10, color: "var(--crema, #F5F0E8)" }}>{t.titulo}</h3>
-                <p style={{ fontSize: 13, color: "var(--crema-dim, #A89F92)", lineHeight: 1.65, marginBottom: 12 }}>{t.descripcion}</p>
-                <span style={{ fontSize: 11, color: "var(--oro, #C9A96E)", letterSpacing: "0.15em" }}>Ver más →</span>
-              </Link>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* CTA final */}
-      <section style={{ padding: "60px 40px", borderTop: "1px solid rgba(201,169,110,0.1)", display: "flex", justifyContent: "center", alignItems: "center", flexDirection: "column", textAlign: "center", gap: 20 }}>
-        <h2 style={{ fontFamily: "var(--font-cormorant, Georgia, serif)", fontSize: "clamp(24px, 3vw, 36px)", fontWeight: 300 }}>
-          El primer paso es una consulta.
-        </h2>
-        <p style={{ color: "var(--crema-dim, #A89F92)", fontSize: 14, maxWidth: 400 }}>
-          Escribinos por WhatsApp y te asesoramos sin compromiso. Coordinamos la visita para que aproveches al máximo el viaje.
-        </p>
-        <a href={WA} target="_blank" rel="noopener noreferrer" style={{ background: "var(--oro, #C9A96E)", color: "#141414", padding: "16px 40px", borderRadius: 100, fontSize: 14, fontWeight: 600, textDecoration: "none" }}>
-          Escribinos por WhatsApp
+      {/* Footer minimal */}
+      <footer style={{ padding: "20px 32px", borderTop: "1px solid rgba(201,169,110,0.1)", display: "flex", justifyContent: "space-between", alignItems: "center", flexWrap: "wrap", gap: 12, position: "relative", zIndex: 1 }}>
+        <span style={{ fontFamily: "var(--font-cormorant, Georgia, serif)", fontSize: 14 }}>AM Estética Dental</span>
+        <a href="https://www.amesteticadental.com" target="_blank" rel="noopener noreferrer" style={{ fontSize: 11, color: "var(--crema-dim, #A89F92)", textDecoration: "none", letterSpacing: "0.1em" }}>
+          amesteticadental.com →
         </a>
-        <p style={{ fontSize: 11, color: "var(--crema-dim, #A89F92)", opacity: 0.6 }}>
-          Camila O&apos;Gorman 412, Puerto Madero · Buenos Aires, Argentina
-        </p>
-      </section>
-
-      <footer style={{ borderTop: "1px solid rgba(201,169,110,0.1)", padding: "20px 40px" }}>
-        <div style={{ maxWidth: 1100, margin: "0 auto", display: "flex", justifyContent: "space-between", flexWrap: "wrap", gap: 12 }}>
-          <span style={{ fontFamily: "var(--font-cormorant, Georgia, serif)", fontSize: 15 }}>AM Estética Dental Uruguay</span>
-          <Link href="https://www.amesteticadental.com" target="_blank" style={{ fontSize: 11, color: "var(--crema-dim, #A89F92)", textDecoration: "none" }}>
-            amesteticadental.com →
-          </Link>
-        </div>
       </footer>
+
+      <style>{`@keyframes pulse { 0%,100%{opacity:1} 50%{opacity:0.4} }`}</style>
 
     </main>
   );
