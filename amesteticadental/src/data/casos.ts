@@ -216,6 +216,96 @@ Eso es lo que entendemos por transformación de vida.`,
         videoUrl: "https://www.youtube.com/embed/oqcaGGGAs5Y",
         publicado: true,
     },
+    {
+        slug: "diseno-sonrisa-cierre-diastemas-dientes-conoidos",
+        titulo: "El caso que se viralizó antes de que existiera Instagram.",
+        subtitulo: "Diseño de sonrisa · Cierre de diastemas · Dientes conoidos — 10 carillas AM lentes de contacto dental",
+        descripcion: "Caso icónico de diseño de sonrisa con cierre de diastemas y dientes conoidos. 10 carillas AM ultra delgadas (0.2-0.3mm). Viral en Facebook antes de Instagram y TikTok. Profesores de odontología de todo el mundo reconocieron este caso. Dr. Ariel Merino, AM Estética Dental, Puerto Madero, Buenos Aires.",
+        categorias: ["Carillas de porcelana", "Diseño de sonrisa"],
+        duracion: "10 días",
+        piezas: "10 carillas AM lentes de contacto dental (0.2-0.3mm) — sector anterior",
+        tecnica: "Carillas AM ultra delgadas tipo lente de contacto dental — sin desgaste significativo — cierre de diastemas y corrección de dientes conoidos",
+        fotoPortada: {
+            src: "https://res.cloudinary.com/drctvgyqd/image/upload/q_auto,f_auto/casos/diseno-sonrisa-diastemas/diseno-sonrisa-cierre-diastemas-antes-despues-rostro-portada-dr-ariel-merino-am-estetica-dental-puerto-madero-buenos-aires",
+            alt: "Diseño de sonrisa con cierre de diastemas — antes y después rostro — Dr. Ariel Merino AM Estética Dental Puerto Madero Buenos Aires",
+        },
+        fotos: [
+            {
+                src: "https://res.cloudinary.com/drctvgyqd/image/upload/q_auto,f_auto/casos/diseno-sonrisa-diastemas/diseno-sonrisa-cierre-diastemas-antes-despues-rostro-portada-dr-ariel-merino-am-estetica-dental-puerto-madero-buenos-aires",
+                alt: "Diseño de sonrisa con cierre de diastemas — antes y después rostro — Dr. Ariel Merino AM Estética Dental Puerto Madero Buenos Aires",
+                caption: "Antes y después — rostro",
+            },
+            {
+                src: "https://res.cloudinary.com/drctvgyqd/image/upload/q_auto,f_auto/casos/diseno-sonrisa-diastemas/diseno-sonrisa-diastemas-antes-despues-rostro-intraoral-dr-ariel-merino-am-estetica-dental-buenos-aires",
+                alt: "Diseño de sonrisa dientes conoidos — antes y después rostro e intraoral — Dr. Ariel Merino AM Estética Dental Buenos Aires",
+                caption: "Antes y después — rostro e intraoral",
+            },
+            {
+                src: "https://res.cloudinary.com/drctvgyqd/image/upload/q_auto,f_auto/casos/diseno-sonrisa-diastemas/cierre-diastemas-intraoral-antes-despues-carillas-ceramicas-dr-ariel-merino-am-estetica-dental-puerto-madero",
+                alt: "Cierre de diastemas intraoral antes y después con carillas cerámicas AM — Dr. Ariel Merino AM Estética Dental Puerto Madero",
+                caption: "Intraoral — cierre de diastemas antes y después",
+            },
+            {
+                src: "https://res.cloudinary.com/drctvgyqd/image/upload/q_auto,f_auto/casos/diseno-sonrisa-diastemas/cierre-diastemas-conoidos-intraoral-antes-despues-carillas-lentes-contacto-dental-dr-ariel-merino-am-estetica-dental",
+                alt: "Dientes conoidos y cierre de diastemas — intraoral antes y después — carillas lentes de contacto dental — Dr. Ariel Merino AM Estética Dental",
+                caption: "Dientes conoidos — cierre de diastemas intraoral",
+            },
+            {
+                src: "https://res.cloudinary.com/drctvgyqd/image/upload/q_auto,f_auto/casos/diseno-sonrisa-diastemas/fragmentos-ceramicos-lentes-contacto-dental-02mm-carillas-am-dr-ariel-merino-am-estetica-dental-buenos-aires",
+                alt: "Fragmentos cerámicos lentes de contacto dental 0.2-0.3mm — carillas AM ultra delgadas — Dr. Ariel Merino AM Estética Dental Buenos Aires",
+                caption: "Fragmentos cerámicos — 0.2mm de espesor",
+            },
+            {
+                src: "https://res.cloudinary.com/drctvgyqd/image/upload/q_auto,f_auto/casos/diseno-sonrisa-diastemas/fragmentos-ceramicos-lentes-contacto-dental-dedo-escala-carillas-am-dr-ariel-merino-am-estetica-dental",
+                alt: "Lente de contacto dental ultra fino en dedo mostrando escala — 0.2-0.3mm — carillas AM — Dr. Ariel Merino AM Estética Dental",
+                caption: "Escala real — lente de contacto dental en la yema del dedo",
+            },
+            {
+                src: "https://res.cloudinary.com/drctvgyqd/image/upload/q_auto,f_auto/casos/diseno-sonrisa-diastemas/mordida-antes-despues-diseno-sonrisa-cierre-diastemas-carillas-ceramicas-dr-ariel-merino-am-estetica-dental-buenos-aires",
+                alt: "Mordida antes y después diseño de sonrisa con cierre de diastemas — carillas cerámicas — Dr. Ariel Merino AM Estética Dental Buenos Aires",
+                caption: "Mordida — antes y después",
+            },
+            {
+                src: "https://res.cloudinary.com/drctvgyqd/image/upload/q_auto,f_auto/casos/diseno-sonrisa-diastemas/fragmentos-ceramicos-carillas-am-diseno-sonrisa-dr-ariel-merino-am-estetica-dental-puerto-madero",
+                alt: "Fragmentos cerámicos carillas AM diseño de sonrisa — Dr. Ariel Merino AM Estética Dental Puerto Madero",
+                caption: "Fragmentos cerámicos antes del cementado",
+            },
+            {
+                src: "https://res.cloudinary.com/drctvgyqd/image/upload/q_auto,f_auto/casos/diseno-sonrisa-diastemas/modelos-yeso-antes-despues-planificacion-diseno-sonrisa-diastemas-dr-ariel-merino-am-estetica-dental-buenos-aires",
+                alt: "Modelos de yeso antes y después planificación diseño de sonrisa con cierre de diastemas — Dr. Ariel Merino AM Estética Dental Buenos Aires",
+                caption: "Modelos de yeso — planificación del caso",
+            },
+            {
+                src: "https://res.cloudinary.com/drctvgyqd/image/upload/q_auto,f_auto/casos/diseno-sonrisa-diastemas/toma-color-carillas-ceramicas-diseno-sonrisa-dr-ariel-merino-am-estetica-dental-puerto-madero-buenos-aires",
+                alt: "Toma de color para carillas cerámicas diseño de sonrisa — Dr. Ariel Merino AM Estética Dental Puerto Madero Buenos Aires",
+                caption: "Toma de color — selección cerámica",
+            },
+            {
+                src: "https://res.cloudinary.com/drctvgyqd/image/upload/q_auto,f_auto/casos/diseno-sonrisa-diastemas/cementado-carillas-ceramicas-diseno-sonrisa-dia-cementado-dr-ariel-merino-am-estetica-dental-buenos-aires",
+                alt: "Cementado de carillas cerámicas cada dos dientes — diseño de sonrisa — Dr. Ariel Merino AM Estética Dental Buenos Aires",
+                caption: "Día del cementado — de a dos carillas",
+            },
+        ],
+        copy: `Cuando hice este caso, no existía Instagram. No existía TikTok. Subí el video a YouTube y en pocos días profesores de odontología de todo el mundo me estaban escribiendo.
+
+El paciente tenía dientes conoidos — pequeños, en forma de cono — con diastemas entre ellos. Esos espacios no eran por falta de ortodoncia. Eran estructurales. Aunque se hiciera ortodoncia, iban a volver. La única solución real eran carillas.
+
+Le hicimos 10 lentes de contacto dental AM: fragmentos cerámicos de apenas 0.2 a 0.3mm de espesor. Sin desgaste significativo del diente natural. Sin anestesia en la mayoría de los pasos. En 10 días.
+
+El resultado transformó no solo su sonrisa sino la forma en que yo entendía la estética dental. Fue el caso que definió mi carrera y que me abrió puertas en todo el mundo.`,
+        copyRedes: `Antes de Instagram. Antes de TikTok.
+
+Subí este caso a YouTube y profesores de odontología de todo el mundo me escribieron.
+
+10 carillas AM de 0.2mm. Sin desgaste. Cierre de diastemas completo. 10 días.
+
+El caso que definió mi carrera.`,
+        precio: {
+            total: "Consultar",
+            nota: "Caso histórico — referencia de carillas AM ultra delgadas tipo lente de contacto dental",
+        },
+        publicado: true,
+    },
 ];
 
 export function getCasoBySlug(slug: string): Caso | undefined {
