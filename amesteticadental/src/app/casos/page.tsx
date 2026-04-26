@@ -85,7 +85,7 @@ export default function CasosPage() {
                                     className="group block"
                                 >
                                     <article className="bg-carbon border border-crema/5 rounded-2xl overflow-hidden hover:border-oro/20 transition-colors duration-300">
-                                        <div className="relative aspect-[4/3] overflow-hidden">
+                                        <div className="relative aspect-square overflow-hidden">
                                             <Image
                                                 src={caso.fotoPortada.src}
                                                 alt={caso.fotoPortada.alt}
