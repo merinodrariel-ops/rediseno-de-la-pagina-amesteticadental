@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import Navbar from "@/components/Navbar";
 import Prensa from "@/components/Prensa";
+import EquipoAM from "@/components/EquipoAM";
 
 export const metadata: Metadata = {
     metadataBase: new URL("https://www.amesteticadental.com"),
@@ -296,6 +297,7 @@ export default function DrArielMerinoPage() {
                         </a>
                     </div>
                 </section>
+                <EquipoAM />
             </main>
         </>
     );
