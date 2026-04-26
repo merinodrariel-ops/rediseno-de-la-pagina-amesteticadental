@@ -35,6 +35,7 @@ export interface Caso {
         nota?: string;         // texto aclaratorio opcional
     };
     videoUrl?: string;         // YouTube embed URL
+    videoAspect?: "16/9" | "9/16"; // horizontal (16/9) o Short vertical (9/16)
     publicado: boolean;
 }
 
@@ -214,6 +215,7 @@ Eso es lo que entendemos por transformación de vida.`,
             nota: "Aprox. USD 4.000 ortodoncia invisible + USD 24.000 rehabilitación completa (implantes + 24 cerámicas + aumento de dimensión vertical)",
         },
         videoUrl: "https://www.youtube.com/embed/oqcaGGGAs5Y",
+        videoAspect: "9/16",
         publicado: true,
     },
     {
@@ -305,6 +307,7 @@ El caso que definió mi carrera.`,
             nota: "Caso histórico — referencia de carillas AM ultra delgadas tipo lente de contacto dental",
         },
         videoUrl: "https://www.youtube.com/embed/RIUEvt7Zq3c",
+        videoAspect: "16/9",
         publicado: true,
     },
 ];

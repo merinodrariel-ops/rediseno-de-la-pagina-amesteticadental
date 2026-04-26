@@ -6,9 +6,11 @@ import type { FotoCaso } from "@/data/casos";
 
 interface Props {
     fotos: FotoCaso[];
+    videoUrl?: string;
+    videoAspect?: "16/9" | "9/16";
 }
 
-export default function CasoGaleria({ fotos }: Props) {
+export default function CasoGaleria({ fotos, videoUrl, videoAspect = "16/9" }: Props) {
     const [lightboxIndex, setLightboxIndex] = useState<number | null>(null);
 
     const open = (i: number) => setLightboxIndex(i);
@@ -69,6 +71,41 @@ export default function CasoGaleria({ fotos }: Props) {
                         </span>
                     </div>
                 </button>
+            )}
+
+            {/* Video integrado en el flujo — justo después de la foto hero */}
+            {videoUrl && (
+                <div className="mb-4">
+                    {videoAspect === "9/16" ? (
+                        /* Short vertical — centrado, ancho de móvil */
+                        <div className="flex justify-center">
+                            <div className="relative w-full max-w-[340px] overflow-hidden rounded-2xl border border-oro/15 bg-carbon">
+                                <div className="relative aspect-[9/16]">
+                                    <iframe
+                                        src={videoUrl}
+                                        title="Video del caso"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowFullScreen
+                                        className="absolute inset-0 w-full h-full"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                    ) : (
+                        /* Video horizontal 16:9 — ancho completo */
+                        <div className="relative w-full overflow-hidden rounded-2xl border border-oro/15 bg-carbon">
+                            <div className="relative aspect-video">
+                                <iframe
+                                    src={videoUrl}
+                                    title="Video del caso"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowFullScreen
+                                    className="absolute inset-0 w-full h-full"
+                                />
+                            </div>
+                        </div>
+                    )}
+                </div>
             )}
 
             {/* Grid fotos restantes */}

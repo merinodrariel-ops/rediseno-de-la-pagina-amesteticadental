@@ -99,28 +99,12 @@ export default async function CasoPage({ params }: Props) {
                         </div>
                     </div>
 
-                    {/* Galería con lightbox y watermark */}
-                    <CasoGaleria fotos={caso.fotos} />
-
-                    {/* Video testimonio */}
-                    {caso.videoUrl && (
-                        <div className="mb-16">
-                            <p className="font-manrope text-[9px] uppercase tracking-[0.3em] text-oro/50 mb-5">
-                                Testimonio del paciente
-                            </p>
-                            <div className="relative w-full max-w-sm overflow-hidden rounded-2xl border border-oro/15 bg-carbon">
-                                <div className="aspect-[9/16]">
-                                    <iframe
-                                        src={caso.videoUrl}
-                                        title="Testimonio del paciente"
-                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                        allowFullScreen
-                                        className="absolute inset-0 w-full h-full"
-                                    />
-                                </div>
-                            </div>
-                        </div>
-                    )}
+                    {/* Galería con video integrado */}
+                    <CasoGaleria
+                        fotos={caso.fotos}
+                        videoUrl={caso.videoUrl}
+                        videoAspect={caso.videoAspect}
+                    />
 
                     {/* Copy del caso */}
                     <div className="max-w-2xl mb-16">
