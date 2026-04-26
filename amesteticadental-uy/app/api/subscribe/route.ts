@@ -15,7 +15,7 @@ export async function POST(req: NextRequest) {
       headers: { Authorization: `Bearer ${RESEND_API_KEY}`, "Content-Type": "application/json" },
       body: JSON.stringify({
         from: "AM Estética Dental UY <noreply@amesteticadental.com.uy>",
-        to: ["dr.arielmerinopersonal@gmail.com"],
+        to: ["amesteticadentaluruguay@gmail.com"],
         subject: `Nuevo lead Uruguay: ${nombre || email}`,
         html: `<p><strong>Nombre:</strong> ${nombre || "—"}</p><p><strong>Email:</strong> ${email}</p><p><em>Registrado desde amesteticadental.com.uy</em></p>`,
       }),
