@@ -310,6 +310,88 @@ El caso que definió mi carrera.`,
         videoAspect: "16/9",
         publicado: true,
     },
+    {
+        slug: "bruxismo-desgaste-dental-rehabilitacion-carillas-ceramicas",
+        titulo: "Los dientes no mienten la edad. Las carillas, sí.",
+        subtitulo: "Bruxismo severo + desgaste + amarillamiento — rehabilitación cerámica completa con carillas AM que devolvieron juventud y función",
+        descripcion: "Caso de bruxismo severo con desgaste dental avanzado, apiñamiento leve y dientes amarillentos. Rehabilitación cerámica completa con carillas AM lentes de contacto que restauraron la estética y la funcionalidad. Dr. Ariel Merino, AM Estética Dental, Puerto Madero, Buenos Aires.",
+        categorias: ["Carillas de porcelana", "Bruxismo", "Diseño de sonrisa"],
+        duracion: "15 días",
+        piezas: "Rehabilitación cerámica completa — carillas AM arcada superior e inferior",
+        tecnica: "Carillas AM lentes de contacto dental — rehabilitación oclusal — aumento de dimensión vertical por desgaste",
+        fotoPortada: {
+            src: "https://res.cloudinary.com/drctvgyqd/image/upload/q_auto,f_auto/casos/bruxismo-carillas-ceramicas/bruxismo-desgaste-dental-antes-despues-carillas-ceramicas-labios-portada-dr-ariel-merino-am-estetica-dental-buenos-aires",
+            alt: "Bruxismo y desgaste dental — rehabilitación con carillas cerámicas antes y después — Dr. Ariel Merino AM Estética Dental Buenos Aires",
+        },
+        fotos: [
+            {
+                src: "https://res.cloudinary.com/drctvgyqd/image/upload/q_auto,f_auto/casos/bruxismo-carillas-ceramicas/bruxismo-desgaste-dental-antes-despues-carillas-ceramicas-labios-portada-dr-ariel-merino-am-estetica-dental-buenos-aires",
+                alt: "Bruxismo y desgaste dental — rehabilitación con carillas cerámicas antes y después labios portada — Dr. Ariel Merino AM Estética Dental Buenos Aires",
+                caption: "Antes y después — portada",
+            },
+            {
+                src: "https://res.cloudinary.com/drctvgyqd/image/upload/q_auto,f_auto/casos/bruxismo-carillas-ceramicas/bruxismo-dientes-desgastados-amarillentos-antes-rostro-frontal-dr-ariel-merino-am-estetica-dental-puerto-madero",
+                alt: "Dientes desgastados y amarillentos por bruxismo — antes — rostro frontal — Dr. Ariel Merino AM Estética Dental Puerto Madero",
+                caption: "Antes — rostro frontal",
+            },
+            {
+                src: "https://res.cloudinary.com/drctvgyqd/image/upload/q_auto,f_auto/casos/bruxismo-carillas-ceramicas/bruxismo-rehabilitacion-ceramica-carillas-despues-rostro-frontal-dr-ariel-merino-am-estetica-dental-buenos-aires",
+                alt: "Rehabilitación cerámica con carillas — después — rostro frontal — Dr. Ariel Merino AM Estética Dental Buenos Aires",
+                caption: "Después — rostro frontal",
+            },
+            {
+                src: "https://res.cloudinary.com/drctvgyqd/image/upload/q_auto,f_auto/casos/bruxismo-carillas-ceramicas/bruxismo-desgaste-intraoral-antes-despues-carillas-ceramicas-rehabilitacion-dr-ariel-merino-am-estetica-dental",
+                alt: "Desgaste dental por bruxismo — intraoral antes y después con carillas cerámicas — Dr. Ariel Merino AM Estética Dental",
+                caption: "Intraoral — antes y después",
+            },
+            {
+                src: "https://res.cloudinary.com/drctvgyqd/image/upload/q_auto,f_auto/casos/bruxismo-carillas-ceramicas/bruxismo-arcada-inferior-intraoral-antes-despues-carillas-ceramicas-dr-ariel-merino-am-estetica-dental-buenos-aires",
+                alt: "Bruxismo arcada inferior — intraoral antes y después carillas cerámicas — Dr. Ariel Merino AM Estética Dental Buenos Aires",
+                caption: "Arcada inferior — antes y después",
+            },
+            {
+                src: "https://res.cloudinary.com/drctvgyqd/image/upload/q_auto,f_auto/casos/bruxismo-carillas-ceramicas/bruxismo-labios-sonrisa-antes-despues-carillas-ceramicas-rejuvenecimiento-dr-ariel-merino-am-estetica-dental",
+                alt: "Bruxismo labios y sonrisa antes y después — carillas cerámicas rejuvenecimiento dental — Dr. Ariel Merino AM Estética Dental",
+                caption: "Labios y sonrisa — antes y después",
+            },
+            {
+                src: "https://res.cloudinary.com/drctvgyqd/image/upload/q_auto,f_auto/casos/bruxismo-carillas-ceramicas/bruxismo-labios-boca-entreabierta-antes-despues-carillas-ceramicas-dr-ariel-merino-am-estetica-dental-puerto-madero",
+                alt: "Bruxismo boca entreabierta labios antes y después — carillas cerámicas — Dr. Ariel Merino AM Estética Dental Puerto Madero",
+                caption: "Labios — boca entreabierta",
+            },
+            {
+                src: "https://res.cloudinary.com/drctvgyqd/image/upload/q_auto,f_auto/casos/bruxismo-carillas-ceramicas/bruxismo-perfil-antes-despues-rehabilitacion-ceramica-carillas-dr-ariel-merino-am-estetica-dental-buenos-aires",
+                alt: "Bruxismo perfil antes y después rehabilitación cerámica carillas — Dr. Ariel Merino AM Estética Dental Buenos Aires",
+                caption: "Perfil — antes y después",
+            },
+            {
+                src: "https://res.cloudinary.com/drctvgyqd/image/upload/q_auto,f_auto/casos/bruxismo-carillas-ceramicas/bruxismo-rostro-perfil-comparativa-antes-despues-carillas-ceramicas-dr-ariel-merino-am-estetica-dental-puerto-madero",
+                alt: "Bruxismo rostro perfil comparativa antes y después carillas cerámicas — Dr. Ariel Merino AM Estética Dental Puerto Madero",
+                caption: "Comparativa de perfil — antes y después",
+            },
+        ],
+        copy: `El bruxismo no avisa. Va desgastando los dientes de a poco, año tras año, hasta que un día el paciente se mira al espejo y ve una sonrisa que no reconoce. Dientes cortos, amarillos, con un apiñamiento que fue creciendo sin que nadie lo notara.
+
+Eso era lo que traía Gustavo cuando llegó a la clínica. Años de apretar y rechinar los dientes de noche habían dejado su huella. No solo en la estética — también en la función. Su mordida estaba comprometida.
+
+El plan fue integral: carillas AM lentes de contacto para devolver volumen, forma y color a cada pieza, con un ajuste de la dimensión vertical que restableció la mordida y quitó la presión acumulada.
+
+El resultado no fue solo una sonrisa nueva. Fue una cara distinta. Diez años menos. Una boca que volvió a funcionar como tenía que funcionar.
+
+A veces la cerámica no es estética. Es terapéutica.`,
+        copyRedes: `Años de bruxismo te desgastan los dientes sin que te des cuenta.
+
+Cuando llegó a la clínica tenía los dientes cortos, amarillos y una mordida comprometida.
+
+Carillas AM. Dimensión vertical restituida. 15 días.
+
+Diez años menos en la cara. Una boca que vuelve a funcionar.`,
+        precio: {
+            total: "USD 18.000",
+            nota: "Rehabilitación cerámica completa — carillas AM lentes de contacto dental — restauración de dimensión vertical",
+        },
+        publicado: true,
+    },
 ];
 
 export function getCasoBySlug(slug: string): Caso | undefined {
