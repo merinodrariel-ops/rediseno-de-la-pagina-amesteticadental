@@ -157,6 +157,36 @@ Eso es lo que más nos gusta lograr.`,
                 alt: "Antes y después — rostro — fondo blanco — transformación completa — Dr. Ariel Merino AM Estética Dental",
                 caption: "Comparativa sobre fondo blanco. Transformación facial integral.",
             },
+            {
+                src: "https://res.cloudinary.com/drctvgyqd/image/upload/q_auto,f_auto/casos/agenesia-dental/caso-agenesia-dental-labios-antes-despues-implantes-24-ceramicas-nueva-mordida-dr-ariel-merino-am-estetica-dental-buenos-aires",
+                alt: "Labios antes y después — implantes y 24 cerámicas — nueva mordida — Dr. Ariel Merino AM Estética Dental Buenos Aires",
+                caption: "Detalle de labios. La nueva mordida y dimensión vertical dieron una postura labial natural en reposo.",
+            },
+            {
+                src: "https://res.cloudinary.com/drctvgyqd/image/upload/q_auto,f_auto/casos/agenesia-dental/caso-agenesia-dental-labios-antes-despues-sonrisa-nueva-carillas-ceramicas-portada-dr-ariel-merino-am-estetica-dental",
+                alt: "Labios antes y después — sonrisa nueva — carillas cerámicas — portada — Dr. Ariel Merino AM Estética Dental",
+                caption: "Sonrisa natural post-tratamiento. El diseño de la línea de la sonrisa fue guiado digitalmente.",
+            },
+            {
+                src: "https://res.cloudinary.com/drctvgyqd/image/upload/q_auto,f_auto/casos/agenesia-dental/caso-agenesia-dental-perfil-facial-resultado-final-24-ceramicas-implantes-dentales-dr-ariel-merino-am-estetica-dental-puerto-madero",
+                alt: "Resultado final — perfil facial — 24 cerámicas e implantes dentales — Dr. Ariel Merino AM Estética Dental Puerto Madero",
+                caption: "Resultado final de perfil. El tratamiento multidisciplinario logró una transformación integral.",
+            },
+            {
+                src: "https://res.cloudinary.com/drctvgyqd/image/upload/q_auto,f_auto/casos/agenesia-dental/caso-agenesia-dental-perfil-sonrisa-resultado-carillas-ceramicas-implantes-dr-ariel-merino-am-estetica-dental-puerto-madero",
+                alt: "Resultado — perfil y sonrisa — carillas cerámicas e implantes — Dr. Ariel Merino AM Estética Dental Puerto Madero",
+                caption: "Perfil con sonrisa. Armonía dento-facial lograda con ortodoncia, implantología y rehabilitación.",
+            },
+            {
+                src: "https://res.cloudinary.com/drctvgyqd/image/upload/q_auto,f_auto/casos/agenesia-dental/caso-agenesia-dental-resultado-perfil-rehabilitacion-oral-completa-carillas-porcelana-dr-ariel-merino-am-estetica-dental-buenos-aires",
+                alt: "Resultado — perfil — rehabilitación oral completa — carillas de porcelana — Dr. Ariel Merino AM Estética Dental Buenos Aires",
+                caption: "Vista de perfil final. Las proporciones del tercio inferior del rostro quedaron completamente restauradas.",
+            },
+            {
+                src: "https://res.cloudinary.com/drctvgyqd/image/upload/q_auto,f_auto/casos/agenesia-dental/caso-agenesia-dental-antes-rostro-frontal-dientes-oscuros-agenesia-microdontia-dr-ariel-merino-am-estetica-dental-buenos-aires",
+                alt: "Antes — rostro frontal — dientes oscuros y agenesia — microdontia — Dr. Ariel Merino AM Estética Dental Buenos Aires",
+                caption: "Fotografía facial de inicio. La afectación estética era evidente tanto en reposo como en sonrisa.",
+            },
         ],
         copy: `Llegó al consultorio con dientes pequeños, marrones y varios espacios vacíos donde nunca habían salido piezas. La agenesia dental no es solo un problema estético — le cambia la cara, la mordida, la forma en que uno se ve en el espejo.
 
