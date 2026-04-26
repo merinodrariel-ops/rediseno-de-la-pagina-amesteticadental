@@ -304,6 +304,7 @@ El caso que definió mi carrera.`,
             total: "Consultar",
             nota: "Caso histórico — referencia de carillas AM ultra delgadas tipo lente de contacto dental",
         },
+        videoUrl: "https://www.youtube.com/embed/RIUEvt7Zq3c",
         publicado: true,
     },
 ];
