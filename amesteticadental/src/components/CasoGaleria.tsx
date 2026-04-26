@@ -45,25 +45,29 @@ export default function CasoGaleria({ fotos }: Props) {
             {fotoPortada && (
                 <button
                     onClick={() => open(0)}
-                    className="relative aspect-[4/3] rounded-2xl overflow-hidden mb-4 w-full block cursor-zoom-in group"
+                    className="relative aspect-square rounded-2xl overflow-hidden mb-4 w-full block cursor-zoom-in group"
                 >
                     <Image
                         src={fotoPortada.src}
                         alt={fotoPortada.alt}
                         fill
                         sizes="(max-width: 1024px) 100vw, 900px"
-                        className="object-cover transition-transform duration-500 group-hover:scale-[1.02]"
+                        className="object-cover transition-transform duration-700 group-hover:scale-[1.05]"
                         priority
                     />
+                    {/* Overlay que aparece en hover */}
+                    <div className="absolute inset-0 bg-gradient-to-t from-carbon/70 via-carbon/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
                     <Watermark />
-                    {fotoPortada.caption && (
-                        <div className="absolute bottom-0 left-0 right-0 p-5 bg-gradient-to-t from-carbon/80 to-transparent">
-                            <p className="font-manrope text-xs text-crema/50 uppercase tracking-widest">
+                    <div className="absolute bottom-0 left-0 right-0 p-6 translate-y-3 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-500">
+                        {fotoPortada.caption && (
+                            <p className="font-manrope text-xs text-crema/70 uppercase tracking-widest mb-2">
                                 {fotoPortada.caption}
                             </p>
-                        </div>
-                    )}
-                    <ZoomHint />
+                        )}
+                        <span className="inline-flex items-center gap-1.5 border border-crema/15 bg-carbon/60 backdrop-blur-sm rounded-full px-3 py-1 font-manrope text-[9px] uppercase tracking-[0.25em] text-crema/50">
+                            ⊕ Ampliar
+                        </span>
+                    </div>
                 </button>
             )}
 
