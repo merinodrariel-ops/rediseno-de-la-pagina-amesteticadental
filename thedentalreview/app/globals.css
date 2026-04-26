@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+:root {
+  --ink: #0e0e0e;
+  --paper: #f5f2ec;
+  --paper-dim: #e8e4da;
+  --gold: #b8954a;
+  --gold-light: #d4af70;
+  --muted: #6b6560;
+}
+
+@theme inline {
+  --color-ink: var(--ink);
+  --color-paper: var(--paper);
+  --color-paper-dim: var(--paper-dim);
+  --color-gold: var(--gold);
+  --color-muted: var(--muted);
+}
+
+body {
+  background: var(--paper);
+  color: var(--ink);
+  -webkit-font-smoothing: antialiased;
+}
