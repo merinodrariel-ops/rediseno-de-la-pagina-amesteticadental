@@ -175,12 +175,13 @@ function Watermark({ prominent = false }: { prominent?: boolean }) {
             <p
                 className="font-manrope uppercase whitespace-nowrap"
                 style={{
-                    fontSize: prominent ? "11px" : "8px",
-                    color: `rgba(255,255,255,${prominent ? 0.15 : 0.10})`,
-                    letterSpacing: "0.4em",
+                    fontSize: prominent ? "13px" : "10px",
+                    color: "rgba(255,255,255,0.50)",
+                    letterSpacing: "0.55em",
+                    textShadow: "0 1px 4px rgba(0,0,0,0.4)",
                 }}
             >
-                AM Estética Dental · @drarielmerino
+                AM Estética Dental
             </p>
         </div>
     );
