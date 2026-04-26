@@ -8,7 +8,11 @@ export type Categoria =
     | "Agenesia"
     | "Fluorosis"
     | "Bruxismo"
-    | "Erosión dentaria";
+    | "Erosión dentaria"
+    | "Lentes de contacto dental"
+    | "Rehabilitación oral"
+    | "Diastemas"
+    | "Dientes conoidos";
 
 export interface FotoCaso {
     src: string;
@@ -45,7 +49,7 @@ export const CASOS: Caso[] = [
         titulo: "20 carillas en 10 días. Sin ortodoncia. Sin blanqueamiento. Sin que nadie lo note.",
         subtitulo: "Apiñamiento residual + desgaste + color — resuelto solo con la forma de las carillas",
         descripcion: "Paciente con apiñamiento residual y dientes desgastados. 20 carillas de porcelana mínimamente invasivas en 10 días, sin ortodoncia previa. Resultado natural — ningún amigo se dio cuenta.",
-        categorias: ["Carillas de porcelana", "Apiñamiento"],
+        categorias: ["Carillas de porcelana", "Lentes de contacto dental", "Diseño de sonrisa", "Apiñamiento"],
         duracion: "10 días",
         piezas: "20 piezas (10 superiores + 10 inferiores)",
         tecnica: "Mínimamente invasiva, desgaste controlado",
@@ -223,7 +227,7 @@ Eso es lo que entendemos por transformación de vida.`,
         titulo: "El caso que se viralizó antes de que existiera Instagram.",
         subtitulo: "Diseño de sonrisa · Cierre de diastemas · Dientes conoidos — 10 carillas AM lentes de contacto dental",
         descripcion: "Caso icónico de diseño de sonrisa con cierre de diastemas y dientes conoidos. 10 carillas AM ultra delgadas (0.2-0.3mm). Viral en Facebook antes de Instagram y TikTok. Profesores de odontología de todo el mundo reconocieron este caso. Dr. Ariel Merino, AM Estética Dental, Puerto Madero, Buenos Aires.",
-        categorias: ["Carillas de porcelana", "Diseño de sonrisa"],
+        categorias: ["Carillas de porcelana", "Lentes de contacto dental", "Diseño de sonrisa", "Diastemas", "Dientes conoidos"],
         duracion: "10 días",
         piezas: "10 carillas AM lentes de contacto dental (0.2-0.3mm) — sector anterior",
         tecnica: "Carillas AM ultra delgadas tipo lente de contacto dental — sin desgaste significativo — cierre de diastemas y corrección de dientes conoidos",
@@ -315,7 +319,7 @@ El caso que definió mi carrera.`,
         titulo: "Los dientes no mienten la edad. Las carillas, sí.",
         subtitulo: "Bruxismo severo + desgaste + amarillamiento — rehabilitación cerámica completa con carillas AM que devolvieron juventud y función",
         descripcion: "Caso de bruxismo severo con desgaste dental avanzado, apiñamiento leve y dientes amarillentos. Rehabilitación cerámica completa con carillas AM lentes de contacto que restauraron la estética y la funcionalidad. Dr. Ariel Merino, AM Estética Dental, Puerto Madero, Buenos Aires.",
-        categorias: ["Carillas de porcelana", "Bruxismo", "Diseño de sonrisa"],
+        categorias: ["Carillas de porcelana", "Bruxismo", "Diseño de sonrisa", "Rehabilitación oral"],
         duracion: "15 días",
         piezas: "Rehabilitación cerámica completa — carillas AM arcada superior e inferior",
         tecnica: "Carillas AM lentes de contacto dental — rehabilitación oclusal — aumento de dimensión vertical por desgaste",
