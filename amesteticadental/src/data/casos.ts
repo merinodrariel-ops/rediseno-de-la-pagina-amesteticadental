@@ -408,6 +408,75 @@ Cuando la base es buena, hay que cuidarla.`,
         publicado: true,
     },
     {
+        slug: "carillas-resina-caries-transformacion-extrema-gingivectomia",
+        titulo: "Parecía un vagabundo. Quedó como actor de Hollywood.",
+        subtitulo: "Caries múltiples + resinas viejas mal hechas + encía montada — remoción completa y diseño de sonrisa en resina con gingivectomía láser",
+        descripcion: "Transformación extrema viral en TikTok. Caso de caries múltiples, resinas viejas mal ejecutadas y apiñamiento con encía montada. Remoción total, gingivectomía láser y diseño de sonrisa en resina. All-inclusive USD 5.000. Dr. Ariel Merino, AM Estética Dental, Puerto Madero, Buenos Aires.",
+        categorias: ["Carillas de porcelana", "Diseño de sonrisa", "Apiñamiento"],
+        duracion: "5 días",
+        piezas: "Carillas de resina compuesta — sector anterior completo",
+        tecnica: "Remoción de caries y resinas viejas + gingivectomía láser + carillas directas de resina compuesta — llave en mano",
+        fotoPortada: {
+            src: "https://res.cloudinary.com/drctvgyqd/image/upload/q_auto,f_auto/casos/carillas-resina-caries/transformacion-extrema-caries-carillas-resina-gingivectomia-laser-antes-despues-rostro-labios-portada-dr-ariel-merino-am-estetica-dental-buenos-aires",
+            alt: "Transformación extrema caries y carillas de resina viejas — gingivectomía láser — antes y después portada — Dr. Ariel Merino AM Estética Dental Buenos Aires",
+        },
+        fotos: [
+            {
+                src: "https://res.cloudinary.com/drctvgyqd/image/upload/q_auto,f_auto/casos/carillas-resina-caries/transformacion-extrema-caries-carillas-resina-gingivectomia-laser-antes-despues-rostro-labios-portada-dr-ariel-merino-am-estetica-dental-buenos-aires",
+                alt: "Transformación extrema caries y carillas de resina — antes y después portada — Dr. Ariel Merino AM Estética Dental Buenos Aires",
+                caption: "Antes y después — portada",
+            },
+            {
+                src: "https://res.cloudinary.com/drctvgyqd/image/upload/q_auto,f_auto/casos/carillas-resina-caries/caries-resinas-viejas-encía-montada-antes-rostro-frontal-dr-ariel-merino-am-estetica-dental-puerto-madero-buenos-aires",
+                alt: "Caries múltiples y resinas viejas mal hechas — antes — rostro frontal — Dr. Ariel Merino AM Estética Dental Puerto Madero Buenos Aires",
+                caption: "Antes — caries, resinas viejas y encía montada",
+            },
+            {
+                src: "https://res.cloudinary.com/drctvgyqd/image/upload/q_auto,f_auto/casos/carillas-resina-caries/transformacion-carillas-resina-caries-gingivectomia-despues-rostro-frontal-dr-ariel-merino-am-estetica-dental-buenos-aires",
+                alt: "Transformación completa carillas de resina y gingivectomía láser — después — rostro frontal — Dr. Ariel Merino AM Estética Dental Buenos Aires",
+                caption: "Después — transformación completa",
+            },
+            {
+                src: "https://res.cloudinary.com/drctvgyqd/image/upload/q_auto,f_auto/casos/carillas-resina-caries/caries-carillas-resina-gingivectomia-laser-antes-despues-rostro-comparativa-dr-ariel-merino-am-estetica-dental-buenos-aires",
+                alt: "Caries y resinas viejas — carillas de resina nueva y gingivectomía láser — antes y después comparativa rostro — Dr. Ariel Merino AM Estética Dental Buenos Aires",
+                caption: "Comparativa rostro — antes y después",
+            },
+            {
+                src: "https://res.cloudinary.com/drctvgyqd/image/upload/q_auto,f_auto/casos/carillas-resina-caries/carillas-resina-caries-gingivectomia-labios-antes-despues-dr-ariel-merino-am-estetica-dental-puerto-madero-buenos-aires",
+                alt: "Carillas de resina sobre caries y resinas viejas — labios antes y después — Dr. Ariel Merino AM Estética Dental Puerto Madero Buenos Aires",
+                caption: "Labios — antes y después",
+            },
+            {
+                src: "https://res.cloudinary.com/drctvgyqd/image/upload/q_auto,f_auto/casos/carillas-resina-caries/carillas-resina-diseno-sonrisa-labios-perfil-antes-despues-gingivectomia-laser-dr-ariel-merino-am-estetica-dental-buenos-aires",
+                alt: "Diseño de sonrisa en resina labios perfil antes y después gingivectomía láser — Dr. Ariel Merino AM Estética Dental Buenos Aires",
+                caption: "Perfil — antes y después",
+            },
+        ],
+        copy: `Hay casos que te paran en seco. Este fue uno.
+
+Llegó con caries activas, resinas viejas mal ejecutadas por otro profesional, encía montada y apiñamiento que hacía que los dientes se amontonaran unos sobre otros. La sonrisa estaba deteriorada en todos los frentes — estética, función y salud.
+
+El plan fue integral y sin medias tintas. Primero limpiamos todo: remoción de todas las caries, retiro de las resinas anteriores que estaban mal adaptadas. Después la gingivectomía láser para nivelar y armonizar la encía — cuando la encía no está a nivel, ninguna carilla va a quedar bien por más perfecta que sea.
+
+Con la base sana y la encía correcta, colocamos las carillas de resina compuesta directa. El resultado fue tan drástico que el caso se viralizó en TikTok. El antes y el después parecen dos personas distintas.
+
+Todo incluido, todo en un precio: USD 5.000. Remoción de caries, retiro de resinas viejas, gingivectomía láser y diseño de sonrisa en resina — llave en mano.
+
+A veces la transformación más grande empieza por limpiar lo que está mal.`,
+        copyRedes: `Caries. Resinas viejas que alguien le hizo mal. Encía montada. Todo junto.
+
+Limpiamos todo. Gingivectomía láser. Carillas de resina nuevas.
+
+El antes y el después son dos personas distintas.
+
+USD 5.000 all-inclusive.`,
+        precio: {
+            total: "USD 5.000",
+            nota: "Incluye: remoción de caries, retiro de resinas viejas, gingivectomía láser y diseño de sonrisa en resina — llave en mano",
+        },
+        publicado: true,
+    },
+    {
         slug: "bruxismo-desgaste-dental-rehabilitacion-carillas-ceramicas",
         titulo: "Los dientes no mienten la edad. Las carillas, sí.",
         subtitulo: "Bruxismo severo + desgaste + amarillamiento — rehabilitación cerámica completa con carillas AM que devolvieron juventud y función",
