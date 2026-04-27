@@ -409,7 +409,7 @@ Cuando la base es buena, hay que cuidarla.`,
     },
     {
         slug: "carillas-resina-caries-transformacion-extrema-gingivectomia",
-        titulo: "Parecía un vagabundo. Quedó como actor de Hollywood.",
+        titulo: "Cuando el problema no era solo estético.",
         subtitulo: "Caries múltiples + resinas viejas mal hechas + encía montada — remoción completa y diseño de sonrisa en resina con gingivectomía láser",
         descripcion: "Transformación extrema viral en TikTok. Caso de caries múltiples, resinas viejas mal ejecutadas y apiñamiento con encía montada. Remoción total, gingivectomía láser y diseño de sonrisa en resina. All-inclusive USD 5.000. Dr. Ariel Merino, AM Estética Dental, Puerto Madero, Buenos Aires.",
         categorias: ["Carillas de porcelana", "Diseño de sonrisa", "Apiñamiento"],
@@ -452,24 +452,24 @@ Cuando la base es buena, hay que cuidarla.`,
                 caption: "Perfil — antes y después",
             },
         ],
-        copy: `Hay casos que te paran en seco. Este fue uno.
+        copy: `Hay casos que van más allá de lo estético. Este fue uno.
 
-Llegó con caries activas, resinas viejas mal ejecutadas por otro profesional, encía montada y apiñamiento que hacía que los dientes se amontonaran unos sobre otros. La sonrisa estaba deteriorada en todos los frentes — estética, función y salud.
+Llegó con caries activas, resinas viejas mal ejecutadas por otro profesional, encía montada y apiñamiento. La sonrisa estaba deteriorada en todos los frentes — estética, función y salud. Antes de pensar en el resultado final, había que resolver la base.
 
-El plan fue integral y sin medias tintas. Primero limpiamos todo: remoción de todas las caries, retiro de las resinas anteriores que estaban mal adaptadas. Después la gingivectomía láser para nivelar y armonizar la encía — cuando la encía no está a nivel, ninguna carilla va a quedar bien por más perfecta que sea.
+El plan fue integral. Primero limpiamos todo: remoción de todas las caries, retiro de las resinas anteriores que estaban mal adaptadas. Después gingivectomía láser para nivelar y armonizar la línea gingival — cuando la encía no está a nivel, ninguna carilla va a quedar bien por más perfecta que sea.
 
-Con la base sana y la encía correcta, colocamos las carillas de resina compuesta directa. El resultado fue tan drástico que el caso se viralizó en TikTok. El antes y el después parecen dos personas distintas.
+Con la base sana y la encía correcta, colocamos las carillas de resina compuesta directa. El resultado fue tan drástico que el caso se viralizó en TikTok.
 
-Todo incluido, todo en un precio: USD 5.000. Remoción de caries, retiro de resinas viejas, gingivectomía láser y diseño de sonrisa en resina — llave en mano.
+Todo incluido en un precio: USD 5.000. Remoción de caries, retiro de resinas viejas, gingivectomía láser y diseño de sonrisa en resina — llave en mano.
 
 A veces la transformación más grande empieza por limpiar lo que está mal.`,
-        copyRedes: `Caries. Resinas viejas que alguien le hizo mal. Encía montada. Todo junto.
+        copyRedes: `Caries activas. Resinas viejas mal hechas. Encía montada.
 
-Limpiamos todo. Gingivectomía láser. Carillas de resina nuevas.
+Antes de cualquier estética, hubo que resolver la salud.
 
-El antes y el después son dos personas distintas.
+Remoción de caries. Gingivectomía láser. Carillas de resina nuevas.
 
-USD 5.000 all-inclusive.`,
+El resultado se viralizó en TikTok. USD 5.000 all-inclusive.`,
         precio: {
             total: "USD 5.000",
             nota: "Incluye: remoción de caries, retiro de resinas viejas, gingivectomía láser y diseño de sonrisa en resina — llave en mano",
