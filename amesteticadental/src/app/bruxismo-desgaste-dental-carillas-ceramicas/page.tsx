@@ -214,6 +214,31 @@ export default function BruxismoPage() {
                     </div>
                 </section>
 
+                {/* FAQ — AEO optimizado */}
+                <section className="px-6 py-16 max-w-6xl mx-auto">
+                    <h2 className="text-2xl font-light text-crema mb-10">
+                        Preguntas <span className="font-cormorant italic text-oro">frecuentes</span>
+                    </h2>
+                    <div className="space-y-4 max-w-3xl">
+                        {[
+                            { q: "¿Las carillas sirven para tratar el bruxismo?", a: "Sí. Las carillas cerámicas restauran el volumen y la forma de los dientes desgastados por el bruxismo, recuperando tanto la estética como la función masticatoria. Es importante complementarlas con una férula de descarga para protegerlas durante la noche." },
+                            { q: "¿Tengo que dejar de apretarme los dientes para ponerme carillas?", a: "No es un requisito previo, pero sí recomendamos el uso de una placa de relajación nocturna para proteger las carillas a largo plazo. Las carillas cerámicas AM son muy resistentes, pero ningún material aguinda indefinidamente el impacto del bruxismo sin protección." },
+                            { q: "¿Cuánto duran las carillas cerámicas en pacientes con bruxismo?", a: "Con control regular y uso de placa nocturna, las carillas cerámicas duran entre 15 y 20 años. Sin protección, el desgaste puede reducir esa vida útil significativamente. La cerámica duplica la resistencia del esmalte natural." },
+                            { q: "¿Cuánto cuesta tratar el bruxismo con carillas en Buenos Aires?", a: "Depende de la cantidad de piezas afectadas y el nivel de desgaste. Como referencia, una rehabilitación cerámica completa por bruxismo ronda los USD 15.000 a 30.000 según el caso. La evaluación inicial para determinar el plan y el costo no tiene cargo." },
+                            { q: "¿Es doloroso el tratamiento?", a: "No. Se trabaja con anestesia local cuando es necesario. Las carillas AM lentes de contacto requieren mínimo o ningún desgaste del diente original, lo que reduce notablemente la sensibilidad post-tratamiento." },
+                            { q: "¿Cuánto tiempo lleva el tratamiento completo?", a: "Entre 10 y 15 días desde la evaluación hasta el resultado final. En algunos casos complejos con muchas piezas afectadas, el proceso puede extenderse a 3-4 semanas." },
+                        ].map(({ q, a }) => (
+                            <details key={q} className="border border-oro/12 rounded-xl group">
+                                <summary className="px-6 py-4 cursor-pointer list-none flex items-center justify-between text-crema font-manrope text-sm font-medium select-none">
+                                    {q}
+                                    <span className="text-oro text-lg group-open:rotate-45 transition-transform duration-200">+</span>
+                                </summary>
+                                <p className="px-6 pb-5 text-crema/60 text-sm leading-relaxed">{a}</p>
+                            </details>
+                        ))}
+                    </div>
+                </section>
+
                 {/* CTA final */}
                 <section className="px-6 py-20 text-center border-t border-oro/10">
                     <h2 className="font-manrope font-light text-3xl md:text-4xl text-crema mb-4">

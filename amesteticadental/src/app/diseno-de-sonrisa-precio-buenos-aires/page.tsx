@@ -142,6 +142,31 @@ export default function DisenoDeSonrisaLanding() {
                     <p className="text-crema/25 text-xs text-center mt-4">@drarielmerino · AM Estética Dental · Casos reales sin filtros</p>
                 </section>
 
+                {/* FAQ */}
+                <section className="px-6 py-16 max-w-6xl mx-auto">
+                    <h2 className="text-2xl font-light text-crema mb-10">
+                        Preguntas <span className="font-cormorant italic text-oro">frecuentes</span>
+                    </h2>
+                    <div className="space-y-4 max-w-3xl">
+                        {[
+                            { q: "¿Cuánto dura un diseño de sonrisa completo?", a: "Entre 7 y 15 días desde la primera consulta hasta el resultado final. La evaluación inicial y el diseño digital se realizan en la primera visita." },
+                            { q: "¿Puedo ver cómo me voy a quedar antes del tratamiento?", a: "Sí. Realizamos un diseño digital en la primera consulta. Ves en pantalla cómo quedarían tus dientes antes de decidir. También hacemos un mock-up en boca." },
+                            { q: "¿Cuántas piezas se trabajan en un diseño de sonrisa?", a: "El más frecuente es de 8 a 10 piezas en el sector anterior superior. En casos completos se trabajan hasta 20 piezas. Lo definimos en la evaluación inicial." },
+                            { q: "¿El resultado se ve natural?", a: "Es el objetivo principal. Usamos cerámicas de alta translucidez que imitan el esmalte natural. El resultado no se ve puesto — queda integrado con cada rostro." },
+                            { q: "¿Cuánto tiempo duran las carillas del diseño de sonrisa?", a: "Las carillas cerámicas duran entre 15 y 20 años con cuidados básicos y control anual." },
+                            { q: "¿Cuánto cuesta un diseño de sonrisa en Buenos Aires?", a: "Desde USD 4.000 para 4-6 piezas hasta USD 20.000 para una rehabilitación completa. La evaluación inicial no tiene costo." },
+                        ].map(({ q, a }) => (
+                            <details key={q} className="border border-oro/12 rounded-xl group">
+                                <summary className="px-6 py-4 cursor-pointer list-none flex items-center justify-between text-crema font-manrope text-sm font-medium select-none">
+                                    {q}
+                                    <span className="text-oro text-lg group-open:rotate-45 transition-transform duration-200">+</span>
+                                </summary>
+                                <p className="px-6 pb-5 text-crema/60 text-sm leading-relaxed">{a}</p>
+                            </details>
+                        ))}
+                    </div>
+                </section>
+
                 {/* CTA final */}
                 <section className="px-6 py-16 text-center border-t border-oro/10">
                     <h2 className="font-light text-3xl text-crema mb-4">

@@ -165,6 +165,31 @@ export default function LentesContactoDentalLanding() {
                     <p className="text-crema/25 text-xs text-center mt-3">@drarielmerino · Casos reales sin filtros</p>
                 </section>
 
+                {/* FAQ */}
+                <section className="px-6 py-16 max-w-6xl mx-auto">
+                    <h2 className="text-2xl font-light text-crema mb-10">
+                        Preguntas <span className="font-cormorant italic text-oro">frecuentes</span>
+                    </h2>
+                    <div className="space-y-4 max-w-3xl">
+                        {[
+                            { q: "¿Cualquiera puede ponerse lentes de contacto dental?", a: "La mayoría de los pacientes son candidatos, pero hay requisitos. El diente debe tener suficiente esmalte disponible y estar sano. Pacientes con bruxismo severo o mordida muy forzada necesitan evaluación especial." },
+                            { q: "¿Los lentes de contacto dental duran lo mismo que una carilla tradicional?", a: "Sí — entre 15 y 20 años con cuidados normales. La diferencia no es en durabilidad sino en invasividad: los lentes de contacto preservan mucho más el esmalte original." },
+                            { q: "¿Se notan? ¿Se ven artificiales?", a: "No. La cerámica que usamos tiene el mismo índice de refracción que el esmalte natural. A la luz, se comportan igual que un diente real. El resultado es indistinguible de dientes naturales bien formados." },
+                            { q: "¿Duelen? ¿Requieren anestesia?", a: "En la mayoría de los casos no se requiere anestesia porque el desgaste es mínimo o inexistente. Puede haber sensibilidad leve los primeros días, que desaparece sola." },
+                            { q: "¿Cuánto cuestan los lentes de contacto dental en Buenos Aires?", a: "Entre USD 800 y 1.200 por pieza según el caso. Un diseño de sonrisa completo de 10 piezas ronda los USD 8.000 a 12.000. La evaluación inicial no tiene costo." },
+                            { q: "¿Qué diferencia hay entre lente de contacto dental y carilla tradicional?", a: "El espesor y la invasividad. Los lentes de contacto AM tienen 0.2-0.3mm — como una lente de contacto ocular. Las carillas tradicionales tienen 0.5-0.7mm y requieren desgaste previo del diente. El resultado estético es el mismo; la diferencia está en cuánto diente original se conserva." },
+                        ].map(({ q, a }) => (
+                            <details key={q} className="border border-oro/12 rounded-xl group">
+                                <summary className="px-6 py-4 cursor-pointer list-none flex items-center justify-between text-crema font-manrope text-sm font-medium select-none">
+                                    {q}
+                                    <span className="text-oro text-lg group-open:rotate-45 transition-transform duration-200">+</span>
+                                </summary>
+                                <p className="px-6 pb-5 text-crema/60 text-sm leading-relaxed">{a}</p>
+                            </details>
+                        ))}
+                    </div>
+                </section>
+
                 {/* CTA final */}
                 <section className="px-6 py-16 text-center border-t border-oro/10">
                     <h2 className="font-light text-3xl text-crema mb-4">
