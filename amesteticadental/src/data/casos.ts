@@ -409,7 +409,7 @@ Cuando la base es buena, hay que cuidarla.`,
     },
     {
         slug: "carillas-resina-caries-transformacion-extrema-gingivectomia",
-        titulo: "Cuando el problema no era solo estético.",
+        titulo: "El método más simple para transformar tu sonrisa.",
         subtitulo: "Caries múltiples + resinas viejas mal hechas + encía montada — remoción completa y diseño de sonrisa en resina con gingivectomía láser",
         descripcion: "Transformación extrema viral en TikTok. Caso de caries múltiples, resinas viejas mal ejecutadas y apiñamiento con encía montada. Remoción total, gingivectomía láser y diseño de sonrisa en resina. All-inclusive USD 5.000. Dr. Ariel Merino, AM Estética Dental, Puerto Madero, Buenos Aires.",
         categorias: ["Carillas de porcelana", "Diseño de sonrisa", "Apiñamiento"],
