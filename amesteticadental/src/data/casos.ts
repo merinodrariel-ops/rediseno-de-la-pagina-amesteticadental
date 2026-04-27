@@ -315,6 +315,99 @@ El caso que definió mi carrera.`,
         publicado: true,
     },
     {
+        slug: "carillas-resina-diseno-sonrisa-gingivectomia-laser",
+        titulo: "Dientes sanos, sonrisa nueva. Por qué empezar con resina.",
+        subtitulo: "10 carillas de resina + gingivectomía láser — diseño de sonrisa en paciente joven sin caries ni tratamientos previos",
+        descripcion: "Caso de diseño de sonrisa con 10 carillas de resina compuesta y gingivectomía láser en paciente joven con dientes sanos. Sin caries, sin coronas previas. USD 500 por pieza. Dr. Ariel Merino, AM Estética Dental, Puerto Madero, Buenos Aires.",
+        categorias: ["Carillas de porcelana", "Diseño de sonrisa", "Lentes de contacto dental"],
+        duracion: "5 días",
+        piezas: "10 carillas de resina compuesta — sector anterior superior e inferior",
+        tecnica: "Carillas directas de resina compuesta + gingivectomía láser para armonizar la línea gingival",
+        fotoPortada: {
+            src: "https://res.cloudinary.com/drctvgyqd/image/upload/q_auto,f_auto/casos/carillas-resina/diseno-sonrisa-carillas-resina-gingivectomia-laser-antes-despues-rostro-labios-portada-dr-ariel-merino-am-estetica-dental-buenos-aires",
+            alt: "Diseño de sonrisa con carillas de resina y gingivectomía láser antes y después — Dr. Ariel Merino AM Estética Dental Buenos Aires",
+        },
+        fotos: [
+            {
+                src: "https://res.cloudinary.com/drctvgyqd/image/upload/q_auto,f_auto/casos/carillas-resina/diseno-sonrisa-carillas-resina-gingivectomia-laser-antes-despues-rostro-labios-portada-dr-ariel-merino-am-estetica-dental-buenos-aires",
+                alt: "Diseño de sonrisa carillas de resina gingivectomía láser antes y después portada — Dr. Ariel Merino AM Estética Dental Buenos Aires",
+                caption: "Antes y después — portada",
+            },
+            {
+                src: "https://res.cloudinary.com/drctvgyqd/image/upload/q_auto,f_auto/casos/carillas-resina/carillas-resina-antes-rostro-frontal-paciente-joven-dr-ariel-merino-am-estetica-dental-buenos-aires",
+                alt: "Carillas de resina — antes — rostro frontal paciente joven — Dr. Ariel Merino AM Estética Dental Buenos Aires",
+                caption: "Antes — rostro frontal",
+            },
+            {
+                src: "https://res.cloudinary.com/drctvgyqd/image/upload/q_auto,f_auto/casos/carillas-resina/carillas-resina-diseno-sonrisa-despues-rostro-frontal-dr-ariel-merino-am-estetica-dental-puerto-madero",
+                alt: "Carillas de resina diseño de sonrisa después — rostro frontal — Dr. Ariel Merino AM Estética Dental Puerto Madero",
+                caption: "Después — rostro frontal",
+            },
+            {
+                src: "https://res.cloudinary.com/drctvgyqd/image/upload/q_auto,f_auto/casos/carillas-resina/carillas-resina-labios-antes-despues-diseno-sonrisa-dr-ariel-merino-am-estetica-dental-buenos-aires",
+                alt: "Carillas de resina labios antes y después diseño de sonrisa — Dr. Ariel Merino AM Estética Dental Buenos Aires",
+                caption: "Labios — antes y después",
+            },
+            {
+                src: "https://res.cloudinary.com/drctvgyqd/image/upload/q_auto,f_auto/casos/carillas-resina/carillas-resina-labios-perfil-antes-despues-dr-ariel-merino-am-estetica-dental-puerto-madero-buenos-aires",
+                alt: "Carillas de resina labios perfil antes y después — Dr. Ariel Merino AM Estética Dental Puerto Madero Buenos Aires",
+                caption: "Perfil — antes y después",
+            },
+            {
+                src: "https://res.cloudinary.com/drctvgyqd/image/upload/q_auto,f_auto/casos/carillas-resina/carillas-resina-labios-perfil-resultado-dr-ariel-merino-am-estetica-dental-buenos-aires",
+                alt: "Carillas de resina resultado labios perfil — Dr. Ariel Merino AM Estética Dental Buenos Aires",
+                caption: "Resultado final — perfil",
+            },
+            {
+                src: "https://res.cloudinary.com/drctvgyqd/image/upload/q_auto,f_auto/casos/carillas-resina/gingivectomia-laser-carillas-resina-antes-despues-diseno-sonrisa-dr-ariel-merino-am-estetica-dental-buenos-aires",
+                alt: "Gingivectomía láser y carillas de resina antes y después diseño de sonrisa — Dr. Ariel Merino AM Estética Dental Buenos Aires",
+                caption: "Gingivectomía láser + carillas — antes y después",
+            },
+        ],
+        copy: `Fabricio llegó con algo que no es tan común: dientes completamente sanos. Sin caries, sin coronas, sin tratamientos previos. Una base de esmalte natural impecable sobre la que trabajar.
+
+En pacientes jóvenes con dientes sanos, la resina compuesta es muchas veces la primera opción. No porque sea inferior — sino porque respeta al máximo lo que ya hay. La resina llega al 86-88% de la resistencia del esmalte natural. Una cerámica, en cambio, duplica esa resistencia.
+
+Para este caso diseñamos 10 carillas directas de resina en el sector anterior y complementamos con gingivectomía láser para armonizar la línea gingival — ese borde de encía que cuando no está nivelado le quita simetría a cualquier sonrisa.
+
+El resultado fue una sonrisa nueva, en 5 días, sin desgaste del esmalte original.
+
+— — —
+
+¿Son tan buenas las resinas como las cerámicas?
+
+Son materiales diferentes con indicaciones distintas. La resina es excelente para pacientes jóvenes con dientes sanos porque es más conservadora. La cerámica es más duradera, más resistente y no se pigmenta. Ambas dan resultados estéticos muy buenos.
+
+¿Se pigmentan las resinas?
+
+Con el tiempo, sí — un poco más que la cerámica. El café, el vino, el té y el tabaco las afectan más. Con buenos hábitos y un pulido anual se minimiza mucho.
+
+¿Se pueden fracturar?
+
+La resina es más frágil que la cerámica. No soporta la misma mordida extrema. Por eso en pacientes con bruxismo preferimos siempre cerámica.
+
+¿Qué mantenimiento requiere una resina?
+
+Un control anual es indispensable. Se evalúa el desgaste, se hace un pulido y si hay alguna microchip se repara directamente en boca sin cambiar toda la carilla.
+
+¿Cuánto cuestan las carillas de resina vs cerámica?
+
+Las de resina van de USD 400 a 600 por pieza. Las cerámicas de USD 800 a 1.200. La diferencia de inversión es real, pero también lo es la diferencia en durabilidad.`,
+        copyRedes: `Dientes sanos, paciente joven. La primera opción fue resina.
+
+10 carillas directas de resina + gingivectomía láser para nivelar la encía.
+
+5 días. Sin tocar el esmalte original.
+
+Cuando la base es buena, hay que cuidarla.`,
+        precio: {
+            total: "USD 5.000",
+            porPieza: "USD 500 por carilla",
+            nota: "10 carillas de resina compuesta directa + gingivectomía láser incluida",
+        },
+        publicado: true,
+    },
+    {
         slug: "bruxismo-desgaste-dental-rehabilitacion-carillas-ceramicas",
         titulo: "Los dientes no mienten la edad. Las carillas, sí.",
         subtitulo: "Bruxismo severo + desgaste + amarillamiento — rehabilitación cerámica completa con carillas AM que devolvieron juventud y función",
