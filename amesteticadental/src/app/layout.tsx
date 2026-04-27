@@ -193,6 +193,29 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         </svg>
 
         {children}
+
+        {/* WhatsApp click tracking → dataLayer → GTM → Google Ads conversión */}
+        <Script
+          id="wa-click-tracker"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
+              document.addEventListener('click', function(e) {
+                var link = e.target.closest('a[href*="whatsapp"]');
+                if (!link) return;
+                var page = document.title;
+                var source = link.href.match(/text=([^&]*)/);
+                window.dataLayer = window.dataLayer || [];
+                window.dataLayer.push({
+                  event: 'whatsapp_click',
+                  event_category: 'contacto',
+                  event_label: page,
+                  whatsapp_source: source ? decodeURIComponent(source[1]).slice(0,60) : 'directo'
+                });
+              });
+            `,
+          }}
+        />
       </body>
     </html>
   );
