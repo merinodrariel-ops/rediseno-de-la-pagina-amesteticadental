@@ -4,7 +4,7 @@ import Script from "next/script";
 import { generateFaqSchema } from "@/data/faq";
 import "./globals.css";
 
-const gtmId = process.env.NEXT_PUBLIC_GTM_ID || "GTM-P9KCL5W7";
+const gtmId = (process.env.NEXT_PUBLIC_GTM_ID || "GTM-P9KCL5W7").trim();
 
 const manrope = Manrope({
   variable: "--font-manrope",
