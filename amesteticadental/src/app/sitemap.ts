@@ -78,6 +78,30 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
     },
     {
+      url: "https://www.amesteticadental.com/odontologia-estetica-buenos-aires",
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.9,
+    },
+    {
+      url: "https://www.amesteticadental.com/implantes-dentales-buenos-aires",
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.85,
+    },
+    {
+      url: "https://www.amesteticadental.com/periodoncia-precio-buenos-aires",
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.8,
+    },
+    {
+      url: "https://www.amesteticadental.com/alineadores-invisibles-buenos-aires",
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.85,
+    },
+    {
       url: "https://www.amesteticadental.com/blanqueamiento-dental-precio-buenos-aires",
       lastModified: new Date(),
       changeFrequency: "monthly",
