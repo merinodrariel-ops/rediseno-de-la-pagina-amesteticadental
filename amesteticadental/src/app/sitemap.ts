@@ -78,6 +78,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
     },
     {
+      url: "https://www.amesteticadental.com/blanqueamiento-dental-precio-buenos-aires",
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.85,
+    },
+    {
+      url: "https://www.amesteticadental.com/dientes-de-porcelana-carillas-precio",
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.85,
+    },
+    {
       url: "https://www.amesteticadental.com/diseno-de-sonrisa-precio-buenos-aires",
       lastModified: new Date(),
       changeFrequency: "monthly",
