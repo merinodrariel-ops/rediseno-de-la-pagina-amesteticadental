@@ -28,7 +28,7 @@ export default function PeridonciaPage() {
                 <p className="text-crema/65 text-lg font-light leading-relaxed mb-8 max-w-xl">
                     Tratamiento de encías, gingivitis, periodontitis y gingivectomía láser. La salud periodontal es la base de cualquier tratamiento estético. Sin encías sanas, ninguna carilla queda bien.
                 </p>
-                <a href={WA} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-3 bg-oro text-carbon px-8 py-4 rounded-full font-semibold text-base hover:bg-oro/90 transition-all">Consultar precio →</a>
+                <a href={WA} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-3 bg-oro text-carbon px-8 py-4 rounded-full font-semibold text-base hover:bg-oro/90 transition-all">Quiero evaluar mis encías →</a>
             </section>
 
             <section className="px-6 py-16 border-y border-oro/8 max-w-6xl mx-auto">

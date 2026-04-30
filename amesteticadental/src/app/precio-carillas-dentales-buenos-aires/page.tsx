@@ -390,7 +390,7 @@ export default function PrecioCarillasPage() {
 
               <h3 className="text-crema font-manrope font-medium text-xl mt-10 mb-4">¿Cuánto cuestan las carillas de porcelana en Buenos Aires en 2026?</h3>
               <p>
-                En Buenos Aires, las <strong className="text-crema">carillas de porcelana tienen un precio estimado entre $450 y $900 USD por pieza</strong>. Este rango refleja la variación entre clínicas de diferentes niveles: desde consultorios generales hasta centros de estética dental premium como AM Estética Dental en Puerto Madero.
+                En Buenos Aires, el mercado de carillas de porcelana va de <strong className="text-crema">$450 a $900 USD por pieza</strong> en clínicas generales. En centros de estética dental premium como AM Estética Dental, los valores arrancan en <strong className="text-crema">$800 USD por pieza</strong> — diferencia que refleja el material (porcelana feldespática de laboratorio certificado), la tecnología de diseño digital y la experiencia del especialista.
               </p>
               <p>
                 Las <strong className="text-crema">carillas de resina compuesta</strong>, por su parte, tienen un costo menor: entre <strong className="text-crema">$200 y $400 USD por pieza</strong>. Son más accesibles pero también tienen una vida útil más corta (5 a 7 años vs 10 a 20 años de la porcelana).

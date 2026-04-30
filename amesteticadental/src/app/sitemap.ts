@@ -132,6 +132,24 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.85,
     },
     {
+      url: "https://www.amesteticadental.com/coronas-y-fundas-dentales",
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.8,
+    },
+    {
+      url: "https://www.amesteticadental.com/carillas-de-resina",
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.8,
+    },
+    {
+      url: "https://www.amesteticadental.com/puentes-dentales",
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.8,
+    },
+    {
       url: "https://www.amesteticadental.com/turismo-dental",
       lastModified: new Date(),
       changeFrequency: "monthly",

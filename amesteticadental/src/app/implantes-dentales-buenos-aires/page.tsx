@@ -27,7 +27,7 @@ export default function ImplantesPage() {
             <main className="bg-carbon text-crema font-manrope min-h-screen">
                 <header className="px-6 py-5 border-b border-oro/10 flex items-center justify-between">
                     <Link href="/" className="font-cormorant italic text-oro text-xl">AM Estética Dental</Link>
-                    <a href={WA} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-oro text-carbon px-5 py-2.5 rounded-full font-semibold text-sm hover:bg-oro/90 transition-all">Consultar precio →</a>
+                    <a href={WA} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-oro text-carbon px-5 py-2.5 rounded-full font-semibold text-sm hover:bg-oro/90 transition-all">Quiero saber si necesito implante →</a>
                 </header>
 
                 <section className="px-6 py-20 max-w-6xl mx-auto">
@@ -38,7 +38,7 @@ export default function ImplantesPage() {
                     <p className="text-crema/65 text-lg font-light leading-relaxed mb-8 max-w-xl">
                         La solución permanente para dientes perdidos. Planificación digital guiada por computadora. Titanio y zirconio. Integración completa con el hueso en 3 a 6 meses.
                     </p>
-                    <a href={WA} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-3 bg-oro text-carbon px-8 py-4 rounded-full font-semibold text-base hover:bg-oro/90 transition-all">Consultar precio →</a>
+                    <a href={WA} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-3 bg-oro text-carbon px-8 py-4 rounded-full font-semibold text-base hover:bg-oro/90 transition-all">Quiero saber si necesito implante →</a>
                 </section>
 
                 <section className="px-6 py-16 border-y border-oro/8 max-w-6xl mx-auto">

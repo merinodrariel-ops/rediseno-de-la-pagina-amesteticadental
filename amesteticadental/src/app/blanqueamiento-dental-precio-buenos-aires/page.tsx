@@ -70,7 +70,7 @@ export default function BlanqueamientoPage() {
                                 <span className="font-cormorant italic text-oro">en una sesión.</span>
                             </h1>
                             <p className="text-crema/65 text-lg font-light leading-relaxed mb-4">
-                                Resultado inmediato. Sin sensibilidad. Protocolo profesional bajo supervisión del Dr. Ariel Merino en Puerto Madero, Buenos Aires.
+                                Resultado inmediato. Protocolo diseñado para minimizar la sensibilidad. Supervisión del Dr. Ariel Merino en Puerto Madero, Buenos Aires.
                             </p>
                             <div className="flex items-center gap-4 mb-8 p-4 border border-oro/20 rounded-xl">
                                 <div>
