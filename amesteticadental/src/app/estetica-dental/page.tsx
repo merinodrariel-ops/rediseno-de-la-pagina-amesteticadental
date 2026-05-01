@@ -5,13 +5,13 @@ import SeoFaq from "@/components/seo/SeoFaq";
 
 export const metadata: Metadata = {
     metadataBase: new URL("https://www.amesteticadental.com"),
-    title: "Estética Dental en Puerto Madero, Buenos Aires | AM Estética Dental",
-    description: "Clínica de estética dental en Puerto Madero, CABA. Carillas, diseño de sonrisa, alineadores invisibles, implantes y blanqueamiento profesional. Dr. Ariel Merino — reconocido por Forbes Argentina.",
+    title: "Estética Dental Buenos Aires · Carillas, Implantes, Diseño de Sonrisa · AM",
+    description: "Especialistas en estética dental de alta complejidad en Buenos Aires. Carillas de porcelana, diseño de sonrisa, implantes y alineadores. Dr. Ariel Merino · Puerto Madero · Forbes Argentina.",
     alternates: {
         canonical: "https://www.amesteticadental.com/estetica-dental",
     },
     openGraph: {
-        title: "Estética Dental en Puerto Madero, Buenos Aires | AM Estética Dental",
+        title: "Estética Dental Buenos Aires · Carillas, Implantes, Diseño de Sonrisa · AM",
         description: "La clínica de estética dental más premiada de Argentina. Puerto Madero, CABA. Carillas, alineadores, diseño de sonrisa e implantes.",
         url: "https://www.amesteticadental.com/estetica-dental",
         locale: "es_AR",

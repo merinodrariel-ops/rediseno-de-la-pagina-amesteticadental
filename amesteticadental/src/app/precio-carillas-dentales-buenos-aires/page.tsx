@@ -8,9 +8,9 @@ import { getCasosPublicados } from "@/data/casos";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.amesteticadental.com"),
-  title: "Precio de Carillas Dentales en Buenos Aires 2026 | AM Estética Dental",
+  title: "Precio Carillas Dentales Buenos Aires 2026 · Desde USD 800 · AM Estética Dental",
   description:
-    "Guía actualizada 2026: precio de carillas dentales en Buenos Aires. Tabla de precios en USD por tipo de material, financiación con tasa fija del 18% anual y calculadora de cuotas. Puerto Madero, CABA.",
+    "Precio real de carillas dentales en Buenos Aires 2026. Tabla por material, financiación propia y calculadora de cuotas. Dr. Ariel Merino, Puerto Madero. Casos reales con antes y después.",
   keywords: "precio carillas dentales Buenos Aires, costo carillas porcelana Argentina, carillas dentales precio 2026, financiación carillas Puerto Madero, cuánto cuestan las carillas dentales",
   alternates: {
     canonical: "https://www.amesteticadental.com/precio-carillas-dentales-buenos-aires",
