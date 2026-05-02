@@ -8,3 +8,11 @@ node_modules/
 /Casos/
 .env.ads
 get-token.mjs
+get-token-gsc.mjs
+ads.mjs
+gsc.mjs
+gsc-analisis.mjs
+fix-implantes.mjs
+/TEAM AM/
+/ADS KEYWORDS/
+/scripts/data/

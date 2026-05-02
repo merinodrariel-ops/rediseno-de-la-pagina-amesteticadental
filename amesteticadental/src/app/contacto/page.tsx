@@ -1,0 +1,81 @@
+import type { Metadata } from "next";
+import Link from "next/link";
+import LeadForm from "@/components/LeadForm";
+
+const CANONICAL = "https://www.amesteticadental.com/contacto";
+const WA = "https://api.whatsapp.com/send?phone=541170219298&text=Hola%2C%20quiero%20informaci%C3%B3n.";
+
+export const metadata: Metadata = {
+  metadataBase: new URL("https://www.amesteticadental.com"),
+  title: "Contacto · AM Estética Dental Buenos Aires",
+  description:
+    "Consultanos por email o WhatsApp. AM Estética Dental, Camila O'Gorman 412, Puerto Madero, Buenos Aires. Dr. Ariel Merino.",
+  alternates: { canonical: CANONICAL },
+  openGraph: {
+    title: "Contacto · AM Estética Dental",
+    description:
+      "Consultá por email o WhatsApp. Puerto Madero, Buenos Aires. Dr. Ariel Merino.",
+    url: CANONICAL,
+  },
+};
+
+export default function ContactoPage() {
+  return (
+    <main className="bg-carbon text-crema font-manrope min-h-screen">
+      <header className="px-6 py-5 border-b border-oro/10 flex items-center justify-between">
+        <Link href="/" className="font-cormorant italic text-oro text-xl">
+          AM Estética Dental
+        </Link>
+        <a
+          href={WA}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex items-center gap-2 bg-oro text-carbon px-5 py-2.5 rounded-full font-semibold text-sm hover:bg-oro/90 transition-all"
+        >
+          WhatsApp →
+        </a>
+      </header>
+
+      <section className="px-6 py-20 max-w-5xl mx-auto">
+        <div className="grid grid-cols-1 lg:grid-cols-5 gap-16">
+          {/* Info */}
+          <div className="lg:col-span-2">
+            <span className="text-oro uppercase tracking-[0.4em] text-xs block mb-6">
+              Buenos Aires · Puerto Madero
+            </span>
+            <h1 className="text-4xl md:text-5xl font-light text-crema leading-tight mb-6">
+              Consultanos por<br />
+              <span className="font-cormorant italic text-oro">email o WhatsApp.</span>
+            </h1>
+            <p className="text-crema/60 leading-relaxed mb-10">
+              Te respondemos en menos de 24 horas hábiles con información clara sobre tu caso.
+            </p>
+
+            <div className="space-y-6">
+              <div>
+                <p className="text-crema/40 text-xs uppercase tracking-widest mb-2">Dirección</p>
+                <p className="text-crema/80">Camila O'Gorman 412, of. 101</p>
+                <p className="text-crema/60 text-sm">Puerto Madero, Buenos Aires</p>
+              </div>
+              <div>
+                <p className="text-crema/40 text-xs uppercase tracking-widest mb-2">WhatsApp</p>
+                <a href={WA} target="_blank" rel="noopener noreferrer" className="text-oro hover:underline">
+                  +54 9 11 7021-9298
+                </a>
+              </div>
+              <div>
+                <p className="text-crema/40 text-xs uppercase tracking-widest mb-2">Horarios</p>
+                <p className="text-crema/80 text-sm">Lunes a viernes · 10 a 19 hs</p>
+              </div>
+            </div>
+          </div>
+
+          {/* Form */}
+          <div className="lg:col-span-3 border border-oro/10 rounded-2xl p-8 md:p-10 bg-carbon/40">
+            <LeadForm context="pagina_contacto" />
+          </div>
+        </div>
+      </section>
+    </main>
+  );
+}

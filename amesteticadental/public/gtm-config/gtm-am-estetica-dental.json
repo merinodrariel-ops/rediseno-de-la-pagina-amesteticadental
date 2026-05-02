@@ -1,0 +1,139 @@
+{
+  "exportFormatVersion": 2,
+  "exportTime": "2026-04-27 12:00:00",
+  "containerVersion": {
+    "path": "accounts/*/containers/*/versions/*",
+    "accountId": "*",
+    "containerId": "*",
+    "containerVersionId": "0",
+    "name": "AM Estética Dental — Configuración inicial",
+    "description": "GA4 + WhatsApp conversion tracking",
+    "container": {
+      "path": "accounts/*/containers/*",
+      "accountId": "*",
+      "containerId": "*",
+      "name": "amesteticadental.com",
+      "publicId": "GTM-P9KCL5W7",
+      "usageContext": ["WEB"]
+    },
+    "tag": [
+      {
+        "accountId": "*",
+        "containerId": "*",
+        "tagId": "1",
+        "name": "GA4 — Configuración",
+        "type": "gaawc",
+        "parameter": [
+          { "type": "BOOLEAN", "key": "sendPageView", "value": "true" },
+          { "type": "TEMPLATE", "key": "measurementId", "value": "G-45X9REYMDK" }
+        ],
+        "firingTriggerId": ["2147479553"],
+        "tagFiringOption": "ONCE_PER_EVENT"
+      },
+      {
+        "accountId": "*",
+        "containerId": "*",
+        "tagId": "2",
+        "name": "GA4 — Evento WhatsApp Click",
+        "type": "gaawe",
+        "parameter": [
+          { "type": "TEMPLATE", "key": "eventName", "value": "whatsapp_click" },
+          { "type": "TEMPLATE", "key": "measurementId", "value": "G-45X9REYMDK" },
+          {
+            "type": "LIST",
+            "key": "eventParameters",
+            "list": [
+              {
+                "type": "MAP",
+                "map": [
+                  { "type": "TEMPLATE", "key": "name", "value": "event_category" },
+                  { "type": "TEMPLATE", "key": "value", "value": "contacto" }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  { "type": "TEMPLATE", "key": "name", "value": "event_label" },
+                  { "type": "TEMPLATE", "key": "value", "value": "{{Page Title}}" }
+                ]
+              }
+            ]
+          }
+        ],
+        "firingTriggerId": ["101"],
+        "tagFiringOption": "ONCE_PER_EVENT"
+      },
+      {
+        "accountId": "*",
+        "containerId": "*",
+        "tagId": "3",
+        "name": "GA4 — Evento Llamada Telefónica",
+        "type": "gaawe",
+        "parameter": [
+          { "type": "TEMPLATE", "key": "eventName", "value": "phone_click" },
+          { "type": "TEMPLATE", "key": "measurementId", "value": "G-45X9REYMDK" },
+          {
+            "type": "LIST",
+            "key": "eventParameters",
+            "list": [
+              {
+                "type": "MAP",
+                "map": [
+                  { "type": "TEMPLATE", "key": "name", "value": "event_category" },
+                  { "type": "TEMPLATE", "key": "value", "value": "contacto" }
+                ]
+              }
+            ]
+          }
+        ],
+        "firingTriggerId": ["102"],
+        "tagFiringOption": "ONCE_PER_EVENT"
+      }
+    ],
+    "trigger": [
+      {
+        "accountId": "*",
+        "containerId": "*",
+        "triggerId": "101",
+        "name": "Click — WhatsApp",
+        "type": "CUSTOM_EVENT",
+        "customEventFilter": [
+          {
+            "type": "EQUALS",
+            "parameter": [
+              { "type": "TEMPLATE", "key": "arg0", "value": "{{_event}}" },
+              { "type": "TEMPLATE", "key": "arg1", "value": "whatsapp_click" }
+            ]
+          }
+        ]
+      },
+      {
+        "accountId": "*",
+        "containerId": "*",
+        "triggerId": "102",
+        "name": "Click — Teléfono",
+        "type": "LINK_CLICK",
+        "filter": [
+          {
+            "type": "CONTAINS",
+            "parameter": [
+              { "type": "TEMPLATE", "key": "arg0", "value": "{{Click URL}}" },
+              { "type": "TEMPLATE", "key": "arg1", "value": "tel:" }
+            ]
+          }
+        ],
+        "waitForTags": { "type": "BOOLEAN", "key": "waitForTags", "value": "false" },
+        "checkValidation": { "type": "BOOLEAN", "key": "checkValidation", "value": "false" }
+      }
+    ],
+    "variable": [],
+    "builtInVariable": [
+      { "accountId": "*", "containerId": "*", "type": "PAGE_URL", "name": "Page URL" },
+      { "accountId": "*", "containerId": "*", "type": "PAGE_TITLE", "name": "Page Title" },
+      { "accountId": "*", "containerId": "*", "type": "PAGE_PATH", "name": "Page Path" },
+      { "accountId": "*", "containerId": "*", "type": "CLICK_URL", "name": "Click URL" },
+      { "accountId": "*", "containerId": "*", "type": "CLICK_TEXT", "name": "Click Text" }
+    ],
+    "fingerprint": "am-estetica-dental-2026"
+  }
+}
